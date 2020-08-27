@@ -25,19 +25,29 @@ if( !empty($block['align']) ) {
 }
 
 // Load values and assign defaults.
-$text = get_field('event') ?: 'Your testimonial here...';
-$author = get_field('author') ?: 'Author name';
-$role = get_field('role') ?: 'Author role';
+$title = get_field('title') ?: 'Event title';
+$type = get_field('type') ?: 'Event type';
+$description = get_field('description') ?: 'Event Description';
+$when = get_field('when') ?: 'Date and time';
+$price = get_field('price') ?: 'Event Price';
+$referrer = get_field('referrer') ?: 'Link of the event';
 $image = get_field('image') ?: 295;
 
 ?>
 <div id="<?php echo esc_attr($id); ?>" class="<?php echo esc_attr($className); ?>">
-    <blockquote class="event-blockquote">
-        <span class="event-text"><?php echo $text; ?></span>
-        <span class="event-author"><?php echo $author; ?></span>
-        <span class="testimonial-role"><?php echo $role; ?></span>
-    </blockquote>
-    <div class="event-image">
+    <div class="event-cover">
         <?php echo wp_get_attachment_image( $image, 'full' ); ?>
+    </div>
+    <div class="event-header">
+        <p><?php echo $type; ?></p>
+        <h2><?php echo $title; ?></h2>
+    </div>
+    <div class="event-info">
+        <div class="left">
+            <?php echo $title; ?>
+            <?php echo $price; ?>
+            <?php echo $referrer; ?>
+        </div>
+        <div class="right"><?php echo $description; ?></div>
     </div>
 </div>
