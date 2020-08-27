@@ -1125,6 +1125,24 @@ a {
 
 /* Banner Ticker Tape */
 
+/* Coming Soon */
+
+.page-id-334 .main-navigation,
+.page-id-334 .entry-header,
+.page-id-334 footer {
+	display: none;
+}
+
+.page-id-334 .entry-content {
+	margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Coming Soon */
+
 
 /* Page */
 
