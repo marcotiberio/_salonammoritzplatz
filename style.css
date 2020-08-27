@@ -970,9 +970,21 @@ textarea {
 
 
 
+/* CUSTOM STYLES */
+/* CUSTOM STYLES */
+/* CUSTOM STYLES */
+/* CUSTOM STYLES */
+/* CUSTOM STYLES */
+/* CUSTOM STYLES */
+/* CUSTOM STYLES */
+/* CUSTOM STYLES */
+/* CUSTOM STYLES */
+/* CUSTOM STYLES */
 
 
-body {
+html, body {
+	width: 100vw;
+	overflow-x: hidden;
 	background-color: #FFFEF8;
 }
 
@@ -984,15 +996,15 @@ p {
 	padding: 0;
 }
 
-#main-menu {
-	position: fixed;
-	left: 0;
-	top: 150px;
-	left: 50%;
-	transform: translate(-50%, -50%);
+#primary-menu {
+    position: absolute;
+    left: 0;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
-#main-menu li {
+#primary-menu li {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 	font-weight: 800;
 	text-transform: uppercase;
