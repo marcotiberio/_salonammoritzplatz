@@ -25,7 +25,6 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'salonammoritzplatz' ); ?></a>
 
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
@@ -61,12 +60,7 @@
 			</div>
 		</div>
 
-				<!-- <div class="tickerTape">
-					<span class="text">
-						<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/header-logo.png" alt="">
-					<span>
-				</div> -->
-
+				
 		<nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'salonammoritzplatz' ); ?></button>
 			<?php
