@@ -992,6 +992,7 @@ html,
 body {
 	width: 100vw;
 	overflow-x: hidden;
+	background-color: #FFFEF8;
 }
 
 a {
@@ -999,14 +1000,42 @@ a {
 	color: #3e3e3e;
 }
 
+.page-id-215 p {
+	padding: 0 10%;
+	font-family: 'vremena'
+}
+
+.page-id-13 p {
+	padding: 0 25%;
+	font-size: 2rem;
+	font-family: 'vremena'
+}
+
+.page-id-14 p {
+	padding: 0 25%;
+	font-size: 2rem;
+	font-family: 'vremena'
+}
+
 /* Global */
 
 /* Navigation */
 
+.main-navigation {
+	background-color: #FFFEF8;
+	height: 10vh;
+	width: 100vw;
+}
+
+.logo-banner-small {
+	position: absolute;
+	top: 2vh;
+}
+
 #primary-menu {
 	position: absolute;
 	left: 0;
-	top: 150px;
+	top: 13vh;
 	left: 50%;
 	transform: translate(-50%, -50%);
 
@@ -1057,6 +1086,7 @@ a {
 	width: 3000px;
 	overflow: hidden;
 	margin: 0;
+	z-index: 1000;
 }
 
 .text {
@@ -1099,7 +1129,7 @@ a {
 /* Page */
 
 main {
-	margin-top: 12vh;
+	margin-top: 5vh;
 }
 
 .entry-header {
@@ -1118,27 +1148,27 @@ main {
 
 /*keyframe animations*/
 .entry-header .inside .first {
-	-webkit-animation: bannermove 800s linear 1s infinite running;
+	-webkit-animation: bannermoves 800s linear 1s infinite running;
 	animation: bannermove 800s linear 1s infinite running;
 }
 
-@keyframes bannermove {
+@keyframes bannermoves {
 	0% {
 		margin-left: 0px;
 	}
 
 	100% {
-		margin-left: -30000px;
+		margin-left: -300000px;
 	}
 }
 
-@-webkit-keyframes bannermove {
+@-webkit-keyframes bannermoves {
 	0% {
 		margin-left: 0px;
 	}
 
 	100% {
-		margin-left: -3000px;
+		margin-left: -300000px;
 	}
 }
 

@@ -1,0 +1,33 @@
+.single .entry-meta,
+.single .entry-header,
+.single .comments-area,
+.single .entry-footer {
+	display: none;
+}
+
+.single .entry-content {
+	padding: 0 10%;
+}
+
+.single .event-header h2 {
+	margin-top: 0;
+}
+
+.single .event-header p {
+	margin-bottom: 0;
+}
+
+.single .event-info {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.single .event-info .when,
+.single .event-info .price,
+.single .event-info .booking {
+	margin: 0;
+}
+
+.single .event-info .referrer {
+	margin-top: 1rem;
+}
