@@ -30,6 +30,7 @@ $type = get_field('type') ?: 'Event type';
 $description = get_field('description') ?: 'Event Description';
 $when = get_field('when') ?: 'Date and time';
 $price = get_field('price') ?: 'Event Price';
+$booking = get_field('booking') ?: 'Where to book';
 $referrer = get_field('referrer') ?: 'Link of the event';
 $image = get_field('image') ?: 295;
 
@@ -44,9 +45,10 @@ $image = get_field('image') ?: 295;
     </div>
     <div class="event-info">
         <div class="left">
-            <?php echo $title; ?>
-            <?php echo $price; ?>
-            <?php echo $referrer; ?>
+            <p class="when"><?php echo $when; ?></p>
+            <p class="price"><?php echo $price; ?></p>
+            <p class="booking"><?php echo $booking; ?></p>
+            <p class="referrer"><?php echo $referrer; ?></p>
         </div>
         <div class="right"><?php echo $description; ?></div>
     </div>
