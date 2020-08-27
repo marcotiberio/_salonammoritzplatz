@@ -176,6 +176,17 @@ function my_register_blocks() {
 				wp_enqueue_style( 'block-slider', get_template_directory_uri() . '/template-parts/blocks/slider/slider.css', array(), '1.0.0' );
 				wp_enqueue_script( 'block-slider', get_template_directory_uri() . '/template-parts/blocks/slider/slider.js', array(), '1.0.0', true );
 			  },
+		));
+		
+		// register an event block.
+        acf_register_block_type(array(
+            'name'              => 'event',
+            'title'             => __('Event'),
+            'description'       => __('A custom event block.'),
+            'render_template'   => 'template-parts/blocks/event/event.php',
+            'category'          => 'formatting',
+            'icon'              => 'admin-comments',
+            'keywords'          => array( 'event', 'quote' ),
         ));
     }
 }
