@@ -17,7 +17,7 @@
 			wp_nav_menu(
 				array(
 					'theme_location' => 'footer-menu',
-					'menu_id'        => 'Footer',
+					'menu_id'        => 'footer-menu',
 				)
 			);
 			?>
