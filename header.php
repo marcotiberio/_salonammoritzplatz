@@ -63,6 +63,9 @@
 				
 		<nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'salonammoritzplatz' ); ?></button>
+			<div class="logo-banner-small">
+				<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/logo-banner-small.png" alt="Logo">
+			</div>
 			<?php
 			wp_nav_menu(
 				array(
