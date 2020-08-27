@@ -45,6 +45,26 @@
 			<?php endif; ?>
 		</div><!-- .site-branding -->
 
+		<div class="tickerTape">
+			<div class="text">
+				<img class="first" src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/header-logo.png">
+				<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/header-logo.png">
+				<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/header-logo.png">
+				<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/header-logo.png">
+				<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/header-logo.png">
+				<!-- repeated images below to keep up with animation -->
+				<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/header-logo.png">
+				<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/header-logo.png">
+				<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/header-logo.png">
+			</div>
+		</div>
+
+				<!-- <div class="tickerTape">
+					<span class="text">
+						<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/header-logo.png" alt="">
+					<span>
+				</div> -->
+
 		<nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'salonammoritzplatz' ); ?></button>
 			<?php
