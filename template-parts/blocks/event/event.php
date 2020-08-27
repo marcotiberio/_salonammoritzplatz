@@ -37,7 +37,7 @@ $image = get_field('image') ?: 295;
 ?>
 <div id="<?php echo esc_attr($id); ?>" class="<?php echo esc_attr($className); ?>">
     <div class="event-cover">
-        <?php echo wp_get_attachment_image( $image, 'full' ); ?>
+        <?php echo $image; ?>
     </div>
     <div class="event-header">
         <p><?php echo $type; ?></p>
