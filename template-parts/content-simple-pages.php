@@ -11,11 +11,21 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<?php 
-		$banner_title = get_field('banner_title');
-		if( !empty( $banner_title ) ): ?>
-			<img src="<?php echo esc_url($banner_title['url']); ?>" alt="<?php echo esc_attr($banner_title['alt']); ?>" />
-		<?php endif; ?>
+		<div class="inside">
+			<?php 
+			$banner_title = get_field('banner_title');
+			if( !empty( $banner_title ) ): ?>
+				<img class="first" src="<?php echo esc_url($banner_title['url']); ?>" alt="<?php echo esc_attr($banner_title['alt']); ?>" />
+				<img src="<?php echo esc_url($banner_title['url']); ?>" alt="<?php echo esc_attr($banner_title['alt']); ?>" />
+				<img src="<?php echo esc_url($banner_title['url']); ?>" alt="<?php echo esc_attr($banner_title['alt']); ?>" />
+				<img src="<?php echo esc_url($banner_title['url']); ?>" alt="<?php echo esc_attr($banner_title['alt']); ?>" />
+				<img src="<?php echo esc_url($banner_title['url']); ?>" alt="<?php echo esc_attr($banner_title['alt']); ?>" />
+				<!-- repeated images below to keep up with animation -->
+				<img src="<?php echo esc_url($banner_title['url']); ?>" alt="<?php echo esc_attr($banner_title['alt']); ?>" />
+				<img src="<?php echo esc_url($banner_title['url']); ?>" alt="<?php echo esc_attr($banner_title['alt']); ?>" />
+				<img src="<?php echo esc_url($banner_title['url']); ?>" alt="<?php echo esc_attr($banner_title['alt']); ?>" />
+			<?php endif; ?>
+		</div>
 	</header><!-- .entry-header -->
 
 	<?php salonammoritzplatz_post_thumbnail(); ?>
