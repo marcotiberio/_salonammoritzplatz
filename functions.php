@@ -51,6 +51,7 @@ if ( ! function_exists( 'salonammoritzplatz_setup' ) ) :
 		register_nav_menus(
 			array(
 				'menu-1' => esc_html__( 'Primary', 'salonammoritzplatz' ),
+				'footer-menu' => esc_html__( 'Footer', 'salonammoritzplatz' ),
 			)
 		);
 
