@@ -48,15 +48,15 @@
 
 		<div class="tickerTape">
 			<div class="text">
-				<img class="first" src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/header-logo.png">
-				<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/header-logo.png">
-				<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/header-logo.png">
-				<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/header-logo.png">
-				<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/header-logo.png">
+				<img class="first" src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/header-logo-color.png">
+				<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/header-logo-color.png">
+				<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/header-logo-color.png">
+				<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/header-logo-color.png">
+				<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/header-logo-color.png">
 				<!-- repeated images below to keep up with animation -->
-				<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/header-logo.png">
-				<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/header-logo.png">
-				<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/header-logo.png">
+				<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/header-logo-color.png">
+				<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/header-logo-color.png">
+				<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/header-logo-color.png">
 			</div>
 		</div>
 
