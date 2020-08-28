@@ -1381,6 +1381,25 @@ main {
 
 @media (max-width: 900px) {
 
+	.tickerTape {
+		display: none;
+	}
+
+	.site-branding {
+		display: block;
+	}
+
+	#footer-menu {
+		text-align: center;
+		margin: 0;
+		width: 100%;
+		padding: 1% 20%;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr;
+		row-gap: 1%;
+	}
+
 	.page-id-334 .tickerTapeMobile {
 		display: block;
 		width: 3000px;
