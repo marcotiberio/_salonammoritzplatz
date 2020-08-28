@@ -34,14 +34,10 @@
                             ?>
 						</div>
 						<div class="event-title">
-                            <p>
-                            10.02.2020, 14:00<br>
-                            12,00€<br>
-                            Ticker
-                            <p>
+                            <?php the_field('details'); ?>
                         </div>
                         <div class="event-intro">
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantiumdoloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantiumdoloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            <?php the_field('description'); ?>
                         </div>
 					</article>
 					<?php
