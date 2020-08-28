@@ -1028,6 +1028,7 @@ a {
 }
 
 .logo-banner-small {
+	display: none;
 	position: absolute;
 	top: 2vh;
 }
@@ -1081,6 +1082,9 @@ a {
 
 /* Banner Ticker Tape */
 
+.tickerTapeMobile {
+	display: none;
+}
 
 .tickerTape {
 	width: 3000px;
@@ -1094,7 +1098,10 @@ a {
 	height: -moz-fit-content;
 	height: fit-content;
 	width: 30000px;
-	animation-direction: reverse;
+}
+
+.text svg text {
+	font-family: 'Arial Black';
 }
 
 /*keyframe animations*/
@@ -1125,29 +1132,11 @@ a {
 
 /* Banner Ticker Tape */
 
-/* Coming Soon */
-
-.page-id-334 .main-navigation,
-.page-id-334 .entry-header,
-.page-id-334 footer {
-	display: none;
-}
-
-.page-id-334 .entry-content {
-	margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-/* Coming Soon */
-
 
 /* Page */
 
 main {
-	margin-top: 5vh;
+	margin-top: 0;
 }
 
 .entry-header {
@@ -1207,6 +1196,7 @@ main {
 	display: none;
 }
 
+.single .post-thumbnail,
 .single .entry-content {
 	padding: 0 10%;
 }
@@ -1224,14 +1214,102 @@ main {
 	grid-template-columns: repeat(2, 1fr);
 }
 
-.single .event-info .when,
-.single .event-info .price,
-.single .event-info .booking {
+.single .event-info p {
 	margin: 0;
 }
 
-.single .event-info .referrer {
-	margin-top: 1rem;
+/* Post */
+
+/* Coming Soon */
+
+.page-id-334 .tickerTapeMobile {
+	display: none;
 }
 
-/* Post */
+.page-id-334 .tickerTape {
+	margin-top: 15%;
+}
+
+.page-id-334 .main-navigation,
+.page-id-334 .entry-header,
+.page-id-334 footer {
+	display: none;
+}
+
+.page-id-334 .entry-content {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #3E3E3E;
+}
+
+/* Coming Soon */
+
+@media (max-width: 900px) {
+
+	.page-id-334 .tickerTapeMobile {
+		display: block;
+		width: 3000px;
+		overflow: hidden;
+		margin: 0;
+		z-index: 1000;
+		margin-top: 45%;
+	}
+
+	.page-id-334 .tickerTape {
+		display: none;
+		width: 3000px;
+		overflow: hidden;
+		margin: 0;
+		z-index: 1000;
+		margin-top: 50%;
+	}
+
+	.page-id-334 .entry-content {
+		margin: 0;
+		position: absolute;
+		top: 60%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		color: #3E3E3E;
+	}
+
+	.page-id-334 .tickerTape .text {
+		height: -webkit-fit-content;
+		height: -moz-fit-content;
+		height: fit-content;
+		width: 30000px;
+	}
+
+	.page-id-334 .tickerTape .text svg text span {
+		font-family: 'Arial' !important;
+	}
+
+	/*keyframe animations*/
+	.page-id-334 .tickerTape .text .first {
+		-webkit-animation: bannermove 50s linear 1s infinite running;
+		animation: bannermove 50s linear 1s infinite running;
+	}
+
+	@keyframes bannermove {
+		0% {
+			margin-left: 0px;
+		}
+
+		100% {
+			margin-left: -30000px;
+		}
+	}
+
+	@-webkit-keyframes bannermove {
+		0% {
+			margin-left: 0px;
+		}
+
+		100% {
+			margin-left: -3000px;
+		}
+	}
+}
