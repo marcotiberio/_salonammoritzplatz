@@ -1034,6 +1034,10 @@ p {
 
 /* Navigation */
 
+.site-branding {
+	display: none;
+}
+
 .main-navigation {
 	background-color: #FFFEF8;
 	height: 10vh;
