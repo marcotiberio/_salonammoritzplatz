@@ -33,13 +33,9 @@ $details = get_field('details') ?: 'Event Details';
 // $price = get_field('price') ?: 'Event Price';
 // $booking = get_field('booking') ?: 'Where to book';
 // $referrer = get_field('referrer') ?: 'Link of the event';
-$image = get_field('image') ?: 295;
 
 ?>
 <div id="<?php echo esc_attr($id); ?>" class="<?php echo esc_attr($className); ?>">
-    <div class="event-cover">
-        <?php echo wp_get_attachment_image( $image['id'], 'full' ); ?>
-    </div>
     <div class="event-header">
         <p><?php echo $type; ?></p>
         <h2><?php echo $title; ?></h2>
