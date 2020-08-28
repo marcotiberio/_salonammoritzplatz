@@ -144,6 +144,9 @@ function salonammoritzplatz_scripts() {
 	wp_enqueue_style( 'salonammoritzplatz-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'salonammoritzplatz-style', 'rtl', 'replace' );
 
+	wp_deregister_script( 'jquery' );
+	wp_enqueue_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js', array(), null, true);
+
 	wp_enqueue_script( 'salonammoritzplatz-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
