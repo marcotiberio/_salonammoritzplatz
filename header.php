@@ -81,15 +81,34 @@
 
 		<div class="tickerTapeMobile">
 			<div class="text">
-				<img class="first" src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/header-logo-color.png">
-				<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/header-logo-color.png">
-				<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/header-logo-color.png">
-				<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/header-logo-color.png">
-				<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/header-logo-color.png">
+			<svg class="first" width="3065" height="85" viewBox="0 0 3065 85">
+					<text id="SalonamMoritzplatz" data-name="Salon AM Moritzplatz          Salon AM Moritzplatz          Salon AM Moritzplatz          " transform="translate(0 66)" fill="#3e3e3e" font-size="60" font-family="Arial-Black, Arial Black" font-weight="800" letter-spacing="-0.015em"><tspan x="0" y="0" font-family="Arial-Black, Arial Black" xml:space="preserve">SALON AM MORITZPLATZ          SALON AM MORITZPLATZ          SALON AM MORITZPLATZ          </tspan></text>
+				</svg>
+				<svg width="3065" height="85" viewBox="0 0 3065 85">
+					<text id="SalonamMoritzplatz" data-name="Salon AM Moritzplatz          Salon AM Moritzplatz          Salon AM Moritzplatz          " transform="translate(0 66)" fill="#3e3e3e" font-size="60" font-family="Arial-Black, Arial Black" font-weight="800" letter-spacing="-0.015em"><tspan x="0" y="0" font-family="Arial-Black, Arial Black" xml:space="preserve">SALON AM MORITZPLATZ          SALON AM MORITZPLATZ          SALON AM MORITZPLATZ          </tspan></text>
+				</svg>
+				<svg width="3065" height="85" viewBox="0 0 3065 85">
+					<text id="SalonamMoritzplatz" data-name="Salon AM Moritzplatz          Salon AM Moritzplatz          Salon AM Moritzplatz          " transform="translate(0 66)" fill="#3e3e3e" font-size="60" font-family="Arial-Black, Arial Black" font-weight="800" letter-spacing="-0.015em"><tspan x="0" y="0" font-family="Arial-Black, Arial Black" xml:space="preserve">SALON AM MORITZPLATZ          SALON AM MORITZPLATZ          SALON AM MORITZPLATZ          </tspan></text>
+				</svg>
+				<svg width="3065" height="85" viewBox="0 0 3065 85">
+					<text id="SalonamMoritzplatz" data-name="Salon AM Moritzplatz          Salon AM Moritzplatz          Salon AM Moritzplatz          " transform="translate(0 66)" fill="#3e3e3e" font-size="60" font-family="Arial-Black, Arial Black" font-weight="800" letter-spacing="-0.015em"><tspan x="0" y="0" font-family="Arial-Black, Arial Black" xml:space="preserve">SALON AM MORITZPLATZ          SALON AM MORITZPLATZ          SALON AM MORITZPLATZ          </tspan></text>
+				</svg>
+				<svg width="3065" height="85" viewBox="0 0 3065 85">
+					<text id="SalonamMoritzplatz" data-name="Salon AM Moritzplatz          Salon AM Moritzplatz          Salon AM Moritzplatz          " transform="translate(0 66)" fill="#3e3e3e" font-size="60" font-family="Arial-Black, Arial Black" font-weight="800" letter-spacing="-0.015em"><tspan x="0" y="0" font-family="Arial-Black, Arial Black" xml:space="preserve">SALON AM MORITZPLATZ          SALON AM MORITZPLATZ          SALON AM MORITZPLATZ          </tspan></text>
+				</svg>
+				<svg width="3065" height="85" viewBox="0 0 3065 85">
+					<text id="SalonamMoritzplatz" data-name="Salon AM Moritzplatz          Salon AM Moritzplatz          Salon AM Moritzplatz          " transform="translate(0 66)" fill="#3e3e3e" font-size="60" font-family="Arial-Black, Arial Black" font-weight="800" letter-spacing="-0.015em"><tspan x="0" y="0" font-family="Arial-Black, Arial Black" xml:space="preserve">SALON AM MORITZPLATZ          SALON AM MORITZPLATZ          SALON AM MORITZPLATZ          </tspan></text>
+				</svg>
 				<!-- repeated images below to keep up with animation -->
-				<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/header-logo-color.png">
-				<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/header-logo-color.png">
-				<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/header-logo-color.png">
+				<svg width="3065" height="85" viewBox="0 0 3065 85">
+					<text id="SalonamMoritzplatz" data-name="Salon AM Moritzplatz          Salon AM Moritzplatz          Salon AM Moritzplatz          " transform="translate(0 66)" fill="#3e3e3e" font-size="60" font-family="Arial-Black, Arial Black" font-weight="800" letter-spacing="-0.015em"><tspan x="0" y="0" font-family="Arial-Black, Arial Black" xml:space="preserve">SALON AM MORITZPLATZ          SALON AM MORITZPLATZ          SALON AM MORITZPLATZ          </tspan></text>
+				</svg>
+				<svg width="3065" height="85" viewBox="0 0 3065 85">
+					<text id="SalonamMoritzplatz" data-name="Salon AM Moritzplatz          Salon AM Moritzplatz          Salon AM Moritzplatz          " transform="translate(0 66)" fill="#3e3e3e" font-size="60" font-family="Arial-Black, Arial Black" font-weight="800" letter-spacing="-0.015em"><tspan x="0" y="0" font-family="Arial-Black, Arial Black" xml:space="preserve">SALON AM MORITZPLATZ          SALON AM MORITZPLATZ          SALON AM MORITZPLATZ          </tspan></text>
+				</svg>
+				<svg width="3065" height="85" viewBox="0 0 3065 85">
+					<text id="SalonamMoritzplatz" data-name="Salon AM Moritzplatz          Salon AM Moritzplatz          Salon AM Moritzplatz          " transform="translate(0 66)" fill="#3e3e3e" font-size="60" font-family="Arial-Black, Arial Black" font-weight="800" letter-spacing="-0.015em"><tspan x="0" y="0" font-family="Arial-Black, Arial Black" xml:space="preserve">SALON AM MORITZPLATZ          SALON AM MORITZPLATZ          SALON AM MORITZPLATZ          </tspan></text>
+				</svg>
 			</div>
 		</div>
 
