@@ -49,7 +49,7 @@
 		<div class="tickerTape">
 			<div class="text">
 				<svg class="first" width="2401" height="115" viewBox="0 0 2401 115">
-					<text id="Salon_am_Moritzplatz_Salon_am_Moritzplatz" data-name="Salon am Moritzplatz   Salon am Moritzplatz" transform="translate(0 90)" fill="#3e3e3e" font-size="82" font-family="Arial" font-weight="800"><tspan x="0" y="0" font-family="Arial" xml:space="preserve">SALON AM MORITZPLATZ   SALON AM MORITZPLATZ</tspan></text>
+					<text id="Salon_am_Moritzplatz_Salon_am_Moritzplatz" data-name="Salon am Moritzplatz   Salon am Moritzplatz" transform="translate(0 90)" fill="#3e3e3e" font-size="82" font-family="Arial" font-weight="800"><tspan x="0" y="0" font-family="Arial Black" xml:space="preserve">SALON AM MORITZPLATZ   SALON AM MORITZPLATZ</tspan></text>
 				</svg>
 				<svg width="2401" height="115" viewBox="0 0 2401 115">
 					<text id="Salon_am_Moritzplatz_Salon_am_Moritzplatz" data-name="Salon am Moritzplatz   Salon am Moritzplatz" transform="translate(0 90)" fill="#3e3e3e" font-size="82" font-family="Arial" font-weight="800"><tspan x="0" y="0" xml:space="preserve">SALON AM MORITZPLATZ   SALON AM MORITZPLATZ</tspan></text>
