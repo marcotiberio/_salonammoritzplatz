@@ -46,7 +46,7 @@ $image = get_field('image') ?: 295;
     </div>
     <div class="event-info">
         <div class="left">
-            <p class="details"><?php echo $details; ?></p>
+            <div class="details"><?php echo $details; ?></div>
         </div>
         <div class="right"><?php echo $description; ?></div>
     </div>
