@@ -48,29 +48,29 @@
 
 		<div class="tickerTape">
 			<div class="text">
-				<svg class="first" width="2401" height="85" viewBox="0 0 2401 115">
+				<svg class="first" width="2401" height="115" viewBox="0 0 2401 115">
 					<text id="SalonamMoritzplatz" data-name="Salon am Moritzplatz   Salon am Moritzplatz" transform="translate(0 90)" fill="#3e3e3e" font-size="82" font-family="Arial Black" font-weight="800"><tspan x="0" y="0" font-family="Arial Black" xml:space="preserve">SALON AM MORITZPLATZ   SALON AM MORITZPLATZ</tspan></text>
 				</svg>
-				<svg width="2401" height="85" viewBox="0 0 2401 115">
+				<svg width="2401" height="115" viewBox="0 0 2401 115">
 					<text id="SalonamMoritzplatz" data-name="Salon am Moritzplatz   Salon am Moritzplatz" transform="translate(0 90)" fill="#3e3e3e" font-size="82" font-family="Arial Black" font-weight="800"><tspan x="0" y="0" font-family="Arial Black" xml:space="preserve">SALON AM MORITZPLATZ   SALON AM MORITZPLATZ</tspan></text>
 				</svg>
-				<svg width="2401" height="85" viewBox="0 0 2401 115">
+				<svg width="2401" height="115" viewBox="0 0 2401 115">
 					<text id="SalonamMoritzplatz" data-name="Salon am Moritzplatz   Salon am Moritzplatz" transform="translate(0 90)" fill="#3e3e3e" font-size="82" font-family="Arial Black" font-weight="800"><tspan x="0" y="0" font-family="Arial Black" xml:space="preserve">SALON AM MORITZPLATZ   SALON AM MORITZPLATZ</tspan></text>
 				</svg>
-				<svg width="2401" height="85" viewBox="0 0 2401 115">
+				<svg width="2401" height="115" viewBox="0 0 2401 115">
 					<text id="SalonamMoritzplatz" data-name="Salon am Moritzplatz   Salon am Moritzplatz" transform="translate(0 90)" fill="#3e3e3e" font-size="82" font-family="Arial Black" font-weight="800"><tspan x="0" y="0" font-family="Arial Black" xml:space="preserve">SALON AM MORITZPLATZ   SALON AM MORITZPLATZ</tspan></text>
 				</svg>
-				<svg width="2401" height="85" viewBox="0 0 2401 115">
+				<svg width="2401" height="115" viewBox="0 0 2401 115">
 					<text id="SalonamMoritzplatz" data-name="Salon am Moritzplatz   Salon am Moritzplatz" transform="translate(0 90)" fill="#3e3e3e" font-size="82" font-family="Arial Black" font-weight="800"><tspan x="0" y="0" font-family="Arial Black" xml:space="preserve">SALON AM MORITZPLATZ   SALON AM MORITZPLATZ</tspan></text>
 				</svg>
 				<!-- repeated images below to keep up with animation -->
-				<svg width="2401" height="85" viewBox="0 0 2401 115">
+				<svg width="2401" height="115" viewBox="0 0 2401 115">
 					<text id="SalonamMoritzplatz" data-name="Salon am Moritzplatz   Salon am Moritzplatz" transform="translate(0 90)" fill="#3e3e3e" font-size="82" font-family="Arial Black" font-weight="800"><tspan x="0" y="0" font-family="Arial Black" xml:space="preserve">SALON AM MORITZPLATZ   SALON AM MORITZPLATZ</tspan></text>
 				</svg>
-				<svg width="2401" height="85" viewBox="0 0 2401 115">
+				<svg width="2401" height="115" viewBox="0 0 2401 115">
 					<text id="SalonamMoritzplatz" data-name="Salon am Moritzplatz   Salon am Moritzplatz" transform="translate(0 90)" fill="#3e3e3e" font-size="82" font-family="Arial Black" font-weight="800"><tspan x="0" y="0" font-family="Arial Black" xml:space="preserve">SALON AM MORITZPLATZ   SALON AM MORITZPLATZ</tspan></text>
 				</svg>
-				<svg width="2401" height="85" viewBox="0 0 2401 115">
+				<svg width="2401" height="115" viewBox="0 0 2401 115">
 					<text id="SalonamMoritzplatz" data-name="Salon am Moritzplatz   Salon am Moritzplatz" transform="translate(0 90)" fill="#3e3e3e" font-size="82" font-family="Arial Black" font-weight="800"><tspan x="0" y="0" font-family="Arial Black" xml:space="preserve">SALON AM MORITZPLATZ   SALON AM MORITZPLATZ</tspan></text>
 				</svg>
 			</div>
