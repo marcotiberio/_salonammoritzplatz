@@ -986,6 +986,11 @@ textarea {
 /* CUSTOM STYLES */
 
 
+
+
+
+
+
 /* Global */
 
 html,
@@ -998,6 +1003,14 @@ body {
 a {
 	text-decoration: none;
 	color: #3e3e3e;
+}
+
+p {
+	display: block;
+	margin-block-start: 0;
+	margin-block-end: 0;
+	margin-inline-start: 0;
+	margin-inline-end: 0;
 }
 
 .page-id-215 p {
@@ -1132,6 +1145,50 @@ a {
 
 /* Banner Ticker Tape */
 
+/* Small Ticker Tape */
+
+.ticker-tape-small {
+	width: 3000px;
+	overflow: hidden;
+	z-index: 1000;
+	margin: 0;
+}
+
+.ticker-tape-small .inside {
+	height: -webkit-fit-content;
+	height: -moz-fit-content;
+	height: fit-content;
+	width: 30000px;
+}
+
+/*keyframe animations*/
+.ticker-tape-small .inside img:nth-child(1) {
+	-webkit-animation: bannermovesmall 400s linear 1s infinite running;
+	animation: bannermovesmall 400s linear 1s infinite running;
+}
+
+@keyframes bannermovesmall {
+	0% {
+		margin-left: 0px;
+	}
+
+	100% {
+		margin-left: -30000px;
+	}
+}
+
+@-webkit-keyframes bannermovesmall {
+	0% {
+		margin-left: 0px;
+	}
+
+	100% {
+		margin-left: -3000px;
+	}
+}
+
+/* Small Ticker Tape */
+
 
 /* Page */
 
@@ -1139,46 +1196,9 @@ main {
 	margin-top: 0;
 }
 
-.entry-header {
-	width: 3000px;
-	overflow: hidden;
-	margin: 0;
+.page-template-simple-page .entry-header {
+	display: none;
 }
-
-.inside {
-	height: -webkit-fit-content;
-	height: -moz-fit-content;
-	height: fit-content;
-	width: 30000px;
-	animation-direction: reverse;
-}
-
-/*keyframe animations*/
-.entry-header .inside .first {
-	-webkit-animation: bannermoves 800s linear 1s infinite running;
-	animation: bannermove 800s linear 1s infinite running;
-}
-
-@keyframes bannermoves {
-	0% {
-		margin-left: 0px;
-	}
-
-	100% {
-		margin-left: -300000px;
-	}
-}
-
-@-webkit-keyframes bannermoves {
-	0% {
-		margin-left: 0px;
-	}
-
-	100% {
-		margin-left: -300000px;
-	}
-}
-
 
 .wp-block-columns,
 .wp-block-getwid-image-box {
@@ -1246,6 +1266,118 @@ main {
 }
 
 /* Coming Soon */
+
+/* Home */
+
+.page-template-home .entry-header {
+	display: none;
+}
+
+.page-template-home .post-thumbnail {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: auto;
+}
+
+.page-template-home .main-navigation {
+	background-color: #FFFEF8;
+	height: 10vh;
+	width: 100vw;
+	margin-top: 1200px;
+}
+
+/* Home */
+
+/* Das Program */
+
+.page-id-11 .featured-posts {
+	padding: 2% 0;
+}
+
+.page-id-11 .wp-block-getwid-template-post-title {
+	margin: 0;
+	font-size: 1rem;
+	text-transform: uppercase;
+	font-family: 'Arial Black';
+}
+
+.page-id-11 .wp-block-getwid-template-post-categories {
+	margin: 0;
+}
+
+.page-id-11 .wp-block-getwid-template-post-content {
+	margin-bottom: 0;
+}
+
+.page-id-11 .archive {
+	padding: 2% 10%;
+}
+
+.page-id-11 .wp-block-getwid-tabs__tab-content {
+	border: 0;
+	padding: 0;
+}
+
+.wp-block-getwid-tabs__nav-link {
+	border: none;
+	transition: 0.6s;
+	font-family: 'Arial Black';
+}
+
+.page-id-11 .wp-block-getwid-tabs__nav-link.ui-tabs-active,
+.page-id-11 .wp-block-getwid-tabs__nav-link.ui-tabs-active a {
+	border: none;
+	background-color: transparent;
+	padding: .5em .5em .5em 0 !important;
+	font-weight: 800;
+}
+
+.page-id-11 .wp-block-getwid-tabs__nav-link a {
+	padding: .5em .5em .5em 0 !important;
+	font-weight: 400;
+}
+
+.page-id-11 .wp-block-getwid-tabs__nav-link a:hover {
+	font-weight: 800;
+	border: none;
+}
+
+.page-id-11 .getwid-columns.getwid-columns-3>* {
+	padding-left: 0;
+}
+
+/* Das Program */
+
+/* Das Program Test Template */
+
+.page-template-das-program .entry-header {
+	display: none;
+}
+
+.page-template-das-program .latestpost--custom {
+	padding: 2% 10%;
+	margin: 0;
+	width: 100%;
+
+	display: grid;
+	grid-template-columns: 1.5fr 1fr 2fr;
+	grid-template-rows: 1fr;
+	column-gap: 20px;
+
+}
+
+.page-template-das-program .latestpost--custom p {
+	margin: 0;
+}
+
+/* Das Program Test Template */
+
+
+/* MOBILE */
+/* MOBILE */
+/* MOBILE */
 
 @media (max-width: 900px) {
 
