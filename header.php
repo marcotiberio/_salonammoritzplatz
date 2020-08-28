@@ -95,7 +95,9 @@
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'salonammoritzplatz' ); ?></button>
 			<div id="stickyPrimaryMenu">
 				<div class="logo-banner-small">
-					<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/logo-banner-small.png" alt="Logo">
+				<svg xmlns="http://www.w3.org/2000/svg" width="2058" height="28" viewBox="0 0 2058 28">
+					<text id="Salon_am_Moritzplatz_Salon_am_Moritzplatz_Salon_am_Moritzplatz_Salon_am_Moritzplatz_Salon_am_Moritzplatz_Salon_am_Moritzplatz_" data-name="Salon am Moritzplatz         Salon am Moritzplatz         Salon am Moritzplatz         Salon am Moritzplatz         Salon am Moritzplatz         Salon am Moritzplatz         " transform="translate(1029 22)" fill="#3e3e3e" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-1028.203" y="0" xml:space="preserve">SALON AM MORITZPLATZ         SALON AM MORITZPLATZ         SALON AM MORITZPLATZ         SALON AM MORITZPLATZ         SALON AM MORITZPLATZ         SALON AM MORITZPLATZ         </tspan></text>
+				</svg>
 				</div>
 				<?php
 				wp_nav_menu(
