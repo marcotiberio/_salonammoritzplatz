@@ -35,15 +35,15 @@ $ticker_image = get_field('ticker_image') ?: 295;
             <?php 
             $ticker_image = get_field('ticker_image');
             if( !empty( $ticker_image ) ): ?>
-                <img class="first" src="<?php echo esc_url($ticker_image['url']); ?>" alt="<?php echo esc_attr($ticker_image['alt']); ?>" />
-                <img src="<?php echo esc_url($ticker_image['url']); ?>" alt="<?php echo esc_attr($ticker_image['alt']); ?>" />
-                <img src="<?php echo esc_url($ticker_image['url']); ?>" alt="<?php echo esc_attr($ticker_image['alt']); ?>" />
-                <img src="<?php echo esc_url($ticker_image['url']); ?>" alt="<?php echo esc_attr($ticker_image['alt']); ?>" />
-                <img src="<?php echo esc_url($ticker_image['url']); ?>" alt="<?php echo esc_attr($ticker_image['alt']); ?>" />
+                <div><?php echo wp_get_attachment_image( $ticker_image['id'], 'full' ); ?></div>
+                <?php echo wp_get_attachment_image( $ticker_image['id'], 'full' ); ?>
+                <?php echo wp_get_attachment_image( $ticker_image['id'], 'full' ); ?>
+                <?php echo wp_get_attachment_image( $ticker_image['id'], 'full' ); ?>
+                <?php echo wp_get_attachment_image( $ticker_image['id'], 'full' ); ?>
                 <!-- repeated images below to keep up with animation -->
-                <img src="<?php echo esc_url($ticker_image['url']); ?>" alt="<?php echo esc_attr($ticker_image['alt']); ?>" />
-                <img src="<?php echo esc_url($ticker_image['url']); ?>" alt="<?php echo esc_attr($ticker_image['alt']); ?>" />
-                <img src="<?php echo esc_url($ticker_image['url']); ?>" alt="<?php echo esc_attr($ticker_image['alt']); ?>" />
+                <?php echo wp_get_attachment_image( $ticker_image['id'], 'full' ); ?>
+                <?php echo wp_get_attachment_image( $ticker_image['id'], 'full' ); ?>
+                <?php echo wp_get_attachment_image( $ticker_image['id'], 'full' ); ?>
             <?php endif; ?>
         </div>
     </div>
