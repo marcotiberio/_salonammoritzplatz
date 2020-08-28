@@ -34,7 +34,7 @@ $ticker_image = get_field('ticker_image') ?: 295;
         <div class="inside">
             <?php 
             $ticker_image = get_field('ticker_image');
-            if( !empty( $banner_title ) ): ?>
+            if( !empty( $ticker_image ) ): ?>
                 <img class="first" src="<?php echo esc_url($ticker_image['url']); ?>" alt="<?php echo esc_attr($ticker_image['alt']); ?>" />
                 <img src="<?php echo esc_url($ticker_image['url']); ?>" alt="<?php echo esc_attr($ticker_image['alt']); ?>" />
                 <img src="<?php echo esc_url($ticker_image['url']); ?>" alt="<?php echo esc_attr($ticker_image['alt']); ?>" />
