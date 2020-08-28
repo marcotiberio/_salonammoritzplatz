@@ -199,7 +199,7 @@ function my_register_blocks() {
             'name'              => 'tickersmall',
             'title'             => __('Ticker Small'),
             'description'       => __('A custom small ticker block.'),
-            'render_template'   => 'template-parts/blocks/event/event.php',
+            'render_template'   => 'template-parts/blocks/tickersmall/tickersmall.php',
             'category'          => 'formatting',
             'icon'              => 'admin-comments',
             'keywords'          => array( 'event', 'quote' ),
