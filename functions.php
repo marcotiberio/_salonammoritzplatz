@@ -190,7 +190,7 @@ function my_register_blocks() {
             'description'       => __('A custom event block.'),
             'render_template'   => 'template-parts/blocks/event/event.php',
             'category'          => 'formatting',
-            'icon'              => 'admin-comments',
+            'icon'              => 'dashicons-align-left',
             'keywords'          => array( 'event', 'quote' ),
 		));
 		
@@ -201,8 +201,8 @@ function my_register_blocks() {
             'description'       => __('A custom small ticker block.'),
             'render_template'   => 'template-parts/blocks/tickersmall/tickersmall.php',
             'category'          => 'formatting',
-            'icon'              => 'admin-comments',
-            'keywords'          => array( 'event', 'quote' ),
+            'icon'              => 'dashicons-format-image',
+            'keywords'          => array( 'tickersmall', 'quote' ),
         ));
     }
 }
