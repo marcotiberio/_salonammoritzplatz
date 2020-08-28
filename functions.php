@@ -192,6 +192,17 @@ function my_register_blocks() {
             'category'          => 'formatting',
             'icon'              => 'admin-comments',
             'keywords'          => array( 'event', 'quote' ),
+		));
+		
+		// register a small ticker block.
+        acf_register_block_type(array(
+            'name'              => 'tickersmall',
+            'title'             => __('Ticker Small'),
+            'description'       => __('A custom small ticker block.'),
+            'render_template'   => 'template-parts/blocks/event/event.php',
+            'category'          => 'formatting',
+            'icon'              => 'admin-comments',
+            'keywords'          => array( 'event', 'quote' ),
         ));
     }
 }
