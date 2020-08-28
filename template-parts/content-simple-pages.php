@@ -11,21 +11,22 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<div class="inside">
-			<?php 
-			$banner_title = get_field('banner_title');
-			if( !empty( $banner_title ) ): ?>
-				<img class="first" src="<?php echo esc_url($banner_title['url']); ?>" alt="<?php echo esc_attr($banner_title['alt']); ?>" />
-				<img src="<?php echo esc_url($banner_title['url']); ?>" alt="<?php echo esc_attr($banner_title['alt']); ?>" />
-				<img src="<?php echo esc_url($banner_title['url']); ?>" alt="<?php echo esc_attr($banner_title['alt']); ?>" />
-				<img src="<?php echo esc_url($banner_title['url']); ?>" alt="<?php echo esc_attr($banner_title['alt']); ?>" />
-				<img src="<?php echo esc_url($banner_title['url']); ?>" alt="<?php echo esc_attr($banner_title['alt']); ?>" />
-				<!-- repeated images below to keep up with animation -->
-				<img src="<?php echo esc_url($banner_title['url']); ?>" alt="<?php echo esc_attr($banner_title['alt']); ?>" />
-				<img src="<?php echo esc_url($banner_title['url']); ?>" alt="<?php echo esc_attr($banner_title['alt']); ?>" />
-				<img src="<?php echo esc_url($banner_title['url']); ?>" alt="<?php echo esc_attr($banner_title['alt']); ?>" />
-			<?php endif; ?>
-		</div>
+		<?php
+			if ( is_singular() ) :
+				the_title( '<h1 class="entry-title">', '</h1>' );
+			else :
+				the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
+			endif;
+
+			if ( 'post' === get_post_type() ) :
+				?>
+			<div class="entry-meta">
+				<?php
+				salonammoritzplatz_posted_on();
+				salonammoritzplatz_posted_by();
+				?>
+			</div><!-- .entry-meta -->
+		<?php endif; ?>
 	</header><!-- .entry-header -->
 
 	<?php salonammoritzplatz_post_thumbnail(); ?>
