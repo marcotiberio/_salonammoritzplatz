@@ -1,5 +1,5 @@
 <?php 
-	/* Template Name: Latest Posts Articles */ 
+	/* Template Name: Das Program */ 
 ?>
 
 <?php get_header(); ?>
