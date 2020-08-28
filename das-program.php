@@ -26,25 +26,23 @@
 					$arr_posts->the_post();
 					?>
 					<article class="latestpost--custom" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-						<div>
+						<div class="event-cover">
                             <?php
                             if ( has_post_thumbnail() ) :
                                 the_post_thumbnail( 'full' );
                             endif;
                             ?>
 						</div>
-						<div>
 						<div class="event-title">
                             <p>
                             10.02.2020, 14:00<br>
                             12,00€<br>
                             Ticker
                             <p>
-						</div>
-						<div class="event-intro">
+                        </div>
+                        <div class="event-intro">
                             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantiumdoloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantiumdoloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-						</div>
-						</div>
+                        </div>
 					</article>
 					<?php
 				endwhile;
