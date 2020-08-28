@@ -35,7 +35,7 @@ $ticker_image = get_field('ticker_image') ?: 295;
             <?php 
             $ticker_image = get_field('ticker_image');
             if( !empty( $ticker_image ) ): ?>
-                <div class="first"><?php echo wp_get_attachment_image( $ticker_image['id'], 'full' ); ?></div>
+                <?php echo wp_get_attachment_image( $ticker_image['id'], 'full' ); ?>
                 <?php echo wp_get_attachment_image( $ticker_image['id'], 'full' ); ?>
                 <?php echo wp_get_attachment_image( $ticker_image['id'], 'full' ); ?>
                 <?php echo wp_get_attachment_image( $ticker_image['id'], 'full' ); ?>
