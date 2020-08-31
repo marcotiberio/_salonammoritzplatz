@@ -21,9 +21,9 @@ $(document).ready(function () {
 $(document).ready(function () {
     $(window).scroll(function () {
         if ($(this).scrollTop() > 0) {
-            $('.#primary-menu').css();
+            $('#primary-menu').css();
         } else {
-            $('.tickerTape').fadeIn('100');
+            $('#primary-menu').fadeIn('100');
         }
     });
 });
