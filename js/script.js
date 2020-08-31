@@ -3,19 +3,6 @@ $(document).ready(function(){
         if ($(this).scrollTop()>0)
         {
             $('#stickyTickertape').fadeIn();
-        }
-        else
-        {
-        $('#stickyTickertape').fadeOut('100');
-        }
-    });
-});
-
-$(document).ready(function(){   
-    $(window).scroll(function() {
-        if ($(this).scrollTop()>0)
-        {
-            $('#stickyTickertape').fadeIn();
             $('.tickerTape').fadeOut();
         }
         else
@@ -38,3 +25,4 @@ $(document).ready(function(){
 //         $("#menuOverlay").slideToggle("fast");
 //     });
 // });
+
