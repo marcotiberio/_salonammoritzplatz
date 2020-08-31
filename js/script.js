@@ -2,11 +2,11 @@ $(document).ready(function(){
     $(window).scroll(function() {
         if ($(this).scrollTop()>0)
         {
-            $('.logo-banner-small').fadeIn();
+            $('#stickyPrimaryMenu').fadeIn();
         }
         else
         {
-        $('.logo-banner-small').fadeOut();
+        $('#stickyPrimaryMenu').fadeOut();
         }
     });
 });
