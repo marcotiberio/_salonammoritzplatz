@@ -55,7 +55,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 @font-face{
 	font-family:"Arial MT W01 Black";
-	src:url("Fonts/5608561/dbfce1da-7b55-4d7a-830d-c6557d33c24f.woff2") format("woff2"),url("Fonts/5608561/f552a731-c20f-4737-abd7-fef07295897e.woff") format("woff");
+	src:url("assets/SaM_Arial_black.woff2") format("woff2"),url("assets/SaM_Arial_black.woff") format("woff");
 }
 
 /*--------------------------------------------------------------
