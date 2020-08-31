@@ -2,11 +2,11 @@ $(document).ready(function(){
     $(window).scroll(function() {
         if ($(this).scrollTop()>0)
         {
-            $('#stickyPrimaryMenu').fadeIn();
+            $('#stickyTickertape').fadeIn();
         }
         else
         {
-        $('#stickyPrimaryMenu').fadeOut('100');
+        $('#stickyTickertape').fadeOut('100');
         }
     });
 });
