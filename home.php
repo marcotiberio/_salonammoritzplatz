@@ -12,6 +12,10 @@ get_header();
 
 	<main id="primary" class="site-main">
 
+		<div class="cover-image">
+			<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/background-home-scaled.jpg" alt="">
+		</div>
+
 		<?php
 		while ( have_posts() ) :
 			the_post();
