@@ -6,7 +6,7 @@ $(document).ready(function(){
         }
         else
         {
-        $('#stickyPrimaryMenu').fadeOut('fast');
+        $('#stickyPrimaryMenu').fadeOut('100');
         }
     });
 });
