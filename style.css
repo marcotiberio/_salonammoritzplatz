@@ -1126,7 +1126,7 @@ p {
 }
 
 .text svg text {
-	font-family: 'Arial Black';
+	font-family: 'Arial MT W01 Black';
 }
 
 /*keyframe animations*/
@@ -1312,7 +1312,7 @@ main {
 	margin: 0;
 	font-size: 1rem;
 	text-transform: uppercase;
-	font-family: 'Arial Black';
+	font-family: 'Arial MT W01 Black';
 }
 
 .page-id-11 .wp-block-getwid-template-post-categories {
@@ -1335,7 +1335,7 @@ main {
 .wp-block-getwid-tabs__nav-link {
 	border: none;
 	transition: 0.6s;
-	font-family: 'Arial Black';
+	font-family: 'Arial MT W01 Black';
 }
 
 .page-id-11 .wp-block-getwid-tabs__nav-link.ui-tabs-active,
