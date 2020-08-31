@@ -50,14 +50,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 --------------------------------------------------------------*/
 
-
-@import url("https://fast.fonts.net/lt/1.css?apiType=css&c=13534ec6-1d98-4afb-9da5-5f393d6cf554&fontids=5608561");
-
-@font-face{
-	font-family:"Arial MT W01 Black";
-	src:url("assets/SaM_Arial_black.woff2") format("woff2"),url("assets/SaM_Arial_black.woff") format("woff");
-}
-
 /*--------------------------------------------------------------
 # Generic
 --------------------------------------------------------------*/
