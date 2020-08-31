@@ -11,9 +11,9 @@ $(document).ready(function () {
 $(document).ready(function () {
     $(window).scroll(function () {
         if ($(this).scrollTop() > 0) {
-            $('.tickerTape').css("top", "5vh");
+            $('.tickerTape').fadeOut();
         } else {
-            $('.tickerTape').css("top", "20vh");
+            $('.tickerTape').fadeIn('100');
         }
     });
 });
@@ -21,9 +21,9 @@ $(document).ready(function () {
 $(document).ready(function () {
     $(window).scroll(function () {
         if ($(this).scrollTop() > 0) {
-            $('#primary-menu').css();
+            $('#primary-menu').css('top', '5vh');
         } else {
-            $('#primary-menu').fadeIn('100');
+            $('#primary-menu').css('top', '20vh');
         }
     });
 });
