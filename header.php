@@ -95,7 +95,7 @@
 
 				
 		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'salonammoritzplatz' ); ?></button>
+			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary', 'salonammoritzplatz' ); ?></button>
 			<div id="stickyPrimaryMenu">
 				<div class="logo-banner-small">
 					<svg xmlns="http://www.w3.org/2000/svg" width="2058" height="28" viewBox="0 0 2058 28">

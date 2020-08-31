@@ -1035,7 +1035,7 @@ p {
 /* Navigation */
 
 .site-branding {
-	display: none;
+	display: block;
 }
 
 .main-navigation {
