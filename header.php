@@ -108,7 +108,11 @@
 
 				
 		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" id="menu-toggleMobile" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'salonammoritzplatz' ); ?></button>
+			<button class="menu-toggle" id="menu-toggleMobile" aria-controls="primary-menu" aria-expanded="false">
+				<div class="bar1"></div>
+  				<div class="bar2"></div>
+  				<div class="bar3"></div>
+			</button>
 				<?php
 				wp_nav_menu(
 					array(
