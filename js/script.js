@@ -11,6 +11,21 @@ $(document).ready(function(){
     });
 });
 
+$(document).ready(function(){   
+    $(window).scroll(function() {
+        if ($(this).scrollTop()>0)
+        {
+            $('#stickyTickertape').fadeIn();
+            $('.tickerTape').fadeOut();
+        }
+        else
+        {
+        $('#stickyTickertape').fadeOut('100');
+        $('.tickerTape').fadeIn('100');
+        }
+    });
+});
+
 
 // $(document).ready(function(){
 //     $("#open_menuOverlay").click(function(){
