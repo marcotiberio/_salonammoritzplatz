@@ -18,16 +18,6 @@ $(document).ready(function () {
     });
 });
 
-$(document).ready(function () {
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 0) {
-            $('#primary-menu').css('top', '5vh');
-        } else {
-            $('#primary-menu').css('top', '20vh');
-        }
-    });
-});
-
 
 // $(document).ready(function(){
 //     $("#open_menuOverlay").click(function(){
