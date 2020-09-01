@@ -157,7 +157,7 @@ get_header();
 				$caption = $map['caption'];
 				if( !empty( $map ) ): ?>
 					<img src="<?php echo esc_url($map['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-					<p><?php echo esc_html($caption); ?></p>
+					<p class="caption"><?php echo esc_html($caption); ?></p>
 				<?php endif; ?>
 
 			</div>
