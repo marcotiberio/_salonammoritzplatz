@@ -18,14 +18,6 @@ $(document).ready(function () {
     });
 });
 
-$(window).scroll(function () {
-    $("#site-navigation").css({
-        "top": ($(window).scrollTop()) + "0",
-        "left": ($(window).scrollLeft()) + "0"
-    });
-});
-
-
 $(document).ready(function () {
     $("#open_menuOverlay").click(function () {
         $("#menuOverlay").slideToggle("fast");
