@@ -152,37 +152,10 @@ get_header();
 			<!-- Map -->
 
 			<div class="map-home">
-			<?php
+			<?php 
 			$map = get_field('map');
-			if( $map ):
-
-				// Image variables.
-				$url = $map['url'];
-				$title = $map['title'];
-				$alt = $map['alt'];
-				$caption = $map['caption'];
-
-				// Thumbnail size attributes.
-				$size = 'thumbnail';
-				$thumb = $image['sizes'][ $size ];
-				$width = $image['sizes'][ $size . '-width' ];
-				$height = $image['sizes'][ $size . '-height' ];
-
-				// Begin caption wrap.
-				if( $caption ): ?>
-					<div class="wp-caption">
-				<?php endif; ?>
-
-				<a href="<?php echo esc_url($url); ?>" title="<?php echo esc_attr($title); ?>">
-					<img src="<?php echo esc_url($thumb); ?>" alt="<?php echo esc_attr($alt); ?>" />
-				</a>
-
-				<?php 
-				// End caption wrap.
-				if( $caption ): ?>
-					<p class="wp-caption-text"><?php echo esc_html($caption); ?></p>
-					</div>
-				<?php endif; ?>
+			if( !empty( $map ) ): ?>
+				<img src="<?php echo esc_url($map['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
 			<?php endif; ?>
 			</div>
 
