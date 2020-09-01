@@ -20,8 +20,8 @@ $(document).ready(function () {
 
 $(window).scroll(function () {
     $("#site-navigation").css({
-        "top": ($(window).scrollTop()) + "px",
-        "left": ($(window).scrollLeft()) + "px"
+        "top": ($(window).scrollTop()) + "0",
+        "left": ($(window).scrollLeft()) + "0"
     });
 });
 
