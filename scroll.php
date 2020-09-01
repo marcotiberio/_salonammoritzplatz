@@ -12,6 +12,37 @@ get_header();
 
 	<main id="primary" class="site-main">
 
+		<!-- Logo Ticker Tape -->
+
+		<div id="stickyTickertape">
+			<div class="logo-banner-small">
+				<svg class="first" width="2058" height="28" viewBox="0 0 2058 28">
+					<text id="Salon_am_Moritzplatz_Salon_am_Moritzplatz_Salon_am_Moritzplatz_Salon_am_Moritzplatz_Salon_am_Moritzplatz_Salon_am_Moritzplatz_" data-name="Salon am Moritzplatz         Salon am Moritzplatz         Salon am Moritzplatz         Salon am Moritzplatz         Salon am Moritzplatz         Salon am Moritzplatz         " transform="translate(1029 22)" fill="#3e3e3e" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-1028.203" y="0" xml:space="preserve">SALON AM MORITZPLATZ         SALON AM MORITZPLATZ         SALON AM MORITZPLATZ         SALON AM MORITZPLATZ         SALON AM MORITZPLATZ         SALON AM MORITZPLATZ         </tspan></text>
+				</svg>
+				<svg width="2058" height="28" viewBox="0 0 2058 28">
+					<text id="Salon_am_Moritzplatz_Salon_am_Moritzplatz_Salon_am_Moritzplatz_Salon_am_Moritzplatz_Salon_am_Moritzplatz_Salon_am_Moritzplatz_" data-name="Salon am Moritzplatz         Salon am Moritzplatz         Salon am Moritzplatz         Salon am Moritzplatz         Salon am Moritzplatz         Salon am Moritzplatz         " transform="translate(1029 22)" fill="#3e3e3e" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-1028.203" y="0" xml:space="preserve">SALON AM MORITZPLATZ         SALON AM MORITZPLATZ         SALON AM MORITZPLATZ         SALON AM MORITZPLATZ         SALON AM MORITZPLATZ         SALON AM MORITZPLATZ         </tspan></text>
+				</svg>
+				<svg width="2058" height="28" viewBox="0 0 2058 28">
+					<text id="Salon_am_Moritzplatz_Salon_am_Moritzplatz_Salon_am_Moritzplatz_Salon_am_Moritzplatz_Salon_am_Moritzplatz_Salon_am_Moritzplatz_" data-name="Salon am Moritzplatz         Salon am Moritzplatz         Salon am Moritzplatz         Salon am Moritzplatz         Salon am Moritzplatz         Salon am Moritzplatz         " transform="translate(1029 22)" fill="#3e3e3e" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-1028.203" y="0" xml:space="preserve">SALON AM MORITZPLATZ         SALON AM MORITZPLATZ         SALON AM MORITZPLATZ         SALON AM MORITZPLATZ         SALON AM MORITZPLATZ         SALON AM MORITZPLATZ         </tspan></text>
+				</svg>
+				<svg width="2058" height="28" viewBox="0 0 2058 28">
+					<text id="Salon_am_Moritzplatz_Salon_am_Moritzplatz_Salon_am_Moritzplatz_Salon_am_Moritzplatz_Salon_am_Moritzplatz_Salon_am_Moritzplatz_" data-name="Salon am Moritzplatz         Salon am Moritzplatz         Salon am Moritzplatz         Salon am Moritzplatz         Salon am Moritzplatz         Salon am Moritzplatz         " transform="translate(1029 22)" fill="#3e3e3e" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-1028.203" y="0" xml:space="preserve">SALON AM MORITZPLATZ         SALON AM MORITZPLATZ         SALON AM MORITZPLATZ         SALON AM MORITZPLATZ         SALON AM MORITZPLATZ         SALON AM MORITZPLATZ         </tspan></text>
+				</svg>
+				<!-- repeated images below to keep up with animation -->
+				<svg width="2058" height="28" viewBox="0 0 2058 28">
+					<text id="Salon_am_Moritzplatz_Salon_am_Moritzplatz_Salon_am_Moritzplatz_Salon_am_Moritzplatz_Salon_am_Moritzplatz_Salon_am_Moritzplatz_" data-name="Salon am Moritzplatz         Salon am Moritzplatz         Salon am Moritzplatz         Salon am Moritzplatz         Salon am Moritzplatz         Salon am Moritzplatz         " transform="translate(1029 22)" fill="#3e3e3e" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-1028.203" y="0" xml:space="preserve">SALON AM MORITZPLATZ         SALON AM MORITZPLATZ         SALON AM MORITZPLATZ         SALON AM MORITZPLATZ         SALON AM MORITZPLATZ         SALON AM MORITZPLATZ         </tspan></text>
+				</svg>
+				<svg width="2058" height="28" viewBox="0 0 2058 28">
+					<text id="Salon_am_Moritzplatz_Salon_am_Moritzplatz_Salon_am_Moritzplatz_Salon_am_Moritzplatz_Salon_am_Moritzplatz_Salon_am_Moritzplatz_" data-name="Salon am Moritzplatz         Salon am Moritzplatz         Salon am Moritzplatz         Salon am Moritzplatz         Salon am Moritzplatz         Salon am Moritzplatz         " transform="translate(1029 22)" fill="#3e3e3e" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-1028.203" y="0" xml:space="preserve">SALON AM MORITZPLATZ         SALON AM MORITZPLATZ         SALON AM MORITZPLATZ         SALON AM MORITZPLATZ         SALON AM MORITZPLATZ         SALON AM MORITZPLATZ         </tspan></text>
+				</svg>
+				<svg width="2058" height="28" viewBox="0 0 2058 28">
+					<text id="Salon_am_Moritzplatz_Salon_am_Moritzplatz_Salon_am_Moritzplatz_Salon_am_Moritzplatz_Salon_am_Moritzplatz_Salon_am_Moritzplatz_" data-name="Salon am Moritzplatz         Salon am Moritzplatz         Salon am Moritzplatz         Salon am Moritzplatz         Salon am Moritzplatz         Salon am Moritzplatz         " transform="translate(1029 22)" fill="#3e3e3e" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-1028.203" y="0" xml:space="preserve">SALON AM MORITZPLATZ         SALON AM MORITZPLATZ         SALON AM MORITZPLATZ         SALON AM MORITZPLATZ         SALON AM MORITZPLATZ         SALON AM MORITZPLATZ         </tspan></text>
+				</svg>
+			</div>
+		</div>
+
+		<!-- Logo Ticker Tape -->
+
 		<!-- Cover Image -->
 
 		<div class="cover-image">
@@ -19,6 +50,37 @@ get_header();
 		</div>
 
 		<!-- Cover Image -->
+
+		<!-- Kontakt Ticker Tape -->
+
+		<div class="ticker-tape-small">
+				<div class="inside">
+					<svg class="first" width="2250" height="28" viewBox="0 0 2250 28">
+						<text id="Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_" data-name="Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          " transform="translate(1125 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-1124.604" y="0" xml:space="preserve">DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          </tspan></text>
+					</svg>
+					<svg width="2250" height="28" viewBox="0 0 2250 28">
+						<text id="Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_" data-name="Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          " transform="translate(1125 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-1124.604" y="0" xml:space="preserve">DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          </tspan></text>
+					</svg>
+					<svg width="2250" height="28" viewBox="0 0 2250 28">
+						<text id="Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_" data-name="Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          " transform="translate(1125 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-1124.604" y="0" xml:space="preserve">DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          </tspan></text>
+					</svg>
+					<svg width="2250" height="28" viewBox="0 0 2250 28">
+						<text id="Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_" data-name="Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          " transform="translate(1125 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-1124.604" y="0" xml:space="preserve">DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          </tspan></text>
+					</svg>
+					<!-- repeated images below to keep up with animation -->
+					<svg width="2250" height="28" viewBox="0 0 2250 28">
+						<text id="Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_" data-name="Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          " transform="translate(1125 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-1124.604" y="0" xml:space="preserve">DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          </tspan></text>
+					</svg>
+					<svg width="2250" height="28" viewBox="0 0 2250 28">
+						<text id="Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_" data-name="Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          " transform="translate(1125 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-1124.604" y="0" xml:space="preserve">DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          </tspan></text>
+					</svg>
+					<svg width="2250" height="28" viewBox="0 0 2250 28">
+						<text id="Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_" data-name="Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          " transform="translate(1125 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-1124.604" y="0" xml:space="preserve">DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          </tspan></text>
+					</svg>
+				</div>
+			</div>
+
+			<!-- Kontakt Ticker Tape -->
 
 		<!-- Latest Events -->
 
