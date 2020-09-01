@@ -162,6 +162,12 @@ get_header();
 				$alt = $map['alt'];
 				$caption = $map['caption'];
 
+				// Thumbnail size attributes.
+				$size = 'thumbnail';
+				$thumb = $image['sizes'][ $size ];
+				$width = $image['sizes'][ $size . '-width' ];
+				$height = $image['sizes'][ $size . '-height' ];
+
 				// Begin caption wrap.
 				if( $caption ): ?>
 					<div class="wp-caption">
