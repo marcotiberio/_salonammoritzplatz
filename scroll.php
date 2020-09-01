@@ -198,9 +198,7 @@ get_header();
 
 	</main><!-- #main -->
 
-	<script>
-		$( "#site-navigation" ).scrollTop( 300 );
-	</script>
+	
 
 <?php
 get_sidebar();
