@@ -199,18 +199,7 @@ get_header();
 	</main><!-- #main -->
 
 	<script>
-		window.onscroll = function (e) {
-			var vertical_position = 0;
-			if (pageYOffset)//usual
-				vertical_position = pageYOffset;
-			else if (document.documentElement.clientHeight)//ie
-				vertical_position = document.documentElement.scrollTop;
-			else if (document.body)//ie quirks
-				vertical_position = document.body.scrollTop;
-
-			var your_div = document.getElementById('site-navigation');
-			your_div.style.top = (vertical_position + 20) + 'px';//20 is arbitrary.. just to show you could now position it how you want
-		}
+		$( "#site-navigation" ).scrollTop( 300 );
 	</script>
 
 <?php
