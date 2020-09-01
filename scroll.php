@@ -22,37 +22,17 @@ get_header();
 
 		<!-- Latest Events -->
 
-		<?php 
-			$args = array(
-				'post_type' => 'post',
-				'post_status' => 'publish',
-				'posts_per_page' => 3,
-			);
-			$arr_posts = new WP_Query( $args );
-			 
-			if ( $arr_posts->have_posts() ) :
-			 
-				while ( $arr_posts->have_posts() ) :
-					$arr_posts->the_post();
-					?>
-					<div class="latestpost--custom" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-						<div class="event-cover">
-                            <?php
-                            if ( has_post_thumbnail() ) :
-                                the_post_thumbnail( 'full' );
-                            endif;
-                            ?>
-						</div>
-						<div class="event-title">
-                            <?php the_field('details'); ?>
-                        </div>
-                        <div class="event-intro">
-                            <?php the_field('description'); ?>
-                        </div>
-					</article>
-					<?php
-				endwhile;
-			endif; ?>
+		<div class="latest-events">
+			<?php
+			while ( have_posts() ) :
+				the_post();
+
+				get_template_part( 'template-parts/content', 'page' );
+
+			endwhile; // End of the loop.
+			?>
+
+		</div>
 
 			<!-- Latest Events -->
 
