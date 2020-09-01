@@ -152,11 +152,14 @@ get_header();
 			<!-- Map -->
 
 			<div class="map-home">
-			<?php 
-			$map = get_field('map');
-			if( !empty( $map ) ): ?>
-				<img src="<?php echo esc_url($map['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-			<?php endif; ?>
+				<?php 
+				$map = get_field('map');
+				$caption = $map['caption'];
+				if( !empty( $map ) ): ?>
+					<img src="<?php echo esc_url($map['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+					<p><?php echo esc_html($caption); ?></p>
+				<?php endif; ?>
+
 			</div>
 
 			<!-- Map -->
