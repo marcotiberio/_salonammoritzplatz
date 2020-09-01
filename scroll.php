@@ -209,7 +209,7 @@ get_header();
 				vertical_position = document.body.scrollTop;
 
 			var your_div = document.getElementById('site-navigation');
-			your_div.top = (vertical_position + 20) + 'px';//20 is arbitrary.. just to show you could now position it how you want
+			your_div.style.top = (vertical_position + 20) + 'px';//20 is arbitrary.. just to show you could now position it how you want
 		}
 	</script>
 
