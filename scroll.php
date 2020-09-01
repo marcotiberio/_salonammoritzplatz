@@ -70,10 +70,7 @@ get_header();
 			<!-- Intro Text -->
 
 			<div class="intro-text">
-				<h1>
-					In einer Stadt, in der Raum und Zeit immer knapper wird, wollen wir Freiräume erhalten und schaffen, in denen 
-					Menschen in Kontakt kommen können, um Ihre Begeisterung, Ihr Wissen und Ihre Begabungen mit anderen zu teilen.
-				</h1>
+				<h1><?php the_field('intro_text'); ?></h1>
 			</div>
 
 			<!-- Intro Text -->
@@ -155,7 +152,11 @@ get_header();
 			<!-- Map -->
 
 			<div class="map-home">
-				<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/map-e1598525867988.png" alt="">
+				<?php 
+				$map = get_field('map');
+				if( !empty( $map ) ): ?>
+					<img src="<?php echo esc_url($map['url']); ?>" alt="<?php echo esc_attr($map['alt']); ?>" />
+				<?php endif; ?>
 			</div>
 
 			<!-- Map -->
