@@ -7,7 +7,7 @@
  * @package salonammoritzplatz
  */
 
-get_header('home');
+get_header();
 ?>
 
 	<main id="primary" class="site-main">
