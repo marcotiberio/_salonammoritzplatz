@@ -1,9 +1,9 @@
 $(document).ready(function () {
     $(window).scroll(function () {
         if ($(this).scrollTop() > 0) {
-            $('#stickyTickertape').fadeIn();
+            $('.stickyTickertape').fadeIn();
         } else {
-            $('#stickyTickertape').fadeOut('100');
+            $('.stickyTickertape').fadeOut('100');
         }
     });
 });
