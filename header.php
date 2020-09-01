@@ -151,12 +151,12 @@
 	</header><!-- #masthead -->
 
 	<section id="menuOverlay">
-		<div class="menuOverlay--inside">
+		<main class="menuOverlay--inside">
 			<?php
 			wp_nav_menu( array(
 				'theme_location' => 'mobile-menu',
 				'menu_id'        => 'mobile-menu',
 			) );
 			?>
-		</div>
+		</main>
 	</section>
