@@ -60,6 +60,9 @@ $form = get_field('form') ?: 'Booking Contact Form';
   <!-- Booking Modal - Content -->
   <div class="modal-content">
     <span class="close">&times;</span>
+    <p><?php echo $type; ?></p>
+    <h2><?php echo $title; ?></h2>
+    <p><?php echo $when; ?></p>
     <p><?php echo $form; ?></p>
   </div>
 
