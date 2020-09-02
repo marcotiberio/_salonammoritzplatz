@@ -44,7 +44,7 @@ $referrer = get_field('referrer') ?: 'Link of the event';
         <div class="left">
             <p><?php echo $when; ?></p>
             <p><?php echo $price; ?></p>
-            <p id="booking"><?php echo $booking; ?></p>
+            <p class="booking"><?php echo $booking; ?></p>
             <p><?php echo $referrer; ?></p>
         </div>
         <div class="right">
