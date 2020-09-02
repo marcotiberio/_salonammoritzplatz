@@ -85,13 +85,13 @@ get_header();
 			<?php if( have_rows('testimonials') ): ?>
 				<ul class="testimonials">
 				<?php while( have_rows('testimonials') ): the_row(); 
-					$testimonial_image = get_field('image') ?: 295;
-					$date = get_field('date');
-					$title = get_field('title');
+					$testimonial_image = get_sub_field('image');
+					$date = get_sub_field('date');
+					$title = get_sub_field('title');
 					?>
 					<div class="testimonial-cover">
 						<?php 
-							$testimonial_image = get_field('image');
+							$testimonial_image = get_sub_field('image');
 							if( !empty( $testimonial_image ) ): ?>
 								<?php echo wp_get_attachment_image( $testimonial_image['id'], 'full' ); ?>
 						<?php endif; ?>
