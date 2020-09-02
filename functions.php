@@ -204,6 +204,17 @@ function my_register_blocks() {
             'category'          => 'formatting',
             'icon'              => 'dashicons-format-image',
             'keywords'          => array( 'tickersmall', 'quote' ),
+		));
+		
+		// register a small ticker block.
+        acf_register_block_type(array(
+            'name'              => 'testimonial',
+            'title'             => __('Testimonial'),
+            'description'       => __('What they say about us'),
+            'render_template'   => 'template-parts/blocks/testimonial/testimonial.php',
+            'category'          => 'formatting',
+            'icon'              => 'dashicons-format-status',
+            'keywords'          => array( 'testimonial', 'quote' ),
         ));
     }
 }
