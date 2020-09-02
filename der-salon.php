@@ -152,45 +152,17 @@ get_header();
 
 		<div class="slider">
 
-			<?php
-			if( have_rows('carousel') ):
-				$i = 1; // Set the increment variable
-				
-				echo '<div id="carouselExampleSlidesNav2" class="carousel slide" data-ride="carousel">
-						<div class="carousel-inner">';
-				
-				// loop through the rows of data for the tab header
-				while ( have_rows('carousel') ) : the_row();
-					
-					$image = get_sub_field('carousel_image');
-
-				?>
-				
-				<div class="carousel-item <?php if($i == 1) echo 'active';?>">
-				<img class="d-block w-100" src="<?php echo $image['url']; ?>" alt="<?php echo $image['title']; ?>">
-				</div>
-				
-							
-				<?php   $i++; // Increment the increment variable
-
-				endwhile; //End the loop 
-				
-				echo '</div>
-						<a class="carousel-control-prev" href="#carouselExampleSlidesNav2" role="button" data-slide="prev">
-							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-							<span class="sr-only">Previous</span>
-						</a>
-						<a class="carousel-control-next" href="#carouselExampleSlidesNav2" role="button" data-slide="next">
-							<span class="carousel-control-next-icon" aria-hidden="true"></span>
-							<span class="sr-only">Next</span>
-						</a>
-					</div>';
-
-			else :
-
-				// no rows found
-
-			endif; ?>
+			<?php if( have_rows('carousel') ): ?>
+				<?php while( have_rows('carousel') ): the_row(); 
+					$carousel_image = get_sub_field('carousel_image');
+					?>
+					<ul class="slides">
+						<li>
+							<?php echo wp_get_attachment_image( $carousel_image['id'], 'full' ); ?>
+						</li>
+					</ul>
+				<?php endwhile; ?>
+			<?php endif; ?>
 
 		</div>
 
