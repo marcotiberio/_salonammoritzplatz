@@ -150,21 +150,25 @@ get_header();
 			</div>
 		</div>
 
-		<div class="slider">
-
-			<?php if( have_rows('carousel') ): ?>
-				<?php while( have_rows('carousel') ): the_row(); 
-					$carousel_image = get_sub_field('carousel_image');
-					?>
-					<ul class="slides">
-						<li>
-							<?php echo wp_get_attachment_image( $carousel_image['id'], 'full' ); ?>
-						</li>
-					</ul>
-				<?php endwhile; ?>
-			<?php endif; ?>
-
-		</div>
+		<section class="dev-slider-wrppr">
+			<div class="dev-slider-row">
+				<div class="slider-for">
+				<?php if( have_rows('slider_content') ): ?>
+					<?php while( have_rows('slider_content') ): the_row(); ?>
+					<?php
+						$slideimage = get_sub_field('slider_image');
+						$slidetitle = get_sub_field('slider_title');
+						$slidebdycpy = get_sub_field('slider_body_copy');
+						?>
+						<div class="slick-container">
+						<h4 class="info-title text-center"><?php echo $slidetitle; ?></h4>
+						<p class="description"><?php echo $slidebdycpy; ?></p>
+						<img src="<?php echo $slideimage['url']; ?>" alt="<?php echo $slideimage['alt']; ?>" />
+						</div>
+					<?php endwhile; ?>
+				<?php endif; ?>
+			</div>
+		</section>
 
 		<div class="ticker-tape-small">
 			<div class="inside">
