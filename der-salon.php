@@ -117,6 +117,90 @@ get_header();
 
 		</div>
 
+		<div class="ticker-tape-small">
+			<div class="inside">
+				<svg class="first" width="1950" height="28" viewBox="0 0 1950 28">
+					<text id="Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte" data-name="Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte" transform="translate(975 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-974.517" y="0" xml:space="preserve">DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE</tspan></text>
+				</svg>
+				<svg width="1950" height="28" viewBox="0 0 1950 28">
+					<text id="Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte" data-name="Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte" transform="translate(975 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-974.517" y="0" xml:space="preserve">DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE</tspan></text>
+				</svg>
+				<svg width="1950" height="28" viewBox="0 0 1950 28">
+					<text id="Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte" data-name="Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte" transform="translate(975 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-974.517" y="0" xml:space="preserve">DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE</tspan></text>
+				</svg>
+				<svg width="1950" height="28" viewBox="0 0 1950 28">
+					<text id="Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte" data-name="Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte" transform="translate(975 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-974.517" y="0" xml:space="preserve">DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE</tspan></text>
+				</svg>
+				<svg width="1950" height="28" viewBox="0 0 1950 28">
+					<text id="Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte" data-name="Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte" transform="translate(975 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-974.517" y="0" xml:space="preserve">DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE</tspan></text>
+				</svg>
+				<svg width="1950" height="28" viewBox="0 0 1950 28">
+					<text id="Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte" data-name="Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte" transform="translate(975 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-974.517" y="0" xml:space="preserve">DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE</tspan></text>
+				</svg>
+				<!-- repeated images below to keep up with animation -->
+				<svg width="1950" height="28" viewBox="0 0 1950 28">
+					<text id="Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte" data-name="Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte" transform="translate(975 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-974.517" y="0" xml:space="preserve">DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE</tspan></text>
+				</svg>
+				<svg width="1950" height="28" viewBox="0 0 1950 28">
+					<text id="Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte" data-name="Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte" transform="translate(975 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-974.517" y="0" xml:space="preserve">DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE</tspan></text>
+				</svg>
+				<svg width="1950" height="28" viewBox="0 0 1950 28">
+					<text id="Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte_Die_Geschichte" data-name="Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte         Die Geschichte" transform="translate(975 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-974.517" y="0" xml:space="preserve">DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE         DIE GESCHICHTE</tspan></text>
+				</svg>
+			</div>
+		</div>
+
+		<div class="ticker-tape-small">
+			<div class="inside">
+				<svg class="first" width="2078" height="28" viewBox="0 0 2078 28">
+					<text id="Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_" data-name="Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         " transform="translate(1039 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-1038.916" y="0" xml:space="preserve">UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         </tspan></text>
+				</svg>
+				<svg width="2078" height="28" viewBox="0 0 2078 28">
+					<text id="Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_" data-name="Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         " transform="translate(1039 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-1038.916" y="0" xml:space="preserve">UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         </tspan></text>
+				</svg>
+				<svg width="2078" height="28" viewBox="0 0 2078 28">
+					<text id="Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_" data-name="Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         " transform="translate(1039 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-1038.916" y="0" xml:space="preserve">UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         </tspan></text>
+				</svg>
+				<svg width="2078" height="28" viewBox="0 0 2078 28">
+					<text id="Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_" data-name="Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         " transform="translate(1039 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-1038.916" y="0" xml:space="preserve">UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         </tspan></text>
+				</svg>
+				<svg width="2078" height="28" viewBox="0 0 2078 28">
+					<text id="Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_" data-name="Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         " transform="translate(1039 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-1038.916" y="0" xml:space="preserve">UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         </tspan></text>
+				</svg>
+				<svg width="2078" height="28" viewBox="0 0 2078 28">
+					<text id="Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_" data-name="Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         " transform="translate(1039 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-1038.916" y="0" xml:space="preserve">UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         </tspan></text>
+				</svg>
+				<!-- repeated images below to keep up with animation -->
+				<svg width="2078" height="28" viewBox="0 0 2078 28">
+					<text id="Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_" data-name="Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         " transform="translate(1039 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-1038.916" y="0" xml:space="preserve">UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         </tspan></text>
+				</svg>
+				<svg width="2078" height="28" viewBox="0 0 2078 28">
+					<text id="Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_" data-name="Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         " transform="translate(1039 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-1038.916" y="0" xml:space="preserve">UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         </tspan></text>
+				</svg>
+				<svg width="2078" height="28" viewBox="0 0 2078 28">
+					<text id="Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_Unser_Team_" data-name="Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         Unser Team         " transform="translate(1039 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-1038.916" y="0" xml:space="preserve">UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         UNSER TEAM         </tspan></text>
+				</svg>
+			</div>
+		</div>
+
+		<div class="team">
+
+				<?php if( have_rows('team') ): ?>
+						<?php while( have_rows('team') ): the_row(); 
+							$role = get_sub_field('role');
+							$name = get_sub_field('name');
+							$bio = get_sub_field('bio');
+							?>
+							<div class="team-repeater">
+								<p class="role"><?php the_sub_field('role'); ?></p>
+								<h2 class="name"><?php the_sub_field('name'); ?></h2>
+								<?php the_sub_field('bio'); ?>
+							</div>
+						<?php endwhile; ?>
+				<?php endif; ?>
+
+		</div>
+
 	</main><!-- #main -->
 
 <?php
