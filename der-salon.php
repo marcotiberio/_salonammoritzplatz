@@ -150,6 +150,22 @@ get_header();
 			</div>
 		</div>
 
+		<div class="slider">
+
+			<?php if( have_rows('slides') ): ?>
+				<ul class="slides">
+				<?php while( have_rows('slides') ): the_row(); 
+					$image = get_sub_field('image');
+					?>
+					<li>
+						<?php echo wp_get_attachment_image( $image, 'full' ); ?>
+					</li>
+				<?php endwhile; ?>
+				</ul>
+			<?php endif; ?>
+
+		</div>
+
 		<div class="ticker-tape-small">
 			<div class="inside">
 				<svg class="first" width="2078" height="28" viewBox="0 0 2078 28">
