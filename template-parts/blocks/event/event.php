@@ -44,7 +44,7 @@ $referrer = get_field('referrer') ?: 'Link of the event';
         <div class="left">
             <p><?php echo $when; ?></p>
             <p><?php echo $price; ?></p>
-            <p class="booking"><?php echo $booking; ?></p>
+            <p id="booking"><?php echo $booking; ?></p>
             <p><?php echo $referrer; ?></p>
         </div>
         <div class="right">
@@ -69,7 +69,7 @@ $referrer = get_field('referrer') ?: 'Link of the event';
 var modal = document.getElementById("bookingModal");
 
 // Get the button that opens the modal
-var btn = document.getElementByClassName("booking")[0];
+var btn = document.getElementById("booking");
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
