@@ -69,7 +69,7 @@ $referrer = get_field('referrer') ?: 'Link of the event';
 var modal = document.getElementById("bookingModal");
 
 // Get the button that opens the modal
-var btn = document.getElementByClassName("booking");
+var btn = document.getElementByClassName("booking")[0];
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
