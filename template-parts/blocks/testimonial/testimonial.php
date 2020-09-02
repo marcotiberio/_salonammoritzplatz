@@ -43,17 +43,3 @@ $title = get_field('title') ?: 'Testimonial title';
         <h2><?php echo $title; ?></h2>
     </div>
 </div>
-
-<!-- Booking Modal -->
-<div id="bookingModal" class="modal">
-
-  <!-- Booking Modal - Content -->
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <p><?php echo $type; ?></p>
-    <h2><?php echo $title; ?></h2>
-    <p><?php echo $when; ?></p>
-    <div class="form"><?php echo $form; ?></div>
-  </div>
-
-</div>
