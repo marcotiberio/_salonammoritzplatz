@@ -25,14 +25,18 @@ if( !empty($block['align']) ) {
 }
 
 // Load values and assign defaults.
-$image = get_field('image') ?: 295;
+$testimonial_image = get_field('image') ?: 295;
 $date = get_field('date') ?: 'Testimonial date';
 $title = get_field('title') ?: 'Testimonial title';
 
 ?>
 <div id="<?php echo esc_attr($id); ?>" class="<?php echo esc_attr($className); ?>">
     <div class="testimonial-cover">
-        <?php echo wp_get_attachment_image( $image, 'full' ); ?>
+        <?php 
+            $testimonial_image = get_field('image');
+            if( !empty( $testimonial_image ) ): ?>
+                <?php echo wp_get_attachment_image( $testimonial_image['id'], 'full' ); ?>
+        <?php endif; ?>
     </div>
     <div class="testimonial-info">
         <p><?php echo $date; ?></p>
