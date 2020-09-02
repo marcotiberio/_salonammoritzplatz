@@ -28,11 +28,11 @@ if( !empty($block['align']) ) {
 $title = get_field('title') ?: 'Event title';
 $type = get_field('type') ?: 'Event type';
 $description = get_field('description') ?: 'Event Description';
-$details = get_field('details') ?: 'Event Details';
-// $when = get_field('when') ?: 'Date and time';
-// $price = get_field('price') ?: 'Event Price';
-// $booking = get_field('booking') ?: 'Where to book';
-// $referrer = get_field('referrer') ?: 'Link of the event';
+// $details = get_field('details') ?: 'Event Details';
+$when = get_field('when') ?: 'Date and time';
+$price = get_field('price') ?: 'Event Price';
+$booking = get_field('booking') ?: 'Where to book';
+$referrer = get_field('referrer') ?: 'Link of the event';
 
 ?>
 <div id="<?php echo esc_attr($id); ?>" class="<?php echo esc_attr($className); ?>">
@@ -42,8 +42,13 @@ $details = get_field('details') ?: 'Event Details';
     </div>
     <div class="event-info">
         <div class="left">
+            <?php echo $when; ?>
+            <?php echo $price; ?>
+            <?php echo $booking; ?>
+            <?php echo $referrer; ?>
+        </div>
+        <div class="right">
             <div class="details"><?php echo $details; ?></div>
         </div>
-        <div class="right"><?php echo $description; ?></div>
     </div>
 </div>
