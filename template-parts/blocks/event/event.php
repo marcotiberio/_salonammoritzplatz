@@ -48,7 +48,7 @@ $referrer = get_field('referrer') ?: 'Link of the event';
             <p><?php echo $referrer; ?></p>
         </div>
         <div class="right">
-            <div class="details"><?php echo $details; ?></div>
+            <div class="details"><?php echo $description; ?></div>
         </div>
     </div>
 </div>
