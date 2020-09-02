@@ -185,19 +185,19 @@ get_header();
 
 		<div class="team">
 
-				<?php if( have_rows('team') ): ?>
-						<?php while( have_rows('team') ): the_row(); 
-							$role = get_sub_field('role');
-							$name = get_sub_field('name');
-							$bio = get_sub_field('bio');
-							?>
-							<div class="team-repeater">
-								<p class="role"><?php the_sub_field('role'); ?></p>
-								<h2 class="name"><?php the_sub_field('name'); ?></h2>
-								<?php the_sub_field('bio'); ?>
-							</div>
-						<?php endwhile; ?>
-				<?php endif; ?>
+			<?php if( have_rows('team') ): ?>
+					<?php while( have_rows('team') ): the_row(); 
+						$role = get_sub_field('role');
+						$name = get_sub_field('name');
+						$bio = get_sub_field('bio');
+						?>
+						<div class="team-repeater">
+							<p class="role"><?php the_sub_field('role'); ?></p>
+							<h2 class="name"><?php the_sub_field('name'); ?></h2>
+							<?php the_sub_field('bio'); ?>
+						</div>
+					<?php endwhile; ?>
+			<?php endif; ?>
 
 		</div>
 
