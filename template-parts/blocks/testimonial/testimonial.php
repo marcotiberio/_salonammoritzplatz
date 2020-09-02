@@ -32,11 +32,7 @@ $title = get_field('title') ?: 'Testimonial title';
 ?>
 <div id="<?php echo esc_attr($id); ?>" class="<?php echo esc_attr($className); ?>">
     <div class="testimonial-cover">
-        <?php 
-        $image = get_field('image');
-        if( !empty( $ticker_image ) ): ?>
-            <?php echo wp_get_attachment_image( $image['id'], 'full' ); ?>
-        <?php endif; ?>
+            <?php echo wp_get_attachment_image( $image, 'full' ); ?>
     </div>
     <div class="testimonial-info">
         <p><?php echo $date; ?></p>
