@@ -63,7 +63,7 @@ $form = get_field('form') ?: 'Booking Contact Form';
     <p><?php echo $type; ?></p>
     <h2><?php echo $title; ?></h2>
     <p><?php echo $when; ?></p>
-    <p><?php echo $form; ?></p>
+    <div class="form"><?php echo $form; ?></div>
   </div>
 
 </div>
