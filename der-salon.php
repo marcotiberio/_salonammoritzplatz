@@ -82,38 +82,39 @@ get_header();
 		</div>
 
 		<div class="testimonials">
-			<?php if( have_rows('testimonials') ): ?>
-				<ul class="testimonials">
-				<?php while( have_rows('testimonials') ): the_row(); 
-					$testimonial_image = get_sub_field('image');
-					$date = get_sub_field('date');
-					$title = get_sub_field('title');
-					?>
-					<div class="testimonial-cover">
-						<?php 
-							$testimonial_image = get_sub_field('image');
-							if( !empty( $testimonial_image ) ): ?>
-								<?php echo wp_get_attachment_image( $testimonial_image['id'], 'full' ); ?>
-						<?php endif; ?>
-					</div>
-					<div class="testimonial-info">
-						<p><?php the_sub_field('date'); ?></p>
-						<h2>
-						<?php 
-							$link = get_sub_field('title');
-							if( $link ): 
-								$link_url = $link['url'];
-								$link_title = $link['title'];
-								$link_target = $link['target'] ? $link['target'] : '_self';
-								?>
-								<a class="button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
-							<?php endif; ?>
-						</h2>
-					</div>
 
-				<?php endwhile; ?>
-				</ul>
-			<?php endif; ?>
+			<div class="testimonials-repeater">
+				<?php if( have_rows('testimonials') ): ?>
+					<?php while( have_rows('testimonials') ): the_row(); 
+						$testimonial_image = get_sub_field('image');
+						$date = get_sub_field('date');
+						$title = get_sub_field('title');
+						?>
+						<div class="testimonial-cover">
+							<?php 
+								$testimonial_image = get_sub_field('image');
+								if( !empty( $testimonial_image ) ): ?>
+									<?php echo wp_get_attachment_image( $testimonial_image['id'], 'full' ); ?>
+							<?php endif; ?>
+						</div>
+						<div class="testimonial-info">
+							<p><?php the_sub_field('date'); ?></p>
+							<h2>
+							<?php 
+								$link = get_sub_field('title');
+								if( $link ): 
+									$link_url = $link['url'];
+									$link_title = $link['title'];
+									$link_target = $link['target'] ? $link['target'] : '_self';
+									?>
+									<a class="button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
+								<?php endif; ?>
+							</h2>
+						</div>
+					<?php endwhile; ?>
+				<?php endif; ?>
+			</div>
+
 		</div>
 
 	</main><!-- #main -->
