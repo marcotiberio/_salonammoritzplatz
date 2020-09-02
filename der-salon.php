@@ -224,18 +224,19 @@ get_header();
 	</main><!-- #main -->
 
 <script>
-jQuery(document).ready(function($){
-$('.slider-for').slick({
-   slidesToShow: 1,
-   slidesToScroll: 1,
-   dots: true,
-   arrows: false,
-   asNavFor: '.slider-for',
-   focusOnSelect: true,
-   fade: true,
-   autoplay: false
-   });
-});</script>
+$(document).ready(function () {
+	$('.slider-for').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		dots: true,
+		arrows: false,
+		asNavFor: '.slider-for',
+		focusOnSelect: true,
+		fade: true,
+		autoplay: false
+	});
+});
+</script>
 
 <?php
 get_sidebar();
