@@ -153,15 +153,15 @@ get_header();
 		<div class="slider">
 
 			<?php if( have_rows('slides') ): ?>
-				<ul class="slides">
 				<?php while( have_rows('slides') ): the_row(); 
 					$image = get_sub_field('image');
 					?>
-					<li>
-						<?php echo wp_get_attachment_image( $image, 'full' ); ?>
-					</li>
+					<ul class="slides">
+						<li>
+							<?php echo wp_get_attachment_image( $image['id'], 'full' ); ?>
+						</li>
+					</ul>
 				<?php endwhile; ?>
-				</ul>
 			<?php endif; ?>
 
 		</div>
