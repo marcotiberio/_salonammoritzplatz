@@ -158,7 +158,7 @@ get_header();
 
 			//slider_portfolio = Gallery Field
 
-			$images = get_field('slider_portfolio');
+			$images = get_field('carousel');
 
 			if( $images ): ?>
 			<div class="slider-for">
