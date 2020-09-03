@@ -33,8 +33,8 @@
                             ?>
 						</div>
 						<div class="event-header">
-							<p><?php echo $type; ?></p>
-							<h2><?php echo $title; ?></h2>
+							<p><?php get_field ('type'); ?></p>
+							<h2><?php get_field ('title'); ?></h2>
 						</div>
 						<div class="event-info">
 							<div class="left">
