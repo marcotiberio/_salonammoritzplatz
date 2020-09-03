@@ -191,7 +191,10 @@ function my_register_blocks() {
             'render_template'   => 'template-parts/blocks/event/event.php',
             'category'          => 'formatting',
             'icon'              => 'dashicons-align-left',
-            'keywords'          => array( 'event', 'quote' ),
+			'keywords'          => array( 'event', 'quote' ),
+			'enqueue_assets' 	=> function(){
+				wp_enqueue_style( 'event-slider', get_template_directory_uri() . '/template-parts/blocks/event/event.css', array(), '1.0.0' );
+			  },
 		));
 		
 		// register a small ticker block.
@@ -205,7 +208,7 @@ function my_register_blocks() {
             'keywords'          => array( 'tickersmall', 'quote' ),
 		));
 		
-		// register a small ticker block.
+		// register a testimonial block.
         acf_register_block_type(array(
             'name'              => 'testimonial',
             'title'             => __('Testimonial'),
@@ -213,7 +216,10 @@ function my_register_blocks() {
             'render_template'   => 'template-parts/blocks/testimonial/testimonial.php',
             'category'          => 'formatting',
             'icon'              => 'dashicons-format-status',
-            'keywords'          => array( 'testimonial', 'quote' ),
+			'keywords'          => array( 'testimonial', 'quote' ),
+			'enqueue_assets' 	=> function(){
+				wp_enqueue_style( 'testimonial-slider', get_template_directory_uri() . '/template-parts/blocks/testimonial/testimonial.css', array(), '1.0.0' );
+			  },
         ));
     }
 }
