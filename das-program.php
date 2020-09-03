@@ -35,14 +35,7 @@
 						</div>
 						<div class="event-header">
 							<p><?php the_field('type'); ?></p>
-							<h2>
-								<?php 
-								if( $related_pages = get_field( 'data' ) ):
-									foreach( $related_pages as $page ):
-										the_field( 'title', $page->ID );
-									endforeach;
-								endif; ?>
-							</h2>
+							<h2><?php the_field('title'); ?></h2>
 							<p><?php the_field('when'); ?></p>
 							<p><?php the_field('price'); ?></p>
 							<p id="booking"><?php the_field('booking_system'); ?></p>
