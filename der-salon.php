@@ -229,7 +229,7 @@ get_header();
 
 
 	<script>
-	jQuery(document).ready(function($){
+	$(document).ready(function($){
 		$('.slider-for').slick({
 		slidesToShow: 1,
 		slidesToScroll: 1,
