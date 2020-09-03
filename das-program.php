@@ -32,12 +32,21 @@
                             endif;
                             ?>
 						</div>
-						<div class="event-title">
-                            <?php the_field('details'); ?>
-                        </div>
-                        <div class="event-intro">
-                            <?php the_field('description'); ?>
-                        </div>
+						<div class="event-header">
+							<p><?php echo $type; ?></p>
+							<h2><?php echo $title; ?></h2>
+						</div>
+						<div class="event-info">
+							<div class="left">
+								<p><?php echo $when; ?></p>
+								<p><?php echo $price; ?></p>
+								<p id="booking"><?php echo $booking; ?></p>
+								<p><?php echo $referrer; ?></p>
+							</div>
+							<div class="right">
+								<div class="details"><?php echo $description; ?></div>
+							</div>
+						</div>
 					</article>
 					<?php
 				endwhile;
