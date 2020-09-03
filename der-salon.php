@@ -152,35 +152,6 @@ get_header();
 
 		<!--Slider-->
 
-		<?php  //add me in
-
-			//Fields
-
-			//slider_portfolio = Gallery Field
-
-			$images = get_field('carousel');
-
-			if( $images ): ?>
-			<div class="slider-for">
-					
-						<?php foreach( $images as $image ): ?>
-							<div class="slick-container">
-								<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
-								
-							</div>
-						<?php endforeach; ?>
-				</div>
-			<div class="slider-nav">
-					
-						<?php foreach( $images as $image ): ?>
-							<div>
-								<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
-								
-							</div>
-						<?php endforeach; ?>
-				</div>
-			<?php endif; ?>
-
 		<div class="ticker-tape-small">
 			<div class="inside">
 				<svg class="first" width="2078" height="28" viewBox="0 0 2078 28">
