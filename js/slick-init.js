@@ -1,8 +1,19 @@
 jQuery(document).ready(function($){
-	$('.team-items').slick({ //add in your correct containing element
-	  slidesToShow: 3,
-	  slidesToScroll: 1,
-	  autoplay: true,
-	  autoplaySpeed: 2000,
-	});
+	$('.slider-for').slick({
+	 slidesToShow: 1,
+	 slidesToScroll: 1,
+	 arrows: false,
+	 fade: true,
+	 asNavFor: '.slider-nav'
+   });
+   $('.slider-nav').slick({
+	 slidesToShow: 2,
+	 slidesToScroll: 1,
+	 asNavFor: '.slider-for',
+	 dots: true,
+	 centerMode: true,
+	 focusOnSelect: true,
+	 arrows: true,
+	 autoplay: false
+   });
 });
