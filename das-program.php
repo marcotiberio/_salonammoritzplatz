@@ -122,6 +122,39 @@
 		
 
 		</main><!-- #main -->
+
+		<div class="ticker-tape-small">
+			<div class="inside">
+				<svg class="first" width="1956" height="28" viewBox="0 0 1956 28">
+					<text id="Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_" data-name="Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        " transform="translate(978 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-977.676" y="0" xml:space="preserve">ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        </tspan></text>
+				</svg>
+				<svg width="1956" height="28" viewBox="0 0 1956 28">
+					<text id="Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_" data-name="Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        " transform="translate(978 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-977.676" y="0" xml:space="preserve">ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        </tspan></text>
+				</svg>
+				<svg width="1956" height="28" viewBox="0 0 1956 28">
+					<text id="Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_" data-name="Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        " transform="translate(978 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-977.676" y="0" xml:space="preserve">ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        </tspan></text>
+				</svg>
+				<svg width="1956" height="28" viewBox="0 0 1956 28">
+					<text id="Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_" data-name="Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        " transform="translate(978 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-977.676" y="0" xml:space="preserve">ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        </tspan></text>
+				</svg>
+				<svg width="1956" height="28" viewBox="0 0 1956 28">
+					<text id="Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_" data-name="Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        " transform="translate(978 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-977.676" y="0" xml:space="preserve">ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        </tspan></text>
+				</svg>
+				<svg width="1956" height="28" viewBox="0 0 1956 28">
+					<text id="Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_" data-name="Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        " transform="translate(978 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-977.676" y="0" xml:space="preserve">ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        </tspan></text>
+				</svg>
+				<!-- repeated images below to keep up with animation -->
+				<svg width="1956" height="28" viewBox="0 0 1956 28">
+					<text id="Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_" data-name="Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        " transform="translate(978 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-977.676" y="0" xml:space="preserve">ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        </tspan></text>
+				</svg>
+				<svg width="1956" height="28" viewBox="0 0 1956 28">
+					<text id="Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_" data-name="Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        " transform="translate(978 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-977.676" y="0" xml:space="preserve">ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        </tspan></text>
+				</svg>
+				<svg width="1956" height="28" viewBox="0 0 1956 28">
+					<text id="Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_" data-name="Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        " transform="translate(978 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-977.676" y="0" xml:space="preserve">ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        </tspan></text>
+				</svg>
+			</div>
+		</div>
 	</div><!-- #primary -->
 
 <?php
