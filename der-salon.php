@@ -152,6 +152,28 @@ get_header();
 
 		<!--Slider-->
 
+		<section class="dev-slider-wrppr">
+			<div class="dev-slider-row">
+				<div class="slider-for">
+				<?php if( have_rows('slider_content') ): ?>
+					<?php while( have_rows('slider_content') ): the_row(); ?>
+					<?php
+						$slideimage = get_sub_field('slider_image');
+						$slidetitle = get_sub_field('slider_title');
+						$slidebdycpy = get_sub_field('slider_body_copy');
+						?>
+						<div class="slick-container">
+						<h4 class="info-title text-center"><?php echo $slidetitle; ?></h4>
+						<p class="description"><?php echo $slidebdycpy; ?></p>
+						<img src="<?php echo $slideimage['url']; ?>" alt="<?php echo $slideimage['alt']; ?>" />
+						</div>
+					<?php endwhile; ?>
+				<?php endif; ?>
+			</div>
+		</section>
+
+		<!--Slider-->
+
 		<div class="ticker-tape-small">
 			<div class="inside">
 				<svg class="first" width="2078" height="28" viewBox="0 0 2078 28">
@@ -204,6 +226,22 @@ get_header();
 		</div>
 
 	</main><!-- #main -->
+
+
+	<script>
+	jQuery(document).ready(function($){
+		$('.slider-for').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		dots: true,
+		arrows: false,
+		asNavFor: '.slider-for',
+		focusOnSelect: true,
+		fade: true,
+		autoplay: false
+		});
+	});
+</script>
 
 <?php
 get_sidebar();
