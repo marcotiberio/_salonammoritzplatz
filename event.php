@@ -59,7 +59,7 @@ get_header();
 	</main><!-- #main -->
 
 	<!-- Booking Modal -->
-	<div id="bookingModal" class="modal">
+	<div id="bookingModal-<?php the_ID(); ?>" class="modal">
 
 		<!-- Booking Modal - Content -->
 		<div class="modal-content">
