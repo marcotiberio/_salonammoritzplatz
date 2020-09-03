@@ -31,10 +31,10 @@ get_header();
 <!-- Booking Modal - Content -->
 <div class="modal-content">
   <span class="close">&times;</span>
-  <p><?php echo $type; ?></p>
-  <h2><?php echo $title; ?></h2>
-  <p><?php echo $when; ?></p>
-  <div class="form"><?php echo $form; ?></div>
+  <p><?php the_field('type'); ?></p>
+  <h2><?php the_field('title'); ?></h2>
+  <p><?php the_field('when'); ?></p>
+  <div class="form"><?php the_field('form'); ?></div>
 </div>
 
 </div>
