@@ -150,25 +150,34 @@ get_header();
 			</div>
 		</div>
 
-		<section class="dev-slider-wrppr">
-			<div class="dev-slider-row">
-				<div class="slider-for">
-				<?php if( have_rows('slider_content') ): ?>
-					<?php while( have_rows('slider_content') ): the_row(); ?>
-					<?php
-						$slideimage = get_sub_field('slider_image');
-						$slidetitle = get_sub_field('slider_title');
-						$slidebdycpy = get_sub_field('slider_body_copy');
-						?>
-						<div class="slick-container">
-						<h4 class="info-title text-center"><?php echo $slidetitle; ?></h4>
-						<p class="description"><?php echo $slidebdycpy; ?></p>
-						<img src="<?php echo $slideimage['url']; ?>" alt="<?php echo $slideimage['alt']; ?>" />
-						</div>
-					<?php endwhile; ?>
-				<?php endif; ?>
-			</div>
-		</section>
+		<?php  //add me in
+
+			//Fields
+
+			//slider_portfolio = Gallery Field
+
+			$images = get_field('slider_portfolio');
+
+			if( $images ): ?>
+			<div class="slider-for">
+					
+						<?php foreach( $images as $image ): ?>
+							<div class="slick-container">
+								<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+								
+							</div>
+						<?php endforeach; ?>
+				</div>
+			<div class="slider-nav">
+					
+						<?php foreach( $images as $image ): ?>
+							<div>
+								<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+								
+							</div>
+						<?php endforeach; ?>
+				</div>
+			<?php endif; ?>
 
 		<div class="ticker-tape-small">
 			<div class="inside">
