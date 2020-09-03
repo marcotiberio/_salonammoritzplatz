@@ -5,11 +5,11 @@
 .slides img {
     height: 80vh;
     width: auto;
-    padding: 0 1vh;
+    padding: 0 1vh !important;
 }
 
 .slick-dots {
-    display: none;
+    display: none !important;
     bottom: -20px !important;
 }
 
