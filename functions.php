@@ -166,8 +166,8 @@ function my_register_blocks() {
 
         // register a testimonial block.
         acf_register_block_type(array(
-            'name'              => 'sam slider',
-            'title'             => __('SaM Slider'),
+            'name'              => 'slider',
+            'title'             => __('Slider'),
             'description'       => __('A custom slider block.'),
             'render_template'   => 'template-parts/blocks/slider/slider.php',
 			'category'          => 'formatting',
