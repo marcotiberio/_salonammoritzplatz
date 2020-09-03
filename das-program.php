@@ -80,10 +80,10 @@
 					<!-- Booking Modal - Content -->
 					<div class="modal-content">
 						<span class="close">&times;</span>
-						<p><?php the_field('type'); ?></p>
-						<h2><?php the_field('title'); ?></h2>
-						<p><?php the_field('when'); ?></p>
-						<div class="form"><?php the_field('form'); ?></div>
+						<p><?php the_field('type', false); ?></p>
+						<h2><?php the_field('title', false); ?></h2>
+						<p><?php the_field('when', false); ?></p>
+						<div class="form"><?php the_field('form', false); ?></div>
 					</div>
 
 					</div>
