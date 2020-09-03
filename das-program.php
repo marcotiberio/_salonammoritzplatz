@@ -38,13 +38,13 @@
 						</div>
 						<div class="event-info">
 							<div class="left">
-								<p><?php echo $when; ?></p>
-								<p><?php echo $price; ?></p>
-								<p id="booking"><?php echo $booking; ?></p>
-								<p><?php echo $referrer; ?></p>
+								<p><?php get_field ('when'); ?></p>
+								<p><?php get_field ('price'); ?></p>
+								<p id="booking"><?php get_field ('booking'); ?></p>
+								<p><?php get_field ('referrer'); ?></p>
 							</div>
 							<div class="right">
-								<div class="details"><?php echo $description; ?></div>
+								<div class="details"><?php get_field ('description'); ?></div>
 							</div>
 						</div>
 					</article>
