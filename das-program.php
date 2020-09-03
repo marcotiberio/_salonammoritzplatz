@@ -37,23 +37,18 @@
 							<p><?php the_field('type'); ?></p>
 							<h2>
 								<?php 
-									if( $related_pages = get_field( 'data' ) ):
-										foreach( $related_pages as $page ):
-											the_field( 'title', $page->ID );
-										endforeach;
-									endif; ?>
+								if( $related_pages = get_field( 'data' ) ):
+									foreach( $related_pages as $page ):
+										the_field( 'title', $page->ID );
+									endforeach;
+								endif; ?>
 							</h2>
+							<p><?php the_field('when'); ?></p>
+							<p><?php the_field('price'); ?></p>
+							<p id="booking"><?php the_field('booking_system'); ?></p>
 						</div>
 						<div class="event-info">
-							<div class="left">
-								<p><?php the_field('when'); ?></p>
-								<p><?php the_field('price'); ?></p>
-								<p id="booking"><?php the_field('booking'); ?></p>
-								<p><?php the_field('referrer'); ?></p>
-							</div>
-							<div class="right">
-								<div class="details"><?php the_field('description'); ?></div>
-							</div>
+							<div class="details"><?php the_field('description'); ?></div>
 						</div>
 					</article>
 					<?php
