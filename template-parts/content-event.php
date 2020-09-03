@@ -16,18 +16,18 @@
 	<div class="entry-content">
 
 		<div class="event-header">
-			<p><?php echo $type; ?></p>
-			<h2><?php echo $title; ?></h2>
+			<p><?php the_field('type'); ?></p>
+			<h2><?php the_field('title'); ?></h2>
 		</div>
 		<div class="event-info">
 			<div class="left">
-				<p><?php echo $when; ?></p>
-				<p><?php echo $price; ?></p>
-				<p id="booking"><?php echo $booking; ?></p>
-				<p><?php echo $referrer; ?></p>
+				<p><?php the_field('when'); ?></p>
+				<p><?php the_field('price'); ?></p>
+				<p id="booking"><?php the_field('booking'); ?></p>
+				<p><?php the_field('referrer'); ?></p>
 			</div>
 			<div class="right">
-				<div class="details"><?php echo $description; ?></div>
+				<div class="details"><?php the_field('description'); ?></div>
 			</div>
 		</div>
 		
