@@ -6,10 +6,39 @@
 
 	<div id="primary--page-main" class="content-area--page-main">
 		<main id="main--page-main" class="site-main--page-main">
-			
-			<header class="entry-header">
-				<h1 class="entry-title"><?php the_title(); ?></h1>
-			</header>
+
+		<div class="ticker-tape-small">
+			<div class="inside">
+				<svg class="first" width="2054" height="28" viewBox="0 0 2054 28">
+					<text id="Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_" data-name="Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        " transform="translate(1027 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-1026.792" y="0" xml:space="preserve">AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        </tspan></text>
+				</svg>
+				<svg width="2054" height="28" viewBox="0 0 2054 28">
+					<text id="Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_" data-name="Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        " transform="translate(1027 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-1026.792" y="0" xml:space="preserve">AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        </tspan></text>
+				</svg>
+				<svg width="2054" height="28" viewBox="0 0 2054 28">
+					<text id="Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_" data-name="Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        " transform="translate(1027 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-1026.792" y="0" xml:space="preserve">AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        </tspan></text>
+				</svg>
+				<svg width="2054" height="28" viewBox="0 0 2054 28">
+					<text id="Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_" data-name="Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        " transform="translate(1027 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-1026.792" y="0" xml:space="preserve">AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        </tspan></text>
+				</svg>
+				<svg width="2054" height="28" viewBox="0 0 2054 28">
+					<text id="Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_" data-name="Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        " transform="translate(1027 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-1026.792" y="0" xml:space="preserve">AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        </tspan></text>
+				</svg>
+				<svg width="2054" height="28" viewBox="0 0 2054 28">
+					<text id="Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_" data-name="Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        " transform="translate(1027 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-1026.792" y="0" xml:space="preserve">AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        </tspan></text>
+				</svg>
+				<!-- repeated images below to keep up with animation -->
+				<svg width="2054" height="28" viewBox="0 0 2054 28">
+					<text id="Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_" data-name="Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        " transform="translate(1027 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-1026.792" y="0" xml:space="preserve">AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        </tspan></text>
+				</svg>
+				<svg width="2054" height="28" viewBox="0 0 2054 28">
+					<text id="Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_" data-name="Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        " transform="translate(1027 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-1026.792" y="0" xml:space="preserve">AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        </tspan></text>
+				</svg>
+				<svg width="2054" height="28" viewBox="0 0 2054 28">
+					<text id="Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_" data-name="Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        " transform="translate(1027 22)" fill="#e6e6e6" font-size="20" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-1026.792" y="0" xml:space="preserve">AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        </tspan></text>
+				</svg>
+			</div>
+		</div>
 
 		<?php 
 			$args = array(
