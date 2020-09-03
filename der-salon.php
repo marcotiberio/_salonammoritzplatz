@@ -39,14 +39,13 @@ get_header();
 			</div>
 		</div>
 
-		<?php
-		while ( have_posts() ) :
-			the_post();
+		<!-- Intro Text -->
 
-			get_template_part( 'template-parts/content', 'page' );
+		<div class="intro-text">
+			<h1></h1>
+		</div>
 
-		endwhile; // End of the loop.
-		?>
+		<!-- Intro Text -->
 
 		<div class="ticker-tape-small">
 			<div class="inside">
@@ -152,25 +151,14 @@ get_header();
 
 		<!--Slider-->
 
-		<section class="dev-slider-wrppr">
-			<div class="dev-slider-row">
-				<div class="slider-for">
-				<?php if( have_rows('slider_content') ): ?>
-					<?php while( have_rows('slider_content') ): the_row(); ?>
-					<?php
-						$slideimage = get_sub_field('slider_image');
-						$slidetitle = get_sub_field('slider_title');
-						$slidebdycpy = get_sub_field('slider_body_copy');
-						?>
-						<div class="slick-container">
-						<h4 class="info-title text-center"><?php echo $slidetitle; ?></h4>
-						<p class="description"><?php echo $slidebdycpy; ?></p>
-						<img src="<?php echo $slideimage['url']; ?>" alt="<?php echo $slideimage['alt']; ?>" />
-						</div>
-					<?php endwhile; ?>
-				<?php endif; ?>
-			</div>
-		</section>
+		<?php
+		while ( have_posts() ) :
+			the_post();
+
+			get_template_part( 'template-parts/content', 'page' );
+
+		endwhile; // End of the loop.
+		?>
 
 		<!--Slider-->
 
