@@ -30,15 +30,15 @@ $(document).ready(function () {
     });
 });
 
-// $(document).ready(function () {
-//     $('.slider-for').slick({
-//         slidesToShow: 1,
-//         slidesToScroll: 1,
-//         dots: false,
-//         arrows: true,
-//         asNavFor: '.slider-for',
-//         focusOnSelect: true,
-//         fade: true,
-//         autoplay: false
-//     });
-// });
+$(document).ready(function () {
+    $('.slider-for').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: false,
+        arrows: true,
+        asNavFor: '.slider-for',
+        focusOnSelect: true,
+        fade: true,
+        autoplay: false
+    });
+});
