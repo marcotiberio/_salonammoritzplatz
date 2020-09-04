@@ -158,13 +158,10 @@
 
 	</div><!-- #primary -->
 
-	<section id="archivez">
-		<div id="contentArchivez">
+	<section id="archive">
+		<div id="contentArchive">
 			<?php the_post(); ?>
-			<h2>Recent Articles</h2>
-			<ol><?php wp_get_archives('type=yearly&limit=10'); ?></ol>
-			<h2>Archives by Category:</h2>
-			<ul><?php wp_list_categories(''); ?></ul>
+			<ol><?php wp_get_archives('type=yearly'); ?></ol>
 		</div>
 	</section>
 <?php
