@@ -92,13 +92,13 @@
 						var modal = document.getElementById("bookingModal-<?php the_ID(); ?>");
 
 						// Get the button that opens the modal
-						var btn = document.getElementById("booking-<?php the_ID(); ?>");
+						var btn<?php the_ID(); ?> = document.getElementById("booking-<?php the_ID(); ?>");
 
 						// Get the <span> element that closes the modal
 						var span = document.getElementsByClassName("close")[0];
 
 						// When the user clicks the button, open the modal 
-						btn.onclick = function () {
+						btn<?php the_ID(); ?>.onclick = function () {
 							modal.style.display = "block";
 						}
 
