@@ -109,7 +109,7 @@
 
 						// When the user clicks anywhere outside of the modal, close it
 						window.onclick = function (event) {
-							if (event.target == modal) {
+							if (event.target == modal<?php the_ID(); ?>) {
 								modal<?php the_ID(); ?>.style.display = "none";
 							}
 						}
