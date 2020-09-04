@@ -229,8 +229,8 @@ function my_register_blocks() {
  */
 add_action( 'after_setup_theme', 'wpdocs_theme_setup' );
 function wpdocs_theme_setup() {
-	add_image_size( 'thumbnail-list', 171, 256, true );
-	add_image_size( 'thumbnail-event', 171, 256, true );
+	add_image_size( 'thumbnail-list', 600, 400, true );
+	add_image_size( 'thumbnail-event', 600, 400, true );
 }
 
 /**
