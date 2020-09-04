@@ -227,9 +227,11 @@ function my_register_blocks() {
 /** 
  * Add image sizes. 
  */
-
-add_image_size( 'thumbnail-list', '350', '233' );
-add_image_size( 'thumbnail-event', '350', '233' );
+add_action( 'after_setup_theme', 'wpdocs_theme_setup' );
+function wpdocs_theme_setup() {
+	add_image_size( 'thumbnail-list', 220, 180, true );
+	add_image_size( 'thumbnail-event', 220, 180, true );
+}
 
 /**
  * Implement the Custom Header feature.
