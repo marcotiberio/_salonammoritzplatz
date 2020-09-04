@@ -74,7 +74,7 @@
 						</div>
 
 						<!-- Booking Modal -->
-						<div id="bookingModal-<?php the_ID(); ?>" class="modal<?php the_ID(); ?>" style="display: none;">
+						<div id="bookingModal-<?php the_ID(); ?>" class="modal<?php the_ID(); ?>">
 
 						<!-- Booking Modal - Content -->
 						<div class="modal-content">
