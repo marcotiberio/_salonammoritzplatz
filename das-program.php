@@ -165,7 +165,7 @@
 		<h2>Recent Articles</h2>
 		<ol><?php wp_get_archives('type=yearly&limit=10'); ?></ol>
 		<h2>Archives by Category:</h2>
-		<ul><?php wp_list_categories('depth=1'); ?></ul>
+		<ul><?php wp_list_categories(''); ?></ul>
 <?php
 get_sidebar();
 get_footer();
