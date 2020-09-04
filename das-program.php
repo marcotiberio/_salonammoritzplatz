@@ -78,7 +78,7 @@
 
 						<!-- Booking Modal - Content -->
 						<div class="modal-content">
-							<span class="close">&times;</span>
+							<span class="close<?php the_ID(); ?>">&times;</span>
 							<p><?php the_field('type', false); ?></p>
 							<h2><?php the_field('title', false); ?></h2>
 							<p><?php the_field('when', false); ?></p>
@@ -95,7 +95,7 @@
 						var btn<?php the_ID(); ?> = document.getElementById("booking-<?php the_ID(); ?>");
 
 						// Get the <span> element that closes the modal
-						var span<?php the_ID(); ?> = document.getElementsByClassName("close")[0];
+						var span = document.getElementsByClassName("close<?php the_ID(); ?>")[0];
 
 						// When the user clicks the button, open the modal 
 						btn<?php the_ID(); ?>.onclick = function () {
