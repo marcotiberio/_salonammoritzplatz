@@ -53,17 +53,88 @@ get_header();
 
 		<!-- Latest Events -->
 
-		<div class="latest-events">
-			<?php
-			while ( have_posts() ) :
-				the_post();
+		<?php 
+			$args = array(
+				'post_type' => 'post',
+				'post_status' => 'publish',
+				'posts_per_page' => 3,
+			);
+			$arr_posts = new WP_Query( $args );
+			 
+			if ( $arr_posts->have_posts() ) :
+				
+			 
+				while ( $arr_posts->have_posts() ) :
+					$arr_posts->the_post();
+					?>
+					<article class="latestpost--custom" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+						<div class="event-cover">
+                            <?php
+                            if ( has_post_thumbnail() ) :
+                                the_post_thumbnail( 'full' );
+                            endif;
+                            ?>
+						</div>
+						<div class="event-header">
+							<p><?php the_field('type'); ?></p>
+							<a href="<?php the_permalink(); ?>"><h2><?php the_field('title'); ?></h2></a>
+							<p><?php the_field('when'); ?></p>
+							<p><?php the_field('price'); ?></p>
+							<button id="booking-<?php the_ID(); ?>"><?php the_field('booking'); ?></button>
+						</div>
+						<div class="event-info">
+							<div class="details"><?php the_field('description'); ?></div>
+						</div>
 
-				get_template_part( 'template-parts/content', 'page' );
+						<!-- Booking Modal -->
+						<div id="bookingModal-<?php the_ID(); ?>" class="modal">
 
-			endwhile; // End of the loop.
-			?>
+						<!-- Booking Modal - Content -->
+						<div class="modal-content">
+							<span class="close<?php the_ID(); ?>" style="position: absolute; right: 12%; top: 7%;">&times;</span>
+							<p><?php the_field('type', false); ?></p>
+							<h2><?php the_field('title', false); ?></h2>
+							<p><?php the_field('when', false); ?></p>
+							<div class="form"><?php the_field('form', false); ?></div>
+						</div>
 
-		</div>
+						</div>
+
+						<script>
+						// Get the modal
+						var modal<?php the_ID(); ?> = document.getElementById("bookingModal-<?php the_ID(); ?>");
+
+						// Get the button that opens the modal
+						var btn<?php the_ID(); ?> = document.getElementById("booking-<?php the_ID(); ?>");
+
+						// Get the <span> element that closes the modal
+						var span = document.getElementsByClassName("close<?php the_ID(); ?>")[0];
+
+						// When the user clicks the button, open the modal 
+						btn<?php the_ID(); ?>.onclick = function () {
+							modal<?php the_ID(); ?>.style.display = "block";
+						}
+
+						// When the user clicks on <span> (x), close the modal
+						span.onclick = function () {
+							modal<?php the_ID(); ?>.style.display = "none";
+						}
+
+						// When the user clicks anywhere outside of the modal, close it
+						window.onclick = function (event) {
+							if (event.target == modal<?php the_ID(); ?>) {
+								modal<?php the_ID(); ?>.style.display = "none";
+							}
+						}
+						</script>
+					</article>
+
+					<?php
+				endwhile;
+			endif; ?>
+		
+
+		</main><!-- #main -->
 
 		<!-- Latest Events -->
 
@@ -139,7 +210,17 @@ get_header();
 
 		<!-- Slider -->
 
+		<div class="slider">
+			<?php
+			while ( have_posts() ) :
+				the_post();
 
+				get_template_part( 'template-parts/content', 'page' );
+
+			endwhile; // End of the loop.
+			?>
+
+		</div>
 
 		<!-- Slider -->
 
