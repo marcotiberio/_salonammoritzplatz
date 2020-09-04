@@ -71,7 +71,7 @@ get_header();
 						<div class="event-cover">
                             <?php
                             if ( has_post_thumbnail() ) :
-                                the_post_thumbnail( 'full' );
+                                the_post_thumbnail( 'thumbnail-event' );
                             endif;
                             ?>
 						</div>
