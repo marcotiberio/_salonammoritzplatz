@@ -58,7 +58,7 @@
 						<div class="event-cover">
                             <?php
                             if ( has_post_thumbnail() ) :
-                                the_post_thumbnail( 'thumbnail-list');
+                                the_post_thumbnail( 'thumbnail-list' );
                             endif;
                             ?>
 						</div>
