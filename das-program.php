@@ -78,7 +78,7 @@
 
 						<!-- Booking Modal - Content -->
 						<div class="modal-content">
-							<span class="close<?php the_ID(); ?>">&times;</span>
+							<span class="close<?php the_ID(); ?>" style="position: absolute; right: 12%; top: 7%;">&times;</span>
 							<p><?php the_field('type', false); ?></p>
 							<h2><?php the_field('title', false); ?></h2>
 							<p><?php the_field('when', false); ?></p>
