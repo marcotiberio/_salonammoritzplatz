@@ -23,7 +23,7 @@
 			<div class="left">
 				<p><?php the_field('when'); ?></p>
 				<p><?php the_field('price'); ?></p>
-				<p id="booking-<?php the_ID(); ?>"><?php the_field('booking'); ?></p>
+				<button id="booking-<?php the_ID(); ?>"><?php the_field('booking'); ?></button>
 				<?php 
 				$link = get_field('referrer');
 				if( $link ): 
