@@ -123,8 +123,6 @@
 
 		</main><!-- #main -->
 
-		<?php wp_get_archives('type=yearly'); ?>
-
 	</div><!-- #primary -->
 
 <?php
