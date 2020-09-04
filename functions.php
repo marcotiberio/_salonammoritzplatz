@@ -224,6 +224,19 @@ function my_register_blocks() {
     }
 }
 
+/** 
+ * Add image sizes. 
+ */
+
+// add_image_size( 'medium_large', '768', '0', true );
+// add_image_size( 'xl_post', '1536', '1536', false );
+// add_image_size( '2048x2048', '2048', '2048', false );
+// add_image_size( 'medium_large', '768', '0', true );
+// add_image_size( 'custom', '1200', '600', true );
+add_image_size( 'thumbnail-list', '240', '160', true );
+// add_image_size( 'thumbnail-list-related', '600', '400', true );
+// add_image_size( 'thumbnail-cover', '150', '250', true );
+
 /**
  * Implement the Custom Header feature.
  */
