@@ -228,7 +228,7 @@ function my_register_blocks() {
  * Add image sizes. 
  */
 
-add_image_size( 'thumbnail-list', 520, 350 );
+add_image_size( 'thumbnail-list', '520', '350', true );
 
 /**
  * Implement the Custom Header feature.
