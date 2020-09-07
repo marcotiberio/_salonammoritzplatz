@@ -1009,6 +1009,16 @@ p {
 	font-family: 'vremena book';
 }
 
+h1 {
+	font-family: 'vremena book' !important;
+	font-weight: regular;
+}
+
+h2 {
+	font-family: 'sam-arial-black' !important;
+	text-transform: uppercase;
+}
+
 .page-id-215 .entry-content p {
 	padding: 0 10%;
 	font-family: 'vremena book';
@@ -1133,6 +1143,57 @@ main {
 	font-family: "Arial Black";
 	font-weight: 900;
 	text-transform: uppercase;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+	width: 20px;
+	height: 2px;
+	background-color: #3E3E3E;
+	margin: 4px 0;
+	transition: 0.4s;
+}
+
+.nav--overlay {
+	padding-top: 18px;
+	cursor: pointer;
+}
+
+#menuOverlay {
+	display: none;
+	position: fixed;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: #FFFEF8;
+
+	z-index: 1000;
+}
+
+.menuOverlay--inside {
+	display: block;
+	padding: 30% 10%;
+	text-align: center;
+	margin: 0;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+#mobile-menu {
+	margin: 0;
+	padding-left: 0;
+
+	font-size: 2rem;
+	text-transform: uppercase;
+	font-family: 'sam-arial-black';
+	font-weight: 900;
+	color: #3E3E3E;
+}
+
+#mobile-menu li {
+	margin: 10% 0;
 }
 
 /* Navigation */
@@ -1775,71 +1836,6 @@ main {
 
 
 
-
-
-h1 {
-	font-family: 'vremena book' !important;
-	font-weight: regular;
-}
-
-
-
-
-
-
-.bar1,
-.bar2,
-.bar3 {
-	width: 20px;
-	height: 2px;
-	background-color: #3E3E3E;
-	margin: 4px 0;
-	transition: 0.4s;
-}
-
-.nav--overlay {
-	padding-top: 18px;
-	cursor: pointer;
-}
-
-#menuOverlay {
-	display: none;
-	position: fixed;
-	left: 0;
-	width: 100vw;
-	height: 100vh;
-	background-color: #FFFEF8;
-
-	z-index: 1000;
-}
-
-.menuOverlay--inside {
-	display: block;
-	padding: 30% 10%;
-	text-align: center;
-	margin: 0;
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-}
-
-#mobile-menu {
-	margin: 0;
-	padding-left: 0;
-
-	font-size: 2rem;
-	text-transform: uppercase;
-	font-family: 'sam-arial-black';
-	font-weight: 900;
-	color: #3E3E3E;
-}
-
-#mobile-menu li {
-	margin: 10% 0;
-}
-
-
-
 /* MOBILE */
 /* MOBILE */
 /* MOBILE */
@@ -2232,5 +2228,31 @@ h1 {
 		display: none;
 	}
 
+	.page-template-der-raum .intro-text,
+	.page-template-der-raum .second-text {
+		padding: 2% 10%;
+	}
+
+	.page-template-der-raum .gallery ul {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin: 0;
+		padding: 2% 10%;
+	}
+
+	.page-template-der-raum .gallery ul>li {
+		margin: 1rem 0;
+	}
+
+	.page-template-kontakt .contacts {
+		display: flex;
+    	flex-direction: column;
+	    padding: 2% 10%;
+	}
+
+	.page-template-kontakt .contacts > div {
+		margin: 2rem 0;
+	}
 
 }
