@@ -52,7 +52,7 @@ get_header();
 		<div class="gallery">
 			<?php 
 			$images = get_field('blueprint_gallery');
-			$size = 'medium'; // (thumbnail, medium, large, full or custom size)
+			$size = 'large'; // (thumbnail, medium, large, full or custom size)
 			if( $images ): ?>
 				<ul>
 					<?php foreach( $images as $image_id ): ?>
