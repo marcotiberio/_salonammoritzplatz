@@ -98,9 +98,9 @@ get_header();
 
 		<!-- Blueprint -->
 
-		<div class="blueprint-image">
+		<div class="map-image">
 			<?php 
-				$image = get_field('blueprint_image');
+				$image = get_field('map_image');
 				if( !empty( $image ) ): ?>
 					<img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
 					<p><?php echo esc_attr($image['caption']); ?></p>
