@@ -42,7 +42,7 @@ get_header();
 		<!-- Intro Text -->
 
 		<div class="intro-text">
-			<h1><?php the_field('intro_text'); ?></h1>
+			<p><?php the_field('intro_text'); ?></p>
 		</div>
 
 		<!-- Intro Text -->
@@ -67,7 +67,7 @@ get_header();
 		<!-- Second Text -->
 
 		<div class="second-text">
-			<h1><?php the_field('second_text'); ?></h1>
+			<p><?php the_field('second_text'); ?></p>
 		</div>
 
 		<!-- Second Text -->
