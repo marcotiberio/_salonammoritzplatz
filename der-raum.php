@@ -49,18 +49,20 @@ get_header();
 
 		<!-- Blueprint -->
 
-		<?php 
-		$images = get_field('blueprint_gallery');
-		$size = 'medium'; // (thumbnail, medium, large, full or custom size)
-		if( $images ): ?>
-			<ul>
-				<?php foreach( $images as $image_id ): ?>
-					<li>
-						<?php echo wp_get_attachment_image( $image_id, $size ); ?>
-					</li>
-				<?php endforeach; ?>
-			</ul>
-		<?php endif; ?>
+		<div class="gallery">
+			<?php 
+			$images = get_field('blueprint_gallery');
+			$size = 'medium'; // (thumbnail, medium, large, full or custom size)
+			if( $images ): ?>
+				<ul>
+					<?php foreach( $images as $image_id ): ?>
+						<li>
+							<?php echo wp_get_attachment_image( $image_id, $size ); ?>
+						</li>
+					<?php endforeach; ?>
+				</ul>
+			<?php endif; ?>
+		</div>
 
 		<!-- Blueprint -->
 
