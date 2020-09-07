@@ -96,7 +96,7 @@ get_header();
 			</div>
 		</div>
 
-		<!-- Blueprint -->
+		<!-- Map -->
 
 		<div class="map-image">
 			<?php 
@@ -107,7 +107,7 @@ get_header();
 			<?php endif; ?>
 		</div>
 
-		<!-- Blueprint -->
+		<!-- Map -->
 
 	</main><!-- #main -->
 
