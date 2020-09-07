@@ -1,5 +1,5 @@
 <?php
-/* Template Name: Der Salon */ 
+/* Template Name: Der Raum */ 
 
 get_header();
 ?>
