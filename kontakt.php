@@ -53,7 +53,7 @@ get_header();
 					<div class="team-repeater">
 						<h2 class="role"><?php the_sub_field('role'); ?></h2>
 						<p class="name"><?php the_sub_field('name'); ?></p>
-						<a href="mailto:<?php the_sub_field('email'); ?>" class="email"><?php the_sub_field('email'); ?></p>
+						<a href="mailto:<?php the_sub_field('email'); ?>" class="email"><?php the_sub_field('email'); ?></p></a>
 						<p class="phone"><?php the_sub_field('phone'); ?></p>
 					</div>
 				<?php endwhile; ?>
