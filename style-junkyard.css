@@ -1,0 +1,133 @@
+/* Post */
+
+/*.single .entry-meta,
+.single .entry-header,
+.single .comments-area,
+.single .entry-footer {
+display: none;
+}
+
+.single .post-thumbnail,
+.single .entry-content {
+padding: 0 10%;
+}
+
+.single .event-header h2 {
+margin-top: 0;
+}
+
+.single .event-header p {
+margin-bottom: 0;
+}
+
+.single .event-info {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+}
+
+.single .event-info p {
+margin: 0;
+}
+*/
+
+/* Post */
+
+/* Home */
+
+.page-template-home .entry-header {
+	display: none;
+}
+
+.page-template-home .post-thumbnail {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: auto;
+}
+
+.page-template-home #stickyTickertape {
+	margin-top: 100vh;
+}
+
+.page-template-home #tickerTape {
+	margin-top: 40vh;
+}
+
+.page-template-home #tickerTape text {
+	fill: red !important;
+}
+
+.page-template-home main {
+	margin-top: 100vh;
+}
+
+/*.page-template-home .main-navigation {
+	background-color: #FFFEF8;
+	height: 10vh;
+	width: 100vw;
+	margin-top: 0;
+	}*/
+
+/* Home */
+
+/* Das Program */
+
+.page-id-11 .featured-posts {
+	padding: 2% 0;
+	}
+	
+	.page-id-11 .wp-block-getwid-template-post-title {
+	margin: 0;
+	font-size: 1rem;
+	text-transform: uppercase;
+	font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+	font-weight: 900;
+	}
+	
+	.page-id-11 .wp-block-getwid-template-post-categories {
+	margin: 0;
+	}
+	
+	.page-id-11 .wp-block-getwid-template-post-content {
+	margin-bottom: 0;
+	}
+	
+	.page-id-11 .archive {
+	padding: 2% 10%;
+	}
+	
+	.page-id-11 .wp-block-getwid-tabs__tab-content {
+	border: 0;
+	padding: 0;
+	}
+	
+	.wp-block-getwid-tabs__nav-link {
+	border: none;
+	transition: 0.6s;
+	font-family: 'Arial Black';
+	}
+	
+	.page-id-11 .wp-block-getwid-tabs__nav-link.ui-tabs-active,
+	.page-id-11 .wp-block-getwid-tabs__nav-link.ui-tabs-active a {
+	border: none;
+	background-color: transparent;
+	padding: .5em .5em .5em 0 !important;
+	font-weight: 800;
+	}
+	
+	.page-id-11 .wp-block-getwid-tabs__nav-link a {
+	padding: .5em .5em .5em 0 !important;
+	font-weight: 400;
+	}
+	
+	.page-id-11 .wp-block-getwid-tabs__nav-link a:hover {
+	font-weight: 800;
+	border: none;
+	}
+	
+	.page-id-11 .getwid-columns.getwid-columns-3>* {
+	padding-left: 0;
+	}
+	
+	/* Das Program */
