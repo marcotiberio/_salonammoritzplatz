@@ -47,6 +47,31 @@ get_header();
 
 		<!-- Intro Text -->
 
+		<!-- Blueprint -->
+
+		<?php 
+		$images = get_field('blueprint_gallery');
+		$size = 'full'; // (thumbnail, medium, large, full or custom size)
+		if( $images ): ?>
+			<ul>
+				<?php foreach( $images as $image_id ): ?>
+					<li>
+						<?php echo wp_get_attachment_image( $image_id, $size ); ?>
+					</li>
+				<?php endforeach; ?>
+			</ul>
+		<?php endif; ?>
+
+		<!-- Blueprint -->
+
+		<!-- Second Text -->
+
+		<div class="second-text">
+			<h1><?php the_field('second_text'); ?></h1>
+		</div>
+
+		<!-- Second Text -->
+
 		<div class="ticker-tape-small">
 			<div class="inside">
 				<svg class="first" width="2244" height="28" viewBox="0 0 2244 28">
