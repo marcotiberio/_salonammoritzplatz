@@ -42,7 +42,7 @@ get_header();
 		<!-- Text -->
 
 		<div class="simple-text">
-			<?php the_field('simple_text'); ?>
+			<p><?php the_field('simple_text'); ?></p>
 		</div>
 
 		<!-- Text -->
