@@ -100,7 +100,7 @@ get_header();
 
 		<div class="blueprint-image">
 			<?php 
-				$image = get_field('bleprint_image');
+				$image = get_field('blueprint_image');
 				if( !empty( $image ) ): ?>
 					<img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
 					<p><?php echo esc_attr($image['caption']); ?></p>
