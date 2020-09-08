@@ -225,7 +225,10 @@
 							<p><?php the_field('when'); ?></p>
 						</div>
 						<div class="event-info">
-							<div class="details"><?php the_field('description'); ?></div>
+							<div class="details">
+								<?php $summary = get_field('description');
+          						echo substr($summary, 0, 200); ?><span>...</span>
+							  </div>
 						</div>
 					</article>
 
