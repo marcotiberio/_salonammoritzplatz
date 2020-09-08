@@ -158,14 +158,19 @@
 
 	</div><!-- #primary -->
 
-	<section id="archive">
+
+	<?php the_field('archive'); ?>
+
+
+
+	<!-- <section id="archive">
 		
 		<div id="contentArchive">
 			<?php the_post(); ?>
 			<ol><?php wp_get_archives('type=yearly'); ?></ol>
 		</div>
 
-	</section>
+	</section> -->
 
 <?php
 get_sidebar();
