@@ -233,24 +233,6 @@ function wpdocs_theme_setup() {
 	add_image_size( 'thumbnail-event', 600, 400, true );
 }
 
-/** 
- * Register post type. 
- */
-function register_post_type_events() {
-
-    $args = array(
-        'label'              => 'Events',
-        'public'             => true, // required for date archives
-        'has_archive'        => true, // required for date archives
-        'publicly queryable' => true, // required for date archives
-    );
-
-    // Registering the events custom post type.
-    register_post_type( 'events', $args );
-}
-
-add_action( 'init', 'register_post_type_events' );
-
 /**
  * Implement the Custom Header feature.
  */
