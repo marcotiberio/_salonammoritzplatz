@@ -158,8 +158,9 @@
 
 	</div><!-- #primary -->
 
-
-	<?php the_field('archive'); ?>
+	<div id="contentArchive">
+		<?php the_field('archive'); ?>
+	</div>
 
 
 
