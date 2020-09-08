@@ -159,7 +159,8 @@
 	</div><!-- #primary -->
 
 	<div id="contentArchive">
-		<?php the_field('archive'); ?>
+		<?php echo do_shortcode("[SimpleYearlyArchive]"); ?>
+		
 	</div>
 
 
