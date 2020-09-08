@@ -184,13 +184,11 @@
 				while ( $arr_posts->have_posts() ) :
 					$arr_posts->the_post();
 					?>
-					<article class="latestpost--custom" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+					<article class="latestpost--archive" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 						<div class="event-header">
 							<p><?php the_field('type'); ?></p>
 							<a href="<?php the_permalink(); ?>"><h2><?php the_field('title'); ?></h2></a>
 							<p><?php the_field('when'); ?></p>
-							<p><?php the_field('price'); ?></p>
-							<button id="booking-<?php the_ID(); ?>"><?php the_field('booking'); ?></button>
 						</div>
 						<div class="event-info">
 							<div class="details"><?php the_field('description'); ?></div>
