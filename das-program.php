@@ -167,7 +167,7 @@
 		</div>
 
 		<!-- Tab content -->
-		<div id="2020" class="tabcontent">
+		<div id="2020" class="tabcontent" style="display: grid;">
 			
 			<?php 
 			$args = array(
