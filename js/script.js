@@ -29,3 +29,9 @@ $(document).ready(function () {
         $("#menuOverlay").slideToggle("fast");
     });
 });
+
+$(document).ready(function () {
+    $("#year2020").click(function () {
+        $("ul").slideToggle("fast");
+    });
+});
