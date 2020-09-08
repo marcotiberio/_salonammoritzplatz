@@ -158,9 +158,40 @@
 
 	</div><!-- #primary -->
 
-	<!-- <div id="contentArchive">
-		<?php echo do_shortcode('[SimpleYearlyArchive]'); ?>
-	</div> -->
+	<div id="contentArchive">
+	
+		<!-- Tab links -->
+		<div class="tab">
+			<button class="tablinks" onclick="openCity(event, '2020')">2020</button>
+			<button class="tablinks" onclick="openCity(event, '2019')">2019</button>
+		</div>
+
+		<!-- Tab content -->
+		<div id="2020" class="tabcontent">
+			<p>Events of 2020</p>
+		</div>
+
+		<div id="2019" class="tabcontent">
+			<p>Events of 2019</p>
+		</div>
+
+	</div>
+
+	<script>
+		function openCity(evt, cityName) {
+		var i, tabcontent, tablinks;
+		tabcontent = document.getElementsByClassName("tabcontent");
+		for (i = 0; i < tabcontent.length; i++) {
+			tabcontent[i].style.display = "none";
+		}
+		tablinks = document.getElementsByClassName("tablinks");
+		for (i = 0; i < tablinks.length; i++) {
+			tablinks[i].className = tablinks[i].className.replace(" active", "");
+		}
+		document.getElementById(cityName).style.display = "block";
+		evt.currentTarget.className += " active";
+		}
+	</script>
 
 
 
