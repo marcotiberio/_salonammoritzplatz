@@ -164,14 +164,7 @@
 
 
 
-	<!-- <section id="archive">
-		
-		<div id="contentArchive">
-			<?php the_post(); ?>
-			<ol><?php wp_get_archives('type=yearly'); ?></ol>
-		</div>
-
-	</section> -->
+	
 
 <?php
 get_sidebar();
