@@ -159,8 +159,7 @@
 	</div><!-- #primary -->
 
 	<div id="contentArchive">
-		<?php echo do_shortcode("[SimpleYearlyArchive]"); ?>
-		
+		<?php echo do_shortcode('[SimpleYearlyArchive]'); ?>
 	</div>
 
 
