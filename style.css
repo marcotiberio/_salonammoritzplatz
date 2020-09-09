@@ -1064,12 +1064,6 @@ main {
 
 /* Global */
 
-/* WPML */
-
-.home .wpml-ls-legacy-list-horizontal.wpml-ls-statics-footer {
-	display: none;
-}
-
 /* Navigation */
 
 #homeStickytickertape {
@@ -1108,15 +1102,14 @@ main {
 	position: absolute;
 	left: 0;
 	top: 13vh;
-	left: 50%;
-	transform: translate(-50%, -50%);
 
 	width: 100%;
 	padding: 0 20%;
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: 1fr;
+	grid-template-columns: repeat (5, 1fr);
+	grid-template-rows: auto;
 	column-gap: 5%;
+	place-items: center;
 }
 
 #primary-menu li {
