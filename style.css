@@ -1631,6 +1631,60 @@ main {
 
 /* Das Program Test Template */
 
+/* Simple Archive */
+
+#contentArchive {
+	padding: 2% 10%;
+}
+
+.latestpost--archive {
+	display: flex;
+	flex-direction: column;
+}
+
+.latestpost--archive .event-info {
+	margin-top: 20px;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding-right: 20px;
+  transition: 0.3s;
+	font-family: "sam-arial-black"
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  text-decoration: underline;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  text-decoration: underline;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  margin-top: 2%;
+  border-top: none;
+  grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 40px;
+}
+
+/* Simple Archive */
+
+
 /* Archive */
 
 #archive {
@@ -2262,6 +2316,19 @@ main {
 
 	.page-template-simple-text .simple-text {
 		padding: 2% 10%;
+	}
+
+	.tabcontent {
+		display: none;
+		margin-top: 5%;
+		border-top: none;
+		grid-template-columns: 1fr;
+		grid-template-rows: auto;
+		row-gap: 20px;
+	}
+	
+	.tabcontent .event-info {
+		display: none;
 	}
 
 }
