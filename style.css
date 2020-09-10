@@ -1112,7 +1112,8 @@ main {
 	place-items: center;
 }
 
-#primary-menu li {
+#primary-menu li,
+#language-menu li {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 	font-weight: 800;
 	text-transform: uppercase;
