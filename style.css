@@ -1175,7 +1175,7 @@ main {
 	position: fixed;
 	left: 0;
 	width: 100vw;
-	height: 100vh;
+	height: auto;
 	background-color: #FFFEF8;
 
 	z-index: 1000;
