@@ -172,7 +172,7 @@ get_header();
 		<!-- Intro Text -->
 
 		<div class="intro-text">
-			<h1><?php the_field('home_text'); ?></h1>
+			<?php the_field('home_text', 938); ?>
 		</div>
 
 		<!-- Intro Text -->
