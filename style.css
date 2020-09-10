@@ -1106,7 +1106,7 @@ main {
 	width: 100%;
 	padding: 0 20%;
 	display: grid;
-	grid-template-columns: repeat(5, 1fr);
+	grid-template-columns: repeat(6, 1fr);
 	grid-template-rows: auto;
 	column-gap: 5%;
 	place-items: center;
