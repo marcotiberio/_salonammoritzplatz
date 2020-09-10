@@ -67,7 +67,7 @@ get_header();
 			<p><?php the_field('type'); ?></p>
 			<h2><?php the_field('title'); ?></h2>
 			<p><?php the_field('when'); ?></p>
-			<div class="form"><?php echo do_shortcode('[hf_form slug="register"]'); ?></div>
+			<div class="form"><?php the_field('form'); ?></div>
 		</div>
 
 	</div>
