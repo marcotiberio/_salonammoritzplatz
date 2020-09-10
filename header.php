@@ -205,3 +205,14 @@
 			?>
 		</main>
 	</section>
+
+	<section id="languageMenu">
+		<main class="languageMenu--inside">
+			<?php
+			wp_nav_menu( array(
+				'theme_location' => 'language-menu',
+				'menu_id'        => 'language-menu',
+			) );
+			?>
+		</main>
+	</section>
