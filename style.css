@@ -1126,7 +1126,7 @@ main {
 
 #primary-menu li,
 #language-menu li {
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-family: "sam-arial-black";
 	font-weight: 800;
 	text-transform: uppercase;
 }
