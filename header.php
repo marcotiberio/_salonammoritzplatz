@@ -193,11 +193,11 @@
 				);
 				?>
 				<?php
-			wp_nav_menu( array(
-				'theme_location' => 'language-menu',
-				'menu_id'        => 'language-menu',
-			) );
-			?>
+				wp_nav_menu( array(
+					'theme_location' => 'language-menu',
+					'menu_id'        => 'language-menu',
+				) );
+				?>
 			</div>
 			
 		</nav><!-- #site-navigation -->
