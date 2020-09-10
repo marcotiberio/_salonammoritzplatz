@@ -1184,7 +1184,7 @@ main {
 .menuOverlay--inside {
 	display: block;
 	padding: 10% 2%;
-	text-align: center;
+	text-align: left;
 	margin: 0;
 	width: 100%;
 	display: flex;
