@@ -1045,7 +1045,7 @@ h2 {
 }
 
 main {
-	margin-top: 16vh;
+	margin-top: 18vh;
 }
 
 .site-header {
@@ -1053,7 +1053,7 @@ main {
 	position: fixed;
 	top: 0;
 	left: 0;
-	height: 16vh;
+	height: 18vh;
 	z-index: 2000;
 }
 
