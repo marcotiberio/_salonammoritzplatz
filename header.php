@@ -183,6 +183,7 @@
   				<div class="bar2"></div>
   				<div class="bar3"></div>
 			</button>
+			<div id="menuzzz">
 				<?php
 				wp_nav_menu(
 					array(
@@ -191,6 +192,13 @@
 					)
 				);
 				?>
+				<?php
+			wp_nav_menu( array(
+				'theme_location' => 'language-menu',
+				'menu_id'        => 'language-menu',
+			) );
+			?>
+			</div>
 			
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
@@ -206,13 +214,4 @@
 		</main>
 	</section>
 
-	<section id="languageMenu">
-		<main class="languageMenu--inside">
-			<?php
-			wp_nav_menu( array(
-				'theme_location' => 'language-menu',
-				'menu_id'        => 'language-menu',
-			) );
-			?>
-		</main>
-	</section>
+	
