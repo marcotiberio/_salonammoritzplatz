@@ -67,7 +67,7 @@ get_header();
 			<p><?php the_field('type'); ?></p>
 			<h2><?php the_field('title'); ?></h2>
 			<p><?php the_field('when'); ?></p>
-			<div class="form"><?php echo do_shortcode('[contact-form-7 id="1260" title="Booking Form"]'); ?></div>
+			<div class="form"><?php echo apply_shortcode('[contact-form-7 id="1260" title="Booking Form"]'); ?></div>
 		</div>
 
 	</div>
