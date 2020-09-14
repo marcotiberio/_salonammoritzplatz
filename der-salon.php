@@ -162,6 +162,14 @@ get_header();
 
 		<!--Slider-->
 
+		<!-- History Text -->
+
+		<div class="history-text">
+			<h1><?php the_field('history_text', 1397); ?></h1>
+		</div>
+
+		<!-- History Text -->
+
 		<div class="ticker-tape-small">
 			<div class="inside">
 				<svg class="first" width="2078" height="28" viewBox="0 0 2078 28">
