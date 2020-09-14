@@ -120,6 +120,14 @@ get_header();
 
 		<!--Slider-->
 
+		<!-- History Text -->
+
+		<div class="history-text">
+			<h1><?php the_field('history_text'); ?></h1>
+		</div>
+
+		<!-- History Text -->
+
 	</main><!-- #main -->
 
 
