@@ -123,7 +123,7 @@ get_header();
 		<!-- History Text -->
 
 		<div class="history-text">
-			<h1><?php the_field('history_text'); ?></h1>
+			<h1><?php the_field('history_text', 1397); ?></h1>
 		</div>
 
 		<!-- History Text -->
