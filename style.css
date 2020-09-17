@@ -2297,7 +2297,7 @@ main {
 	}
 
 	.page-template-scroll .latestpost--custom .event-info {
-		display: none;
+		display: block;
 	}
 
 	.page-template-der-raum .intro-text,
