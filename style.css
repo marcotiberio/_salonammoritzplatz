@@ -1505,7 +1505,7 @@ main {
 }
 
 .page-template-scroll #tickerTape {
-	display: block;
+	display: none;
 	width: 3000px;
 	overflow: hidden;
 	margin-top: 45vh;
