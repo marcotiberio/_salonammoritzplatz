@@ -1541,6 +1541,11 @@ main {
 
 .page-template-scroll .cover-image {
 	display: block;
+	height: 100vh;
+	width: 100vw;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .page-template-scroll .cover-image img {
