@@ -14,7 +14,7 @@ get_header();
 
 		<!-- Cover Image + Banner -->
 
-		<div class="cover-image" style="background-image: url('https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/background-home-scaled.jpg');">
+		<div class="cover-image" style="background-image: url(<?php the_field('cover_image'); ?>);">
 		</div>
 
 		
