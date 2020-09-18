@@ -151,8 +151,8 @@
 			</a>
 		</div><!-- .site-branding -->
 
-		<div class="cover-image" style="background-image: url('https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/background-home-scaled.jpg');">
-		</div>
+		<!-- <div class="cover-image" style="background-image: url(https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/background-home-scaled.jpg);">
+		</div> -->
 
 		<nav id="site-navigation" class="main-navigation">
 			<div id="homeStickytickertape">
