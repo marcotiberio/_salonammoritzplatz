@@ -14,8 +14,7 @@ get_header();
 
 		<!-- Cover Image + Banner -->
 
-		<div class="cover-image" style="background-image: url(<?php the_field('cover_image'); ?>);">
-		</div>
+		
 
 		
 
