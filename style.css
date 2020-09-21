@@ -1964,7 +1964,7 @@ main {
 	#mobile-menu {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		margin-top: 30vh;
+		margin-top: 5vh;
 	}
 
 	#mobile-menu li {
