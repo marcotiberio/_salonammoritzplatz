@@ -1441,10 +1441,10 @@ main {
 .page-template-scroll .site-header {
 	background-color: transparent;
 	position: fixed;
-    top: 0;
-    left: 0;
-    /*height: 100vh;*/
-    z-index: 2000;
+	top: 0;
+	left: 0;
+	/*height: 100vh;*/
+	z-index: 2000;
 }
 
 .page-template-scroll .main-navigation {
@@ -1461,8 +1461,8 @@ main {
 	height: 100vh;
 	width: 100vw;
 	background-size: cover;
-  	background-repeat: no-repeat;
-  	background-position: center;
+	background-repeat: no-repeat;
+	background-position: center;
 	margin-bottom: 20px;
 }
 
@@ -1559,8 +1559,8 @@ main {
 	height: 100vh;
 	width: 100vw;
 	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .page-template-scroll .cover-image img {
@@ -1682,37 +1682,37 @@ main {
 
 /* Style the tab */
 .tab {
-  overflow: hidden;
+	overflow: hidden;
 }
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding-right: 20px;
-  transition: 0.3s;
+	background-color: inherit;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding-right: 20px;
+	transition: 0.3s;
 	font-family: "sam-arial-black"
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  text-decoration: underline;
+	text-decoration: underline;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  text-decoration: underline;
+	text-decoration: underline;
 }
 
 /* Style the tab content */
 .tabcontent {
-  display: none;
-  margin-top: 2%;
-  border-top: none;
-  grid-template-columns: 1fr 1fr 1fr;
+	display: none;
+	margin-top: 2%;
+	border-top: none;
+	grid-template-columns: 1fr 1fr 1fr;
 	column-gap: 40px;
 }
 
@@ -1801,7 +1801,8 @@ main {
 	text-align: center;
 }
 
-.page-template-der-salon .history-text h1, .page-template-der-salon .intro-text h1 {
+.page-template-der-salon .history-text h1,
+.page-template-der-salon .intro-text h1 {
 	font-size: 3rem;
 	line-height: 3rem;
 }
@@ -1938,7 +1939,7 @@ main {
 /* MOBILE */
 /* MOBILE */
 
-@media (max-width: 900px) {
+@media (max-width: 35rem) {
 
 	h1 {
 		font-family: 'vremena book' !important;
@@ -1960,6 +1961,31 @@ main {
 		top: 0;
 	}
 
+	#mobile-menu {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	#mobile-menu li {
+		margin: 0.5rem 0 0 0;
+		grid-column-start: 1;
+	}
+
+	#mobile-menu .menu-item-wpml-ls-8-de {
+		margin: 3rem 0 0 0;
+		grid-column-start: 1;
+	}
+
+	#mobile-menu .menu-item-wpml-ls-8-en {
+		margin: 3rem 0 3rem -8rem;
+		grid-column-start: 2;
+	}
+
+
+	.wpml-ls-slot-8 {
+		margin-top: 100px;
+	}
+
 	.page-template-scroll main {
 		margin-top: 6vh;
 	}
@@ -1972,8 +1998,22 @@ main {
 		top: 0;
 	}
 
+	.page-template-scroll .cover-image {
+		display: block;
+		height: 100vh;
+		width: 100vw;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		margin-bottom: 50px;
+	}
+
 	main {
 		margin-top: 5vh;
+	}
+
+	article {
+		margin: 0;
 	}
 
 	#homeStickytickertape {
@@ -2045,7 +2085,11 @@ main {
 		display: grid;
 		grid-template-columns: 1fr;
 		grid-template-rows: 1fr 1fr 1fr 1fr;
-		row-gap: 1%;
+		row-gap: 0;
+	}
+
+	#footer-menu li a {
+		font-size: 0.8rem;
 	}
 
 	.page-id-334 #tickerTapeMobile {
@@ -2136,7 +2180,8 @@ main {
 
 	.page-template-scroll .intro-text h1 {
 		font-family: 'vremena book' !important;
-		font-size: 1.2rem;
+		font-size: 2rem;
+		line-height: 2rem;
 		text-align: center;
 		letter-spacing: -0.5px;
 		line-height: 1.75rem;
@@ -2145,6 +2190,7 @@ main {
 	.page-template-scroll .event-header h2 {
 		font-family: 'sam-arial-black' !important;
 		font-size: 1rem;
+		line-height: 1.2rem;
 		text-transform: uppercase;
 		margin-block-start: 0;
 		margin-block-end: 0;
@@ -2315,7 +2361,7 @@ main {
 	}
 
 	.page-template-scroll .latestpost--custom {
-		padding: 2% 10%;
+		padding: 1% 10%;
 		margin-bottom: 5%;
 		width: 100%;
 		display: flex;
@@ -2345,11 +2391,11 @@ main {
 
 	.page-template-kontakt .contacts {
 		display: flex;
-    	flex-direction: column;
-	    padding: 2% 10%;
+		flex-direction: column;
+		padding: 2% 10%;
 	}
 
-	.page-template-kontakt .contacts > div {
+	.page-template-kontakt .contacts>div {
 		margin: 1.5rem 0;
 	}
 
@@ -2365,7 +2411,7 @@ main {
 		grid-template-rows: auto;
 		row-gap: 20px;
 	}
-	
+
 	.tabcontent .event-info {
 		display: none;
 	}
