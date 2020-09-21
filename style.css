@@ -1801,6 +1801,11 @@ main {
 	text-align: center;
 }
 
+.page-template-der-salon .history-text h1, .page-template-der-salon .intro-text h1 {
+	font-size: 3rem;
+	line-height: 3rem;
+}
+
 .page-template-der-salon .testimonials {
 	width: 100vw;
 	padding: 2% 10%;
