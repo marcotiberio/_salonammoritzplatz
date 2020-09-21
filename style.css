@@ -403,8 +403,8 @@ select,
 optgroup,
 textarea {
 	color: #404040;
-	font-size: 1rem;
-	line-height: 1.5;
+	font-size: 1.2rem;
+	line-height: 1.35;
 }
 
 h1,
@@ -547,8 +547,7 @@ a:active {
 }
 
 a:hover {
-	color: #404040;
-	text-decoration: underline;
+	color: #e6e6e6;
 	transition: 0.6s;
 }
 
@@ -1136,6 +1135,7 @@ main {
 	left: 0;
 	width: 100%;
 	background-color: #3E3E3E;
+	margin-top: 100px;
 }
 
 #footer-menu {
@@ -1440,6 +1440,11 @@ main {
 
 .page-template-scroll .site-header {
 	background-color: transparent;
+	position: fixed;
+    top: 0;
+    left: 0;
+    /*height: 100vh;*/
+    z-index: 2000;
 }
 
 .page-template-scroll .main-navigation {
@@ -1449,6 +1454,16 @@ main {
 	height: 18vh;
 	width: 100vw;
 	top: 84vh;
+}
+
+.page-template-scroll .cover-image {
+	display: block;
+	height: 100vh;
+	width: 100vw;
+	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position: center;
+	margin-bottom: 20px;
 }
 
 /* Scroll Ticker Tape */
@@ -1575,10 +1590,10 @@ main {
 
 .page-template-scroll .intro-text h1 {
 	font-family: 'vremena book' !important;
-	font-size: 1.75rem;
+	font-size: 3rem;
 	text-align: center;
 	letter-spacing: -0.5px;
-	line-height: 2rem;
+	line-height: 3rem;
 }
 
 .page-template-scroll .event-header h2 {
@@ -1608,7 +1623,7 @@ main {
 
 .page-template-das-program .latestpost--custom,
 .page-template-scroll .latestpost--custom {
-	padding: 2% 10%;
+	padding: 1% 10%;
 	margin: 0;
 	width: 100%;
 	display: grid;
@@ -1645,6 +1660,7 @@ main {
 	line-height: 1;
 	padding: 0;
 	cursor: pointer;
+	font-style: italic;
 }
 
 /* Das Program Test Template */
