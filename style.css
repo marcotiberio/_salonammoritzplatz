@@ -1964,6 +1964,7 @@ main {
 	#mobile-menu {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
+		margin-top: 30vh;
 	}
 
 	#mobile-menu li {
@@ -2067,6 +2068,11 @@ main {
 		position: fixed;
 		left: 0.6rem;
 		top: 0.6rem;
+	}
+
+	.page-template-der-salon .history-text h1, .page-template-der-salon .intro-text h1 {
+		font-size: 1rem;
+		line-height: 1rem;
 	}
 
 	.home .site-branding {
@@ -2245,7 +2251,7 @@ main {
 	}
 
 	.page-template-das-program .latestpost--custom {
-		padding: 2% 10% 10% 10%;
+		padding: 1% 10%;
 		margin-bottom: 5%;
 		width: 100%;
 
@@ -2270,6 +2276,7 @@ main {
 		margin-block-end: 0;
 		font-family: 'sam-arial-black' !important;
 		font-size: 1rem;
+		line-height: 1.2rem;
 		font-weight: 800 !important;
 		text-transform: uppercase;
 	}
@@ -2389,6 +2396,26 @@ main {
 		margin: 1rem 0;
 	}
 
+	.page-template-der-raum article .entry-content,
+	.page-template-der-salon article .entry-content {
+		margin: 0;
+	}
+
+	.page-template-der-raum article .entry-content .slider,
+	.page-template-der-salon .entry-content .slider {
+		margin-top: 0;
+		padding: 0;
+	}
+
+	.page-template-der-raum article .entry-content .slick-dotted.slick-slider,
+	.page-template-der-salon article .entry-content .slick-dotted.slick-slider {
+		margin-bottom: 10px;
+	}
+
+	.page-template-der-raum article .entry-content .tickersmall {
+		margin-bottom: 10px;
+	}
+
 	.page-template-kontakt .contacts {
 		display: flex;
 		flex-direction: column;
@@ -2396,7 +2423,7 @@ main {
 	}
 
 	.page-template-kontakt .contacts>div {
-		margin: 1.5rem 0;
+		margin: .5rem 0;
 	}
 
 	.page-template-simple-text .simple-text {
@@ -2418,6 +2445,10 @@ main {
 
 	#menuzzz {
 		display: none;
+	}
+
+	.page-template-kontakt .map-image {
+		padding: 0;
 	}
 
 }
