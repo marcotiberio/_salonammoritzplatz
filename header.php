@@ -45,7 +45,7 @@
 				<p class="site-description"><?php echo $salonammoritzplatz_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
 			<?php endif; ?>
 			
-				<div id="tickerTape">
+				<div id="tickerTape" onclick="window.location.href='https://www.salonammoritzplatz.de/scroll/'">
 					<div class="text">
 						<svg class="first" width="2065" height="85" viewBox="0 0 2065 85">
 							<text id="SalonamMoritzplatz" data-name="Salon AM Moritzplatz          Salon AM Moritzplatz          Salon AM Moritzplatz          " transform="translate(0 46)" fill="#3e3e3e" font-size="40" font-family="sam-arial-black" font-weight="800" letter-spacing="-0.015em"><tspan x="0" y="0" font-family="sam-arial-black" xml:space="preserve">SALON AM MORITZPLATZ          SALON AM MORITZPLATZ          SALON AM MORITZPLATZ          </tspan></text>
