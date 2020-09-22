@@ -27,7 +27,7 @@
 <div id="page" class="site">
 
 	<header id="masthead" class="site-header">
-		<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+		<a href="https://www.salonammoritzplatz.de/scroll/">
 			<div class="site-branding">
 				<?php
 				the_custom_logo();
