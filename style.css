@@ -2003,7 +2003,7 @@ main {
 	}
 
 	.page-template-scroll main {
-		margin-top: 6vh;
+		margin-top: 96vh !important;
 	}
 
 	.page-template-scroll #site-navigation {
@@ -2022,6 +2022,7 @@ main {
 		background-repeat: no-repeat;
 		background-position: center;
 		margin-bottom: 50px;
+		margin-top: 5vh;
 	}
 
 	main {
