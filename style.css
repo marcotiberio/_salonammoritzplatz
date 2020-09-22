@@ -2067,8 +2067,8 @@ main {
 		clip: auto;
 		font-size: 20px;
 		text-transform: uppercase;
-		width: 76%;
-		left: 12%;
+		width: 100vw;
+		left: 0;
 		top: 0.8vh;
 		z-index: 2000;
 	}
@@ -2466,6 +2466,7 @@ main {
 
 	.page-template-kontakt .map-image {
 		padding: 0;
+		text-align: center;
 	}
 
 }
