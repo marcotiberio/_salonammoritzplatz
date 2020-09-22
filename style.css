@@ -1783,6 +1783,10 @@ main {
 	padding: 2% 10%;
 }
 
+.page-template-kontakt .map-image img {
+	width: 100%;
+}
+
 .page-template-kontakt .map-image p {
 	display: grid;
 	place-items: center;

@@ -102,8 +102,8 @@ get_header();
 			<?php 
 				$image = get_field('map_image');
 				if( !empty( $image ) ): ?>
-					<img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-					<p><?php echo esc_attr($image['caption']); ?></p>
+					<a href="https://goo.gl/maps/3P34yrDGckZkPXTYA" target="_blank"><img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" /></a>
+					<a href="https://goo.gl/maps/3P34yrDGckZkPXTYA" target="_blank"><?php echo esc_attr($image['caption']); ?></a>
 			<?php endif; ?>
 		</div>
 
