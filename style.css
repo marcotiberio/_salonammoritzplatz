@@ -1082,7 +1082,7 @@ main {
 .main-navigation {
 	position: fixed;
 	background-color: transparent;
-	height: 10vh;
+	/* height: 10vh; */
 	width: 100vw;
 	top: 0;
 }
