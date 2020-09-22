@@ -36,6 +36,11 @@
 			</div>
 			<div class="right">
 				<div class="details"><?php the_field('description'); ?></div>
+				<?php 
+				$additional_image = get_field('additional_image');
+				if( !empty( $additional_image ) ): ?>
+					<img src="<?php echo esc_url($additional_image['url']); ?>" alt="<?php echo esc_attr($additional_image['alt']); ?>" />
+				<?php endif; ?>
 			</div>
 		</div>
 		

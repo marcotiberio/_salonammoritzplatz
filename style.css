@@ -1010,7 +1010,7 @@ p {
 
 h1 {
 	font-family: 'vremena book' !important;
-	font-weight: regular;
+	font-weight: normal !important;
 }
 
 h2 {
@@ -1944,17 +1944,17 @@ main {
 /* MOBILE */
 /* MOBILE */
 
-@media (max-width: 35rem) {
+@media (max-width: 37.5rem) {
 
 	h1 {
 		font-family: 'vremena book' !important;
-		font-weight: regular;
+		font-weight: normal !important;
 		font-size: 1.2rem;
 	}
 
 	h2 {
 		font-family: 'vremena book' !important;
-		font-weight: regular;
+		font-weight: normal;
 		font-size: 1rem;
 	}
 
@@ -2047,11 +2047,12 @@ main {
 	}
 
 	.site-branding {
-		display: block;
+		display: grid;
 	}
 
 	.site-title {
-		display: block;
+		display: grid;
+		place-items: center;
 		position: fixed;
 		clip: auto;
 		font-size: 20px;
