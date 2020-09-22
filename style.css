@@ -1398,6 +1398,10 @@ main {
 	margin-bottom: 0;
 }
 
+.post-template-event .event-header button:hover {
+	color: #e6e6e6;
+}
+
 .post-template-event .event-info {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -1801,6 +1805,11 @@ main {
 	text-align: center;
 }
 
+.page-template-der-salon .history-text {
+    padding: 0 10% 2% 10%;
+    text-align: center;
+}
+
 .page-template-der-salon .history-text h1,
 .page-template-der-salon .intro-text h1 {
 	font-size: 3rem;
@@ -1810,6 +1819,7 @@ main {
 .page-template-der-salon .testimonials {
 	width: 100vw;
 	padding: 2% 10%;
+	text-align: center;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: auto;
