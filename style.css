@@ -1781,15 +1781,11 @@ main {
 
 .page-template-kontakt .map-image {
 	padding: 2% 10%;
+	text-align: center;
 }
 
 .page-template-kontakt .map-image img {
 	width: 100%;
-}
-
-.page-template-kontakt .map-image p {
-	display: grid;
-	place-items: center;
 }
 
 /* Kontakt */
