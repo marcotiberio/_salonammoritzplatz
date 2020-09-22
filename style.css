@@ -2011,6 +2011,13 @@ main {
 		grid-column-start: 2;
 	}
 
+	#menuOverlay {
+		display: none;
+		position: fixed;
+		left: 0;
+		top: 4vh;
+	}
+
 	.wpml-ls-slot-8 {
 		margin-top: 100px;
 	}
