@@ -12,15 +12,6 @@ get_header();
 
 	<main id="primary" class="site-main">
 
-		<!-- Cover Image + Banner -->
-
-		<div class="cover-image" style="background-image: url(<?php the_field('cover_image'); ?>);">
-		</div>
-
-		
-
-		<!-- Cover Image + Banner -->
-
 		<!-- Kontakt Ticker Tape -->
 
 		<div class="ticker-tape-small">
