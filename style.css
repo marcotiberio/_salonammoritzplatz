@@ -1100,8 +1100,7 @@ main {
 #primary-menu {
 	position: absolute;
 	left: 0;
-	top: 13vh;
-
+	top: 12vh;
 	width: 100%;
 	padding: 0 20%;
 	display: grid;
@@ -1114,8 +1113,7 @@ main {
 #language-menu {
 	position: absolute;
 	right: 5vw;
-	top: 13vh;
-
+	top: 12vh;
 	width: 5%;
 	padding: 0;
 	display: grid;
