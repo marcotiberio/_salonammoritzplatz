@@ -2084,6 +2084,7 @@ main {
 		position: fixed;
 		left: 0.6rem;
 		top: 0.6rem;
+		z-index: 3000;
 	}
 
 	.page-template-der-salon .history-text h1,
