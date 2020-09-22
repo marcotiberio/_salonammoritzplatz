@@ -1444,7 +1444,7 @@ main {
 
 .page-template-scroll .site-header {
 	background-color: transparent;
-	position: fixed;
+	position: static;
 	top: 0;
 	left: 0;
 	height: 0;
@@ -1453,11 +1453,12 @@ main {
 
 .page-template-scroll .main-navigation {
 	display: block;
-	position: sticky;
-	background-color: #FFFEF8;
-	height: 18vh;
-	width: 100vw;
-	top: 84vh;
+    position: sticky;
+    background-color: #FFFEF8;
+    height: 18vh;
+    width: 100vw;
+	top: 0vh;
+	padding-top: 10px;
 }
 
 .page-template-scroll .cover-image {
@@ -1468,6 +1469,22 @@ main {
 	background-repeat: no-repeat;
 	background-position: center;
 	margin-bottom: 20px;
+}
+
+.home .cover-image,
+.page-template-das-program
+.cover-image,
+.page-template-der-salon
+.cover-image,
+.page-template-der-raum
+.cover-image,
+.page-template-kontakt
+.cover-image,
+.page-template-simple-text
+.cover-image,
+.page-template-simple-page
+.cover-image {
+	display: none;
 }
 
 /* Scroll Ticker Tape */
@@ -1556,15 +1573,14 @@ main {
 	fill: #FFFEF8 !important;
 }
 
-.page-template-scroll header {}
-
 .page-template-scroll .cover-image {
 	display: block;
-	height: 100vh;
+	height: auto;
 	width: 100vw;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+	margin-bottom: 0;
 }
 
 .page-template-scroll .cover-image img {
@@ -1585,7 +1601,7 @@ main {
 }
 
 .page-template-scroll main {
-	margin-top: 0;
+	margin-top: 105vh;
 }
 
 .page-template-scroll .intro-text {
@@ -2021,7 +2037,7 @@ main {
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
-		margin-bottom: 50px;
+		margin-bottom: 0;
 		margin-top: 5vh;
 	}
 
