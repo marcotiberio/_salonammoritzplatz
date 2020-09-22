@@ -2045,7 +2045,7 @@ main {
 
 	.page-template-scroll .cover-image img {
 		height: 100vh;
-		max-width: auto;
+		max-width: 300vw;
 		width: auto;
 	}
 
