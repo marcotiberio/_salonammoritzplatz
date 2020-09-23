@@ -23,9 +23,9 @@
 @media (max-width: 900px) {
 
     .slides img {
-        height: 40vh;
+        height: 30vh;
         width: auto;
-        padding: 0 1vh !important;
+        padding: 0 3vh !important;
     }
 
 }
