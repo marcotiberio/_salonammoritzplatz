@@ -40,6 +40,14 @@
 			</div>
 		</div>
 
+		<!-- Intro Text -->
+
+		<div class="intro-text">
+			<h1><?php the_field('intro_text'); ?></h1>
+		</div>
+
+		<!-- Intro Text -->
+
 		<?php 
 			$args = array(
 				'post_type' => 'post',
