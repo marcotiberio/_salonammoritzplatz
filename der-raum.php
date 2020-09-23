@@ -50,13 +50,11 @@ get_header();
 		<!-- Blueprint -->
 
 		<div class="gallery">
-			<?php 
-				$image = get_field('floorplan');
-				$size = 'full'; // (thumbnail, medium, large, full or custom size)
-				if( $image ) {
-					echo wp_get_attachment_image( $image, $size );
-				} 
-			?>
+		<?php 
+		$floorplan = get_field('floorplan');
+		if( !empty( $floorplan ) ): ?>
+			<img src="<?php echo esc_url($floorplan['url']); ?>" alt="<?php echo esc_attr($floorplan['alt']); ?>" />
+		<?php endif; ?>
 		</div>
 
 		<!-- Blueprint -->
