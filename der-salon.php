@@ -202,16 +202,7 @@ get_header();
 				<svg width="2206" height="28" viewBox="0 0 2206 28">
 					<text id="PRESSE" data-name="PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE" transform="translate(1103 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-1102.266" y="0" xml:space="preserve">PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         </tspan></text>
 				</svg>
-				<svg width="2206" height="28" viewBox="0 0 2206 28">
-					<text id="PRESSE" data-name="PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE" transform="translate(1103 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-1102.266" y="0" xml:space="preserve">PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         </tspan></text>
-				</svg>
-				<svg width="2206" height="28" viewBox="0 0 2206 28">
-					<text id="PRESSE" data-name="PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE" transform="translate(1103 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-1102.266" y="0" xml:space="preserve">PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         </tspan></text>
-				</svg>
 				<!-- repeated images below to keep up with animation -->
-				<svg width="2206" height="28" viewBox="0 0 2206 28">
-					<text id="PRESSE" data-name="PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE" transform="translate(1103 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-1102.266" y="0" xml:space="preserve">PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         </tspan></text>
-				</svg>
 				<svg width="2206" height="28" viewBox="0 0 2206 28">
 					<text id="PRESSE" data-name="PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE" transform="translate(1103 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-1102.266" y="0" xml:space="preserve">PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         </tspan></text>
 				</svg>
