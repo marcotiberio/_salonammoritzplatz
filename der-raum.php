@@ -8,7 +8,7 @@ get_header();
 
 		<div class="ticker-tape-small">
 			<div class="inside">
-				<svg clas="first" width="2154" height="28" viewBox="0 0 2154 28">
+				<svg class="first" width="2154" height="28" viewBox="0 0 2154 28">
 					<text id="UNSERE_RÄUME_UNSERE_RÄUME_UNSERE_RÄUME_UNSERE_RÄUME_UNSERE_RÄUME_UNSERE_RÄUME_UNSERE_RÄUME_UNSERE_RÄUME_UNSERE_RÄUME_" data-name="UNSERE RÄUME         UNSERE RÄUME         UNSERE RÄUME         UNSERE RÄUME         UNSERE RÄUME         UNSERE RÄUME         UNSERE RÄUME         UNSERE RÄUME         UNSERE RÄUME         " transform="translate(1077 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-1076.924" y="0" xml:space="preserve">DER RÄUME         DER RÄUME         DER RÄUME         DER RÄUME         DER RÄUME         DER RÄUME         DER RÄUME         DER RÄUME         DER RÄUME         DER RÄUME         </tspan></text>
 				</svg>
 				<svg width="2154" height="28" viewBox="0 0 2154 28">
