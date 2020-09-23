@@ -1824,7 +1824,7 @@ main {
 }
 
 .page-template-der-salon .intro-text {
-	padding: 2% 10%;
+	padding: 1% 10% 3% 20%;
 	text-align: center;
 }
 
@@ -2441,7 +2441,7 @@ main {
 
 	.page-template-der-raum .intro-text,
 	.page-template-der-raum .second-text {
-		padding: 2% 10%;
+		padding: 1% 10% 3% 10%;
 	}
 
 	.page-template-der-raum .intro-text h1 {
