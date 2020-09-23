@@ -23,7 +23,7 @@
 @media (max-width: 900px) {
 
     .slides img {
-        height: 38vh;
+        height: 40vh;
         width: auto;
         padding: 0 1vh !important;
     }
