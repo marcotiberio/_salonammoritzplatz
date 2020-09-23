@@ -2105,7 +2105,7 @@ main {
 		position: fixed;
 		margin: auto;
 		width: fit-content;
-		top: 2.5vh;
+		top: 18px;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		clip: auto;
@@ -2124,7 +2124,7 @@ main {
 
 		position: fixed;
 		left: 0.6rem;
-		top: 0.6rem;
+		top: 7px;
 		z-index: 3000;
 	}
 
