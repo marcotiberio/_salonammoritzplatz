@@ -1011,6 +1011,8 @@ p {
 h1 {
 	font-family: 'vremena book' !important;
 	font-weight: normal !important;
+	margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
 }
 
 h2 {
@@ -1642,7 +1644,7 @@ main {
 
 .page-template-das-program .latestpost--custom,
 .page-template-scroll .latestpost--custom {
-	padding: 1% 10%;
+	padding: 1.5% 10%;
 	margin: 0;
 	width: 100%;
 	display: grid;
