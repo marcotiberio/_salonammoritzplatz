@@ -2446,9 +2446,9 @@ main {
 	}
 
 	.page-template-der-raum .intro-text h1 {
-		font-size: 3rem;
-		line-height: 3rem;
-		letter-spacing: -1px;
+		font-size: 2rem;
+		line-height: 2rem;
+		letter-spacing: 0;
 	}
 
 	.page-template-der-raum .second-text {
@@ -2460,6 +2460,12 @@ main {
 		font-size: 3rem;
 		line-height: 3rem;
 		letter-spacing: -1px;
+	}
+
+	.page-template-der-raum .second-text h1 {
+		font-size: 2rem;
+		line-height: 2rem;
+		letter-spacing: 0;
 	}
 	
 

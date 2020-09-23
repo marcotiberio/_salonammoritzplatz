@@ -29,7 +29,7 @@
     }
 
     .slick-dots {
-        display: block !important;
+        display: none !important;
         bottom: -20px !important;
     }
 
