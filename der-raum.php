@@ -51,17 +51,12 @@ get_header();
 
 		<div class="gallery">
 			<?php 
-			$images = get_field('blueprint_gallery');
-			$size = 'large'; // (thumbnail, medium, large, full or custom size)
-			if( $images ): ?>
-				<ul>
-					<?php foreach( $images as $image_id ): ?>
-						<li>
-							<?php echo wp_get_attachment_image( $image_id, $size ); ?>
-						</li>
-					<?php endforeach; ?>
-				</ul>
-			<?php endif; ?>
+				$image = get_field('floorplan');
+				$size = 'full'; // (thumbnail, medium, large, full or custom size)
+				if( $image ) {
+					echo wp_get_attachment_image( $image, $size );
+				} 
+			?>
 		</div>
 
 		<!-- Blueprint -->

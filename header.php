@@ -149,7 +149,7 @@
 		</div><!-- .site-branding -->
 
 		<div class="cover-image">
-				<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/09/home-cover-scaled.jpg" alt="">
+				<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/09/200922-SaM-Schnitt-01.png" alt="">
 		</div>
 
 		<nav id="site-navigation" class="main-navigation">
