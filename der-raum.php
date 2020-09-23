@@ -50,11 +50,11 @@ get_header();
 		<!-- Blueprint -->
 
 		<div class="gallery">
-		<?php 
-		$floorplan = get_field('floorplan');
-		if( !empty( $floorplan ) ): ?>
-			<img src="<?php echo esc_url($floorplan['url']); ?>" alt="<?php echo esc_attr($floorplan['alt']); ?>" />
-		<?php endif; ?>
+			<?php 
+			$floorplan = get_field('floorplan');
+			if( !empty( $floorplan ) ): ?>
+				<img src="<?php echo esc_url($floorplan['url']); ?>" alt="<?php echo esc_attr($floorplan['alt']); ?>" />
+			<?php endif; ?>
 		</div>
 
 		<!-- Blueprint -->
