@@ -218,7 +218,9 @@ get_header();
 
 		<!-- Slider Text -->
 
-
+		<div class="contact-text">
+			<h1><?php the_field('contact_text', 938); ?></h1>
+		</div>
 
 		<!-- Slider Text -->
 

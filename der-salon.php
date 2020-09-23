@@ -50,6 +50,12 @@ get_header();
 		<div class="ticker-tape-small">
 			<div class="inside">
 				<svg class="first" width="1950" height="28" viewBox="0 0 1950 28">
+					<text id="Historie" data-name="Historie         Historie         Historie         Historie         Historie         Historie         Historie         Historie         Historie         Historie         Historie         Historie         Historie" transform="translate(975 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-974.517" y="0" xml:space="preserve">Historie         Historie         Historie         Historie         Historie         Historie         Historie         Historie</tspan></text>
+				</svg>
+				<svg width="1950" height="28" viewBox="0 0 1950 28">
+					<text id="Historie" data-name="Historie         Historie         Historie         Historie         Historie         Historie         Historie         Historie" transform="translate(975 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-974.517" y="0" xml:space="preserve">Historie         Historie         Historie         Historie         Historie         Historie         Historie         Historie</tspan></text>
+				</svg>
+				<svg width="1950" height="28" viewBox="0 0 1950 28">
 					<text id="Historie" data-name="Historie         Historie         Historie         Historie         Historie         Historie         Historie         Historie" transform="translate(975 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-974.517" y="0" xml:space="preserve">Historie         Historie         Historie         Historie         Historie         Historie         Historie         Historie</tspan></text>
 				</svg>
 				<svg width="1950" height="28" viewBox="0 0 1950 28">
@@ -68,6 +74,15 @@ get_header();
 					<text id="Historie" data-name="Historie         Historie         Historie         Historie         Historie         Historie         Historie         Historie" transform="translate(975 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-974.517" y="0" xml:space="preserve">Historie         Historie         Historie         Historie         Historie         Historie         Historie         Historie</tspan></text>
 				</svg>
 				<!-- repeated images below to keep up with animation -->
+				<svg width="1950" height="28" viewBox="0 0 1950 28">
+					<text id="Historie" data-name="Historie         Historie         Historie         Historie         Historie         Historie         Historie         Historie" transform="translate(975 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-974.517" y="0" xml:space="preserve">Historie         Historie         Historie         Historie         Historie         Historie         Historie         Historie</tspan></text>
+				</svg>
+				<svg width="1950" height="28" viewBox="0 0 1950 28">
+					<text id="Historie" data-name="Historie         Historie         Historie         Historie         Historie         Historie         Historie         Historie" transform="translate(975 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-974.517" y="0" xml:space="preserve">Historie         Historie         Historie         Historie         Historie         Historie         Historie         Historie</tspan></text>
+				</svg>
+				<svg width="1950" height="28" viewBox="0 0 1950 28">
+					<text id="Historie" data-name="Historie         Historie         Historie         Historie         Historie         Historie         Historie         Historie" transform="translate(975 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-974.517" y="0" xml:space="preserve">Historie         Historie         Historie         Historie         Historie         Historie         Historie         Historie</tspan></text>
+				</svg>
 				<svg width="1950" height="28" viewBox="0 0 1950 28">
 					<text id="Historie" data-name="Historie         Historie         Historie         Historie         Historie         Historie         Historie         Historie" transform="translate(975 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-974.517" y="0" xml:space="preserve">Historie         Historie         Historie         Historie         Historie         Historie         Historie         Historie</tspan></text>
 				</svg>
@@ -121,7 +136,22 @@ get_header();
 				<svg width="2078" height="28" viewBox="0 0 2078 28">
 					<text id="Team" data-name="Team         Team         Team         Team         Team         Team         Team         Team         Team         Team         " transform="translate(1039 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-1038.916" y="0" xml:space="preserve">Team         Team         Team         Team         Team         Team         Team         Team         Team         Team         </tspan></text>
 				</svg>
+				<svg width="2078" height="28" viewBox="0 0 2078 28">
+					<text id="Team" data-name="Team         Team         Team         Team         Team         Team         Team         Team         Team         Team         " transform="translate(1039 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-1038.916" y="0" xml:space="preserve">Team         Team         Team         Team         Team         Team         Team         Team         Team         Team         </tspan></text>
+				</svg>
+				<svg width="2078" height="28" viewBox="0 0 2078 28">
+					<text id="Team" data-name="Team         Team         Team         Team         Team         Team         Team         Team         Team         Team         " transform="translate(1039 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-1038.916" y="0" xml:space="preserve">Team         Team         Team         Team         Team         Team         Team         Team         Team         Team         </tspan></text>
+				</svg>
 				<!-- repeated images below to keep up with animation -->
+				<svg width="2078" height="28" viewBox="0 0 2078 28">
+					<text id="Team" data-name="Team         Team         Team         Team         Team         Team         Team         Team         Team         Team         " transform="translate(1039 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-1038.916" y="0" xml:space="preserve">Team         Team         Team         Team         Team         Team         Team         Team         Team         Team         </tspan></text>
+				</svg>
+				<svg width="2078" height="28" viewBox="0 0 2078 28">
+					<text id="Team" data-name="Team         Team         Team         Team         Team         Team         Team         Team         Team         Team         " transform="translate(1039 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-1038.916" y="0" xml:space="preserve">Team         Team         Team         Team         Team         Team         Team         Team         Team         Team         </tspan></text>
+				</svg>
+				<svg width="2078" height="28" viewBox="0 0 2078 28">
+					<text id="Team" data-name="Team         Team         Team         Team         Team         Team         Team         Team         Team         Team         " transform="translate(1039 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-1038.916" y="0" xml:space="preserve">Team         Team         Team         Team         Team         Team         Team         Team         Team         Team         </tspan></text>
+				</svg>
 				<svg width="2078" height="28" viewBox="0 0 2078 28">
 					<text id="Team" data-name="Team         Team         Team         Team         Team         Team         Team         Team         Team         Team         " transform="translate(1039 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-1038.916" y="0" xml:space="preserve">Team         Team         Team         Team         Team         Team         Team         Team         Team         Team         </tspan></text>
 				</svg>
