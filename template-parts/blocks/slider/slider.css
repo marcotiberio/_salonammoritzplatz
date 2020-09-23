@@ -28,4 +28,9 @@
         padding: 0 3vh !important;
     }
 
+    .slick-dots {
+        display: block !important;
+        bottom: -20px !important;
+    }
+
 }

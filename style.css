@@ -2133,6 +2133,7 @@ main {
 	.page-template-der-salon .intro-text h1 {
 		font-size: 1rem;
 		line-height: 1rem;
+		letter-spacing: -1px;
 	}
 
 	.home .site-branding {
