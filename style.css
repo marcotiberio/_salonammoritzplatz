@@ -1159,14 +1159,12 @@ main {
 	text-transform: uppercase;
 }
 
-.bar1,
-.bar2,
-.bar3 {
+.bar1, .bar2, .bar3 {
 	width: 20px;
-	height: 2px;
-	background-color: #3E3E3E;
-	margin: 4px 0;
-	transition: 0.4s;
+    height: 2px;
+    background-color: #3E3E3E;
+    margin: 0 0 2.5px 0;
+    transition: 0.4s;
 }
 
 .nav--overlay {
@@ -2004,7 +2002,7 @@ main {
 	#mobile-menu {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		margin-top: 5vh;
+		margin-top: 6vh;
 	}
 
 	#mobile-menu li {
@@ -2018,8 +2016,8 @@ main {
 	}
 
 	#mobile-menu .menu-item-wpml-ls-8-en {
-		margin: 3rem 0 3rem -8rem;
-		grid-column-start: 2;
+		margin: 3rem 0 3rem -7rem;
+    	grid-column-start: 2;
 	}
 
 	#menuOverlay {
@@ -2111,7 +2109,7 @@ main {
 		left: 50%;
 		transform: translate(-50%, -50%);
 		clip: auto;
-		font-size: 20px;
+		font-size: 1rem;
 		text-transform: uppercase;
 		z-index: 2000;
 	}
@@ -2126,7 +2124,7 @@ main {
 
 		position: fixed;
 		left: 0.6rem;
-		top: 7px;
+		top: 12px;
 		z-index: 3000;
 	}
 
