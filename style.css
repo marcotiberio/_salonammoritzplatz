@@ -2293,6 +2293,7 @@ main {
 		grid-template-rows: auto;
 		column-gap: 20px;
 		row-gap: 20px;
+		text-align: left;
 	}
 
 	.page-template-der-salon .team {
