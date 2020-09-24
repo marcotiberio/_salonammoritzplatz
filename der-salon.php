@@ -95,18 +95,17 @@ get_header();
 			</div>
 		</div>
 
-		<!--Slider-->
+		<!-- Der Salon Image -->
 
-		<?php
-		while ( have_posts() ) :
-			the_post();
+		<div class="gallery">
+			<?php 
+			$image = get_field('image');
+			if( !empty( $floorplan ) ): ?>
+				<img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+			<?php endif; ?>
+		</div>
 
-			get_template_part( 'template-parts/content', 'page' );
-
-		endwhile; // End of the loop.
-		?>
-
-		<!--Slider-->
+		<!-- Der Salon Image -->
 
 		<!-- History Text -->
 
