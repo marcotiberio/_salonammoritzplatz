@@ -100,7 +100,7 @@ get_header();
 		<div class="gallery">
 			<?php 
 			$image = get_field('image');
-			if( !empty( $floorplan ) ): ?>
+			if( !empty( $image ) ): ?>
 				<img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
 			<?php endif; ?>
 		</div>
