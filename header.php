@@ -148,8 +148,7 @@
 				</div>
 		</div><!-- .site-branding -->
 
-		<div class="cover-image">
-				<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/09/Salon_Fullbright_NewYork_©MarcHagen-scaled.jpg" alt="">
+		<div class="cover-image" style="background-image: url('https://www.salonammoritzplatz.de/wp-content/uploads/2020/09/Salon_Fullbright_NewYork_©MarcHagen-scaled.jpg');">
 		</div>
 
 		<nav id="site-navigation" class="main-navigation">
