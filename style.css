@@ -1609,10 +1609,10 @@ main {
 .page-template-scroll .contact-text h1 {
 	font-family: 'vremena book' !important;
 	font-weight: normal;
-	font-size: 3rem;
 	text-align: center;
-	letter-spacing: -1px;
-	line-height: 3rem;
+	font-size: 3rem;
+  	line-height: 3.4rem;
+	letter-spacing: 0.2px;
 }
 
 .page-template-scroll .event-header h2 {
@@ -1836,8 +1836,8 @@ main {
 .page-template-der-salon .history-text h1,
 .page-template-der-salon .intro-text h1 {
 	font-size: 3rem;
-	line-height: 3rem;
-	letter-spacing: -1px;
+  	line-height: 3.4rem;
+	letter-spacing: 0.2px;
 }
 
 .page-template-der-salon .testimonials {
