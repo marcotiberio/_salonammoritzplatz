@@ -1843,7 +1843,7 @@ main {
 .page-template-der-salon .testimonials {
 	width: 100vw;
 	padding: 2% 10%;
-	text-align: center;
+	text-align: left;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: auto;
@@ -2131,8 +2131,8 @@ main {
 
 	.page-template-der-salon .history-text h1,
 	.page-template-der-salon .intro-text h1 {
-		font-size: 1rem;
-		line-height: 1rem;
+		font-size: 1.5rem;
+		line-height: 1.5rem;
 		letter-spacing: 0;
 	}
 
