@@ -44,6 +44,11 @@
 				?>
 				<p class="site-description"><?php echo $salonammoritzplatz_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
 			<?php endif; ?>
+			<button class="menu-toggle" id="menu-toggleMobile" aria-controls="primary-menu" aria-expanded="false">
+				<div class="bar1"></div>
+  				<div class="bar2"></div>
+  				<div class="bar3"></div>
+			</button>
 			
 				<div id="tickerTape" onclick="window.location.href='https://www.salonammoritzplatz.de/scroll/'">
 					<div class="text">
@@ -202,11 +207,6 @@
 					</svg>
 				</div>
 			</div>
-			<button class="menu-toggle" id="menu-toggleMobile" aria-controls="primary-menu" aria-expanded="false">
-				<div class="bar1"></div>
-  				<div class="bar2"></div>
-  				<div class="bar3"></div>
-			</button>
 			<div id="menuzzz">
 				<?php
 				wp_nav_menu(
