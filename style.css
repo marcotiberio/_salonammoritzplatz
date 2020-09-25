@@ -1806,7 +1806,8 @@ main {
 }
 
 
-.page-template-der-raum .intro-text h1 {
+.page-template-der-raum .intro-text h1,
+.page-template-der-raum .second-text h1 {
   	font-size: 3rem;
   	line-height: 3.4rem;
 	letter-spacing: 0.2px;
