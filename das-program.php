@@ -86,7 +86,7 @@
 
 						<!-- Booking Modal - Content -->
 						<div class="modal-content">
-							<span class="close<?php the_ID(); ?>" style="position: absolute; left: 10%; top: 15%; cursor: pointer;">&times;</span>
+							<span class="close<?php the_ID(); ?>" style="">&times;</span>
 							<p><?php the_field('type', false); ?></p>
 							<h2><?php the_field('title', false); ?></h2>
 							<p><?php the_field('when', false); ?></p>
