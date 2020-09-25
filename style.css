@@ -1979,7 +1979,7 @@ main {
 	width: 100%;
 }
 
-.page-template-der-salon .team {
+.page-template-kontakt .team {
 	width: 100vw;
 	padding: 2% 10%;
 	display: grid;
@@ -1997,7 +1997,7 @@ main {
 
 .page-id-14 .entry-content .testimonial-info h2,
 .page-template-der-salon .testimonials h2,
-.page-template-der-salon .team h2 {
+.page-template-kontakt .team h2 {
 	font-family: 'sam-arial-black' !important;
 	text-transform: uppercase;
 	margin-block-start: 0;
