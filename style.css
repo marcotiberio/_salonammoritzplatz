@@ -1601,10 +1601,7 @@ main {
 	margin-top: 105vh;
 }
 
-.page-template-scroll .intro-text {
-	padding: 1% 32.5% 3% 32.5%;
-}
-
+.page-template-scroll .intro-text,
 .page-template-scroll .contact-text {
 	padding: 1% 12.5% 3% 12.5%;
 }
@@ -1640,10 +1637,21 @@ main {
 
 /* Scroll */
 
-/* Das Program Test Template */
+/* Das Program */
 
 .page-template-das-program .entry-header {
 	display: none;
+}
+
+.page-template-das-program .intro-text {
+    padding: 1% 12.5% 3% 12.5%;
+	text-align: center;
+}
+
+.page-template-das-program .intro-text h1 {
+	font-size: 3rem;
+    line-height: 3.4rem;
+    letter-spacing: 0.2px;
 }
 
 .page-template-das-program .latestpost--custom,
@@ -1688,7 +1696,7 @@ main {
 	font-style: italic;
 }
 
-/* Das Program Test Template */
+/* Das Program */
 
 /* Simple Archive */
 
@@ -1790,6 +1798,12 @@ main {
 .page-template-der-raum .second-text {
 	padding: 2% 10%;
 	text-align: center;
+}
+
+.page-template-der-raum .intro-text h1 {
+  	font-size: 3rem;
+  	line-height: 3.4rem;
+	letter-spacing: 0.2px;
 }
 
 .page-template-der-raum .gallery ul {
@@ -2173,8 +2187,8 @@ main {
 
 	.page-template-der-salon .history-text h1,
 	.page-template-der-salon .intro-text h1 {
-		font-size: 1.5rem;
-		line-height: 1.5rem;
+		font-size: 1.2rem;
+		line-height: 1.4rem;
 		letter-spacing: 0;
 	}
 
@@ -2475,6 +2489,12 @@ main {
 		top: 7%;
 	}
 
+	.page-template-das-program .intro-text h1 {
+		font-size: 1.2rem;
+		line-height: 1.4rem;
+		letter-spacing: 0;
+	}
+
 	.page-template-der-salon .intro-text {
 		padding: 2% 10%;
 		text-align: center;
@@ -2498,8 +2518,8 @@ main {
 	}
 
 	.page-template-der-raum .intro-text h1 {
-		font-size: 1.5rem;
-		line-height: 1.5rem;
+		font-size: 1.2rem;
+		line-height: 1.4rem;
 		letter-spacing: 0;
 	}
 
@@ -2509,8 +2529,8 @@ main {
 	}
 
 	.page-template-der-raum .second-text h1 {
-		font-size: 1.5rem;
-		line-height: 1.5rem;
+		font-size: 1.2rem;
+		line-height: 1.4rem;
 		letter-spacing: 0;
 	}
 
