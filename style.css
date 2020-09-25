@@ -1415,6 +1415,7 @@ main {
 
 .post-template-event .event-info p {
 	margin: 0;
+	margin-block-end: 0.83rem;
 }
 
 /* Event */
