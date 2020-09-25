@@ -78,7 +78,11 @@
 							<button id="booking-<?php the_ID(); ?>"><?php the_field('booking'); ?></button>
 						</div>
 						<div class="event-info">
-							<div class="details"><?php the_field('description'); ?></div>
+							<div class="details">
+								<?php $summary = get_field('description');
+									echo substr($summary, 0, 300); ?><span>...</span>
+								</div>
+							</div>
 						</div>
 
 						<!-- Booking Modal -->
