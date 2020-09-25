@@ -78,7 +78,7 @@ get_header();
 							<div class="details">
 								<?php $summary = get_field('description');
 									$pos=strpos($summary, ' ', 300);
-									echo substr($summary,0,$pos ); ?><span>...</span>
+									echo substr($summary,0,$pos ); ?><span>&nbsp;...</span>
 								</div>
 							</div>
 						</div>
