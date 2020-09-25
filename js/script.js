@@ -1,22 +1,22 @@
-$(document).ready(function () {
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 0) {
-            $('#stickyTickertape').fadeIn();
-        } else {
-            $('#stickyTickertape').fadeOut('100');
-        }
-    });
-});
+// $(document).ready(function () {
+//     $(window).scroll(function () {
+//         if ($(this).scrollTop() > 0) {
+//             $('#stickyTickertape').fadeIn();
+//         } else {
+//             $('#stickyTickertape').fadeOut('100');
+//         }
+//     });
+// });
 
-$(document).ready(function () {
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 0) {
-            $('#tickerTape').fadeOut();
-        } else {
-            $('#tickerTape').fadeIn('100');
-        }
-    });
-});
+// $(document).ready(function () {
+//     $(window).scroll(function () {
+//         if ($(this).scrollTop() > 0) {
+//             $('#tickerTape').fadeOut();
+//         } else {
+//             $('#tickerTape').fadeIn('100');
+//         }
+//     });
+// });
 
 $(document).ready(function () {
     $("#open_menuOverlay").click(function () {
