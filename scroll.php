@@ -49,7 +49,7 @@ get_header();
 			$args = array(
 				'post_type' => 'post',
 				'post_status' => 'publish',
-				'posts_per_page' => 3,
+				'posts_per_page' => 6,
 			);
 			$arr_posts = new WP_Query( $args );
 			 
