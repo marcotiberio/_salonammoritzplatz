@@ -85,8 +85,8 @@ get_header();
 					$bio = get_sub_field('bio');
 					?>
 					<div class="team-repeater">
-						<p class="role"><?php the_sub_field('role'); ?></p>
-						<h2 class="name"><?php the_sub_field('name'); ?></h2>
+						<h2 class="role"><?php the_sub_field('role'); ?></h2>
+						<p class="name"><?php the_sub_field('name'); ?></p>
 						<?php the_sub_field('bio'); ?>
 					</div>
 				<?php endwhile; ?>
