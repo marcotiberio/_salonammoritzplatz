@@ -59,7 +59,7 @@ get_header();
 		<!-- Blueprint -->
 
 		<div class="gallery">
-			<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/plan2.png" alt="Salon am Moritzplatz Floorplan">
+			<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/09/floorplan.png" alt="Salon am Moritzplatz Floorplan">
 		</div>
 
 		<!-- Blueprint -->
