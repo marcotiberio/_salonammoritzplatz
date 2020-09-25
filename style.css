@@ -1139,7 +1139,7 @@ main {
 	left: 0;
 	width: 100%;
 	background-color: #3E3E3E;
-	margin-top: 100px;
+	margin-top: 75px;
 }
 
 #footer-menu {
@@ -1374,7 +1374,8 @@ main {
 .post-template-event .entry-meta,
 .post-template-event .entry-header,
 .post-template-event .comments-area,
-.post-template-event .entry-footer {
+.post-template-event .entry-footer,
+.post-template-event .cover-image {
 	display: none;
 }
 
@@ -1599,6 +1600,7 @@ main {
 
 .page-template-scroll main {
 	margin-top: 105vh;
+	padding-bottom: 2%;
 }
 
 .page-template-scroll .intro-text,
@@ -1849,6 +1851,84 @@ main {
 	width: 100%;
 }
 
+/* Mailchimp */
+
+#mc_embed_signup label {
+    display: block;
+    font-size: 1.2rem !important;
+    text-transform: uppercase;
+		font-family: 'sam-arial-black' !important;
+    padding-bottom: 0 !important;
+		margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+
+#mc_embed_signup {
+    background-color: #FFFEF8 !important;
+    clear: left;
+    font: 1.2rem 'vremena book' !important;
+}
+
+#mc_embed_signup form {
+    display: block;
+    position: relative;
+    text-align: left;
+    padding: 0 !important;
+}
+
+#mc_embed_signup input.email {
+  font-family: 'vremena book' !important;
+  font-size: 1.2rem !important;
+	color: #404040 !important;
+  display: block;
+  padding: 0 !important;
+  margin: 0 4% 10px 0;
+  min-height: 32px;
+  width: 58%;
+  min-width: 130px;
+	border-top: 0 !important;
+	border-left: 0 !important;
+	border-right: 0 !important;
+	border-bottom: 1px solid #404040 !important;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  border-radius: 0 !important;
+	background-color: transparent !important;
+}
+
+#mc_embed_signup input.button {
+    display: block;
+    width: fit-content !important;
+    margin: 0 0 10px 0;
+    min-width: 90px;
+}
+
+#mc_embed_signup .button {
+    clear: both;
+    background-color: transparent !important;
+    border: 0 none;
+    border-radius: 0 !important;
+    letter-spacing: .03em;
+		font-family: 'vremena book' !important;
+  	font-size: 1.2rem !important;
+    color: #404040 !important;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    height: 32px;
+    line-height: 32px;
+    margin: 0 5px 10px 0;
+    padding: 0;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: auto;
+    transition: all 0.23s ease-in-out 0s;
+}
+
+/* Mailchimp */
+
 /* Kontakt */
 
 /* Der Salon */
@@ -1883,6 +1963,18 @@ main {
 	grid-template-rows: auto;
 	column-gap: 20px;
 	row-gap: 20px;
+}
+
+.page-template-der-salon .gallery {
+    margin-bottom: 1.5em;
+    display: grid;
+    grid-gap: 1.5em;
+    width: 100%;
+    padding: 2% 0 1%;
+}
+
+.page-template-der-salon .gallery img {
+    width: 100%;
 }
 
 .page-template-der-salon .team {
@@ -2113,13 +2205,12 @@ main {
 
 	.page-template-scroll .cover-image {
 		display: block;
-		height: 100vh;
+		height: 84vh;
 		width: 100vw;
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
 		margin-bottom: 0;
-		margin-top: 5vh;
 	}
 
 	.page-template-scroll .cover-image img {
@@ -2566,7 +2657,7 @@ main {
 
 	.page-template-der-raum article .entry-content .slick-dotted.slick-slider,
 	.page-template-der-salon article .entry-content .slick-dotted.slick-slider {
-		margin-bottom: 10px;
+		margin-bottom: 0;
 	}
 
 	.page-template-der-raum article .entry-content .tickersmall {
