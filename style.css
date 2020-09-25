@@ -1920,14 +1920,14 @@ main {
 }
 
 /* The Close Button */
-.close {
+/* .close {
 	position: absolute;
 	color: #3E3E3E;
 	font-size: 20px;
 	font-weight: normal;
 	top: 15%;
 	right: 12%;
-}
+} */
 
 .close:hover,
 .close:focus {
@@ -2405,14 +2405,14 @@ main {
 	}
 
 	/* The Close Button */
-	.close {
+	/* .close {
 		position: absolute;
 		color: #3E3E3E;
 		font-size: 20px;
 		font-weight: normal;
 		top: 1%;
 		right: 12%;
-	}
+	} */
 
 	.close:hover,
 	.close:focus {
