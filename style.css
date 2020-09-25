@@ -2572,9 +2572,7 @@ main {
 	}
 
 	.page-template-das-program .modal .modal-content span {
-		position: absolute;
-		right: 12%;
-		top: 7%;
+		position: relative;
 	}
 
 	.page-template-das-program .intro-text h1 {
