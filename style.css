@@ -1012,7 +1012,7 @@ h1 {
 	font-family: 'vremena book' !important;
 	font-weight: normal !important;
 	margin-block-start: 0 !important;
-    margin-block-end: 0 !important;
+	margin-block-end: 0 !important;
 }
 
 h2 {
@@ -1159,12 +1159,14 @@ main {
 	text-transform: uppercase;
 }
 
-.bar1, .bar2, .bar3 {
+.bar1,
+.bar2,
+.bar3 {
 	width: 20px;
-    height: 2px;
-    background-color: #3E3E3E;
-    margin: 0 0 2.5px 0;
-    transition: 0.4s;
+	height: 2px;
+	background-color: #3E3E3E;
+	margin: 0 0 2.5px 0;
+	transition: 0.4s;
 }
 
 .nav--overlay {
@@ -1406,8 +1408,8 @@ main {
 }
 
 .post-template-event .event-info {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
 	margin-top: 2%;
 }
 
@@ -1599,7 +1601,7 @@ main {
 }
 
 .page-template-scroll main {
-	margin-top: 105vh;
+	margin-top: 107vh !important;
 	padding-bottom: 2%;
 }
 
@@ -1614,7 +1616,7 @@ main {
 	font-weight: normal;
 	text-align: center;
 	font-size: 3rem;
-  	line-height: 3.4rem;
+	line-height: 3.4rem;
 	letter-spacing: 0.2px;
 }
 
@@ -1626,7 +1628,7 @@ main {
 }
 
 .page-template-scroll .contact-text a {
-    font-style: italic;
+	font-style: italic;
 }
 
 .page-template-scroll .map-home {
@@ -1646,14 +1648,14 @@ main {
 }
 
 .page-template-das-program .intro-text {
-    padding: 1% 12.5% 3% 12.5%;
+	padding: 1% 12.5% 3% 12.5%;
 	text-align: center;
 }
 
 .page-template-das-program .intro-text h1 {
 	font-size: 3rem;
-    line-height: 3.4rem;
-    letter-spacing: 0.2px;
+	line-height: 3.4rem;
+	letter-spacing: 0.2px;
 }
 
 .page-template-das-program .latestpost--custom,
@@ -1669,7 +1671,7 @@ main {
 }
 
 .page-template-das-program .latestpost--custom p {
-    margin-top: 1%;
+	margin-top: 1%;
 }
 
 .page-template-das-program .event-header h2 {
@@ -1715,9 +1717,9 @@ main {
 	margin-top: 20px;
 }
 
-#contentArchive .tab > button {
-    margin-right: 20px;
-    margin-bottom: 10px;
+#contentArchive .tab>button {
+	margin-right: 20px;
+	margin-bottom: 10px;
 }
 
 .tab {
@@ -1751,15 +1753,15 @@ main {
 	column-gap: 40px;
 }
 
-.page-template-das-program #contentArchive button, 
-.page-template-das-program  #contentArchiveinput[type="button"], 
-.page-template-das-program #contentArchive input[type="reset"], 
-.page-template-das-program #contentArchive input[type="submit"], 
-.page-template-scroll #contentArchive button, 
-.page-template-scroll #contentArchive input[type="button"], 
-.page-template-scroll #contentArchive input[type="reset"], 
+.page-template-das-program #contentArchive button,
+.page-template-das-program #contentArchiveinput[type="button"],
+.page-template-das-program #contentArchive input[type="reset"],
+.page-template-das-program #contentArchive input[type="submit"],
+.page-template-scroll #contentArchive button,
+.page-template-scroll #contentArchive input[type="button"],
+.page-template-scroll #contentArchive input[type="reset"],
 .page-template-scroll #contentArchive input[type="submit"] {
-    font-style: normal;
+	font-style: normal;
 }
 
 
@@ -1801,17 +1803,17 @@ main {
 	display: none;
 }
 
-.page-template-der-raum .intro-text, 
+.page-template-der-raum .intro-text,
 .page-template-der-raum .second-text {
-    padding: 0 12.5% 4% 12.5%;
-    text-align: center;
+	padding: 0 12.5% 4% 12.5%;
+	text-align: center;
 }
 
 
 .page-template-der-raum .intro-text h1,
 .page-template-der-raum .second-text h1 {
-  	font-size: 3rem;
-  	line-height: 3.4rem;
+	font-size: 3rem;
+	line-height: 3.4rem;
 	letter-spacing: 0.2px;
 }
 
@@ -1854,77 +1856,77 @@ main {
 /* Mailchimp */
 
 #mc_embed_signup label {
-    display: block;
-    font-size: 1.2rem !important;
-    text-transform: uppercase;
-		font-family: 'sam-arial-black' !important;
-    padding-bottom: 0 !important;
-		margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
+	display: block;
+	font-size: 1.2rem !important;
+	text-transform: uppercase;
+	font-family: 'sam-arial-black' !important;
+	padding-bottom: 0 !important;
+	margin-block-start: 0.83em;
+	margin-block-end: 0.83em;
 }
 
 #mc_embed_signup {
-    background-color: #FFFEF8 !important;
-    clear: left;
-    font: 1.2rem 'vremena book' !important;
+	background-color: #FFFEF8 !important;
+	clear: left;
+	font: 1.2rem 'vremena book' !important;
 }
 
 #mc_embed_signup form {
-    display: block;
-    position: relative;
-    text-align: left;
-    padding: 0 !important;
+	display: block;
+	position: relative;
+	text-align: left;
+	padding: 0 !important;
 }
 
 #mc_embed_signup input.email {
-  font-family: 'vremena book' !important;
-  font-size: 1.2rem !important;
+	font-family: 'vremena book' !important;
+	font-size: 1.2rem !important;
 	color: #404040 !important;
-  display: block;
-  padding: 0 !important;
-  margin: 0 4% 10px 0;
-  min-height: 32px;
-  width: 58%;
-  min-width: 130px;
+	display: block;
+	padding: 0 !important;
+	margin: 0 4% 10px 0;
+	min-height: 32px;
+	width: 58%;
+	min-width: 130px;
 	border-top: 0 !important;
 	border-left: 0 !important;
 	border-right: 0 !important;
 	border-bottom: 1px solid #404040 !important;
-  -webkit-border-radius: 0 !important;
-  -moz-border-radius: 0 !important;
-  border-radius: 0 !important;
+	-webkit-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	border-radius: 0 !important;
 	background-color: transparent !important;
 }
 
 #mc_embed_signup input.button {
-    display: block;
-    width: fit-content !important;
-    margin: 0 0 10px 0;
-    min-width: 90px;
+	display: block;
+	width: fit-content !important;
+	margin: 0 0 10px 0;
+	min-width: 90px;
 }
 
 #mc_embed_signup .button {
-    clear: both;
-    background-color: transparent !important;
-    border: 0 none;
-    border-radius: 0 !important;
-    letter-spacing: .03em;
-		font-family: 'vremena book' !important;
-  	font-size: 1.2rem !important;
-    color: #404040 !important;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 15px;
-    height: 32px;
-    line-height: 32px;
-    margin: 0 5px 10px 0;
-    padding: 0;
-    text-align: left;
-    text-decoration: none;
-    vertical-align: top;
-    white-space: nowrap;
-    width: auto;
-    transition: all 0.23s ease-in-out 0s;
+	clear: both;
+	background-color: transparent !important;
+	border: 0 none;
+	border-radius: 0 !important;
+	letter-spacing: .03em;
+	font-family: 'vremena book' !important;
+	font-size: 1.2rem !important;
+	color: #404040 !important;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 15px;
+	height: 32px;
+	line-height: 32px;
+	margin: 0 5px 10px 0;
+	padding: 0;
+	text-align: left;
+	text-decoration: none;
+	vertical-align: top;
+	white-space: nowrap;
+	width: auto;
+	transition: all 0.23s ease-in-out 0s;
 }
 
 /* Mailchimp */
@@ -1950,7 +1952,7 @@ main {
 .page-template-der-salon .history-text h1,
 .page-template-der-salon .intro-text h1 {
 	font-size: 3rem;
-  	line-height: 3.4rem;
+	line-height: 3.4rem;
 	letter-spacing: 0.2px;
 }
 
@@ -1966,15 +1968,15 @@ main {
 }
 
 .page-template-der-salon .gallery {
-    margin-bottom: 1.5em;
-    display: grid;
-    grid-gap: 1.5em;
-    width: 100%;
-    padding: 2% 0 1%;
+	margin-bottom: 1.5em;
+	display: grid;
+	grid-gap: 1.5em;
+	width: 100%;
+	padding: 2% 0 1%;
 }
 
 .page-template-der-salon .gallery img {
-    width: 100%;
+	width: 100%;
 }
 
 .page-template-der-salon .team {
@@ -2007,31 +2009,20 @@ main {
 
 /* Modal */
 
-/* The Modal (background) */
 .modal {
 	display: none;
-	/* Hidden by default */
 	position: fixed;
-	/* Stay in place */
 	z-index: 3000;
-	/* Sit on top */
 	padding-top: 0;
-	/* Location of the box */
 	left: 0;
 	top: 0;
 	width: 100%;
-	/* Full width */
 	height: 100%;
-	/* Full height */
 	overflow: auto;
-	/* Enable scroll if needed */
 	background-color: rgb(0, 0, 0);
-	/* Fallback color */
 	background-color: rgba(0, 0, 0, 0.4);
-	/* Black w/ opacity */
 }
 
-/* Modal Content */
 .modal-content {
 	background-color: #E6E6E6;
 	margin: 5%;
@@ -2094,7 +2085,7 @@ main {
 
 .wpcf7-form .upper-section {
 	display: grid;
-  grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
 	row-gap: 1.5rem;
 	margin-top: 1.5rem;
 	margin-bottom: 1.5rem;
@@ -2102,7 +2093,7 @@ main {
 
 .wpcf7-form .larger {
 	display: grid;
-  grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
 	width: 100%;
 	margin-bottom: 5%;
 }
@@ -2173,7 +2164,7 @@ main {
 
 	#mobile-menu .menu-item-wpml-ls-8-en {
 		margin: 3rem 0 3rem -7rem;
-    	grid-column-start: 2;
+		grid-column-start: 2;
 	}
 
 	#menuOverlay {
@@ -2205,18 +2196,13 @@ main {
 
 	.page-template-scroll .cover-image {
 		display: block;
-		height: 84vh;
+		height: 100vh;
 		width: 100vw;
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
 		margin-bottom: 0;
-	}
-
-	.page-template-scroll .cover-image img {
-		height: 100vh;
-		max-width: 300vw;
-		width: auto;
+		margin-top: 0;
 	}
 
 	main {
@@ -2259,14 +2245,22 @@ main {
 		display: block;
 		position: fixed;
 		margin: auto;
-		width: fit-content;
-		top: 18px;
+		width: 100%;
+		height: 10vh;
+		padding-left: 25%;
+		top: 0;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		clip: auto;
 		font-size: 1rem;
 		text-transform: uppercase;
 		z-index: 2000;
+		background-color: #FFFEF8;
+	}
+
+	.site-title a {
+		position: fixed;
+		top: 6vh;
 	}
 
 	.menu-toggle {
@@ -2398,7 +2392,7 @@ main {
 	.page-template-scroll .intro-text {
 		padding: 1% 5% 3% 5%;
 	}
-		
+
 	.page-template-scroll .contact-text {
 		padding: 1% 5% 3% 5%;
 	}
@@ -2539,7 +2533,7 @@ main {
 	.modal-content textarea {
 		width: 100%;
 		height: 100px;
-	}	
+	}
 
 	/* The Close Button */
 	/* .close {
@@ -2715,6 +2709,39 @@ main {
 		width: 100%;
 		margin-bottom: 5%;
 	}
-	
+
+	#mc_embed_signup label {
+		display: block;
+		font-size: 1.2rem !important;
+		text-transform: uppercase;
+		font-family: 'sam-arial-black' !important;
+		padding-bottom: 0 !important;
+		margin-block-start: 0 !important;
+		margin-block-end: 0 !important;
+	}
+
+	.page-template-der-salon .gallery {
+		margin-bottom: 1.5em;
+		display: grid;
+		grid-gap: 1.5em;
+		width: 100%;
+		padding: 2% 0 1%;
+	}
+
+	#contentArchive .tab {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	#contentArchive .tab>button {
+		margin-right: 20px;
+		margin-bottom: 10px;
+	}
+
+	.page-template-kontakt .site-footer {
+		bottom: 0;
+	}
+
 
 }
