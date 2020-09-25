@@ -262,8 +262,8 @@ get_header();
 			$map = get_field('map');
 			$caption = $map['caption'];
 			if( !empty( $map ) ): ?>
-				<img src="<?php echo esc_url($map['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-				<p class="caption"><?php echo esc_html($caption); ?></p>
+				<a href="https://goo.gl/maps/3P34yrDGckZkPXTYA" target="_blank"><img src="<?php echo esc_url($map['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" /></a>
+				<a href="https://goo.gl/maps/3P34yrDGckZkPXTYA" target="_blank"><p class="caption"><?php echo esc_html($caption); ?></p></a>
 			<?php endif; ?>
 
 		</div>
