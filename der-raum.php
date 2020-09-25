@@ -59,11 +59,7 @@ get_header();
 		<!-- Blueprint -->
 
 		<div class="gallery">
-			<?php 
-			$floorplan = get_field('floorplan');
-			if( !empty( $floorplan ) ): ?>
-				<img src="<?php echo esc_url($floorplan['url']); ?>" alt="<?php echo esc_attr($floorplan['alt']); ?>" />
-			<?php endif; ?>
+			<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/09/200923-SaM-Schnitt-02.png" alt="Salon am Moritzplatz Floorplan">
 		</div>
 
 		<!-- Blueprint -->
