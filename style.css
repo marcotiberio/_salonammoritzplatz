@@ -1705,12 +1705,10 @@ main {
 	margin-top: 20px;
 }
 
-/* Style the tab */
 .tab {
 	overflow: hidden;
 }
 
-/* Style the buttons that are used to open the tab content */
 .tab button {
 	background-color: inherit;
 	float: left;
@@ -1722,17 +1720,14 @@ main {
 	font-family: "sam-arial-black"
 }
 
-/* Change background color of buttons on hover */
 .tab button:hover {
 	text-decoration: underline;
 }
 
-/* Create an active/current tablink class */
 .tab button.active {
 	text-decoration: underline;
 }
 
-/* Style the tab content */
 .tabcontent {
 	display: none;
 	margin-top: 2%;
@@ -1740,6 +1735,18 @@ main {
 	grid-template-columns: 1fr 1fr 1fr;
 	column-gap: 40px;
 }
+
+.page-template-das-program #contentArchive button, 
+.page-template-das-program  #contentArchiveinput[type="button"], 
+.page-template-das-program #contentArchive input[type="reset"], 
+.page-template-das-program #contentArchive input[type="submit"], 
+.page-template-scroll #contentArchive button, 
+.page-template-scroll #contentArchive input[type="button"], 
+.page-template-scroll #contentArchive input[type="reset"], 
+.page-template-scroll #contentArchive input[type="submit"] {
+    font-style: normal;
+}
+
 
 /* Archive Coming Soon */
 
