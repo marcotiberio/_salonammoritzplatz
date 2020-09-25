@@ -47,6 +47,18 @@ get_header();
 
 		<!-- Intro Text -->
 
+		<!-- Der Salon Image -->
+
+		<div class="gallery">
+			<?php 
+			$image = get_field('image');
+			if( !empty( $image ) ): ?>
+				<img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+			<?php endif; ?>
+		</div>
+
+		<!-- Der Salon Image -->
+
 		<div class="ticker-tape-small">
 			<div class="inside">
 				<svg class="first" width="1950" height="28" viewBox="0 0 1950 28">
@@ -94,18 +106,6 @@ get_header();
 				</svg>
 			</div>
 		</div>
-
-		<!-- Der Salon Image -->
-
-		<div class="gallery">
-			<?php 
-			$image = get_field('image');
-			if( !empty( $image ) ): ?>
-				<img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-			<?php endif; ?>
-		</div>
-
-		<!-- Der Salon Image -->
 
 		<!-- History Text -->
 

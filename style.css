@@ -1959,7 +1959,7 @@ main {
 .page-template-der-salon .testimonials {
 	width: 100vw;
 	padding: 2% 10%;
-	text-align: left;
+	text-align: center;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: auto;
