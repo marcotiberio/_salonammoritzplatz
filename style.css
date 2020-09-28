@@ -1413,7 +1413,12 @@ main {
 	margin-top: 2%;
 }
 
-.post-template-event .event-info p {
+.post-template-event .event-info .left p {
+	margin: 0;
+	margin-block-end: 0;
+}
+
+.post-template-event .event-info .right p {
 	margin: 0;
 	margin-block-end: 0.83rem;
 }
