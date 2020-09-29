@@ -169,7 +169,7 @@ get_header();
 		<!-- Intro Text -->
 
 		<div class="intro-text">
-			<h1><?php the_field('home_text', 938); ?></h1>
+			<h1><?php the_field('text1', 938); ?></h1>
 		</div>
 
 		<!-- Intro Text -->
@@ -224,7 +224,7 @@ get_header();
 		<!-- Slider Text -->
 
 		<div class="contact-text">
-			<h1><?php the_field('contact_text', 938); ?></h1>
+			<h1><?php the_field('text2', 938); ?></h1>
 		</div>
 
 		<!-- Slider Text -->
