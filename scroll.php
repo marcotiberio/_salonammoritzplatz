@@ -12,9 +12,7 @@ get_header();
 
 	<main id="primary" class="site-main">
 
-		<!-- Kontakt Ticker Tape -->
-
-		<div class="ticker-tape-small">
+		<div class="ticker-tape-small"> <!-- Kontakt Ticker Tape -->
 			<div class="inside">
 				<svg class="first" width="2250" height="28" viewBox="0 0 2250 28">
 					<text id="Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_" data-name="Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          " transform="translate(1125 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-1124.604" y="0" xml:space="preserve">DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          </tspan></text>
@@ -41,10 +39,7 @@ get_header();
 			</div>
 		</div>
 
-			<!-- Kontakt Ticker Tape -->
-
 		<!-- Latest Events -->
-
 		<?php 
 			$args = array(
 				'post_type' => 'post',
@@ -132,12 +127,9 @@ get_header();
 		
 
 		</main><!-- #main -->
-
 		<!-- Latest Events -->
 
-		<!-- Der Salon Ticker Tape -->
-
-		<div class="ticker-tape-small">
+		<div class="ticker-tape-small"> <!-- Der Salon Ticker Tape -->
 			<div class="inside">
 				<svg class="first" width="2148" height="28" viewBox="0 0 2148 28">
 					<text id="Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_" data-name="Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          " transform="translate(1074 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-1073.843" y="0" xml:space="preserve">DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          </tspan></text>
@@ -164,19 +156,12 @@ get_header();
 			</div>
 		</div>
 
-		<!-- Der Salon Ticker Tape -->
-
-		<!-- Intro Text -->
-
-		<div class="intro-text">
-			<h1><?php the_field('text1', 938); ?></h1>
+		<div class="intro-text"> <!-- Intro Text -->
+			<h1><?php the_field('text_homepage', 938); ?></h1>
 		</div>
 
-		<!-- Intro Text -->
+		<div class="ticker-tape-small"> <!-- Der Raum Ticker Tape -->
 
-		<!-- Der Raum Ticker Tape -->
-
-		<div class="ticker-tape-small">
 			<div class="inside">
 				<svg class="first" width="2220" height="28" viewBox="0 0 2220 28">
 					<text id="Der_Raum_Der_Raum_Der_Raum_Der_Raum_Der_Raum_Der_Raum_Der_Raum_Der_Raum_Der_Raum_Der_Raum_Der_Raum_Der_Raum_" data-name="Der Raum          Der Raum          Der Raum          Der Raum          Der Raum          Der Raum          Der Raum          Der Raum          Der Raum          Der Raum          Der Raum          Der Raum          " transform="translate(1110 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-1109.355" y="0" xml:space="preserve">DER RAUM          DER RAUM          DER RAUM          DER RAUM          DER RAUM          DER RAUM          DER RAUM          DER RAUM          DER RAUM          DER RAUM          DER RAUM          DER RAUM          </tspan></text>
@@ -203,11 +188,7 @@ get_header();
 			</div>
 		</div>
 
-		<!-- Der Raum Ticker Tape -->
-
-		<!-- Slider -->
-
-		<div class="slider">
+		<div class="slider"> <!-- Slider -->
 			<?php
 			while ( have_posts() ) :
 				the_post();
@@ -219,19 +200,7 @@ get_header();
 
 		</div>
 
-		<!-- Slider -->
-
-		<!-- Slider Text -->
-
-		<div class="contact-text">
-			<h1><?php the_field('text2', 938); ?></h1>
-		</div>
-
-		<!-- Slider Text -->
-
-		<!-- Kontakt Ticker Tape -->
-
-		<div class="ticker-tape-small">
+		<div class="ticker-tape-small"> <!-- Kontakt Ticker Tape -->
 			<div class="inside">
 				<svg class="first" width="2110" height="28" viewBox="0 0 2110 28">
 					<text id="Kontakt_Kontakt_Kontakt_Kontakt_Kontakt_Kontakt_Kontakt_Kontakt_Kontakt_Kontakt_Kontakt_Kontakt_" data-name="Kontakt          Kontakt          Kontakt          Kontakt          Kontakt          Kontakt          Kontakt          Kontakt          Kontakt          Kontakt          Kontakt          Kontakt          " transform="translate(1055 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-1054.453" y="0" xml:space="preserve">KONTAKT          KONTAKT          KONTAKT          KONTAKT          KONTAKT          KONTAKT          KONTAKT          KONTAKT          KONTAKT          KONTAKT          KONTAKT          KONTAKT          </tspan></text>
@@ -258,11 +227,7 @@ get_header();
 			</div>
 		</div>
 
-		<!-- Kontakt Ticker Tape -->
-
-		<!-- Map -->
-
-		<div class="map-home">
+		<div class="map-home"> <!-- Map -->
 			<?php 
 			$map = get_field('map');
 			$caption = $map['caption'];
@@ -272,9 +237,6 @@ get_header();
 			<?php endif; ?>
 
 		</div>
-
-		<!-- Map -->
-
 
 	</main><!-- #main -->
 
