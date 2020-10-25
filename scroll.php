@@ -156,8 +156,18 @@ get_header();
 			</div>
 		</div>
 
-		<div class="intro-text"> <!-- Intro Text -->
-			<h1><?php the_field('text_homepage', 938); ?></h1>
+		<div class="intro-text german">
+			<h1>Akteure mit vielfältigstem Background,
+			finden im Salon eine Plattform für Ihren Auftritt.
+			Hier wird experimentiert, ausgestellt, performed, musiziert, gelesen, nachgedacht und ausgetauscht.
+			Die Interaktion steht im Vordergrund,
+			weshalb sich der Salon im traditionellen Sinne als Diskursraum versteht.</h1>
+		</div>
+
+		<div class="intro-text english">
+			<h1>At the Salon, actors from diverse backgrounds find a platform for their performance. 
+			Here it’s possible to exhibit, perform, create music, read, reflect and exchange. 
+			The focus is on interaction, which is why the salon sees itself as a discourse space in the traditional sense. </h1>
 		</div>
 
 		<div class="ticker-tape-small"> <!-- Der Raum Ticker Tape -->
@@ -228,14 +238,8 @@ get_header();
 		</div>
 
 		<div class="map-home"> <!-- Map -->
-			<?php 
-			$map = get_field('map');
-			$caption = $map['caption'];
-			if( !empty( $map ) ): ?>
-				<a href="https://goo.gl/maps/3P34yrDGckZkPXTYA" target="_blank"><img src="<?php echo esc_url($map['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" /></a>
-				<a href="https://goo.gl/maps/3P34yrDGckZkPXTYA" target="_blank"><p class="caption"><?php echo esc_html($caption); ?></p></a>
-			<?php endif; ?>
-
+			<a href="https://goo.gl/maps/3P34yrDGckZkPXTYA" target="_blank"><img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/map-e1598525867988.png" alt="Location Salon am Moritzplatz" /></a>
+			<a href="https://goo.gl/maps/3P34yrDGckZkPXTYA" target="_blank"><p class="caption">Oranienstrasse 58, 10969 Berlin-Kreuzberg</p></a>
 		</div>
 
 	</main><!-- #main -->
