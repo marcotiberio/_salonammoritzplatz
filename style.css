@@ -1621,9 +1621,9 @@ main {
 	font-family: 'vremena book' !important;
 	font-weight: normal;
 	text-align: center;
-	font-size: 3rem;
-	line-height: 3.4rem;
-	letter-spacing: 0.2px;
+	font-size: 2.6rem;
+	line-height: 3.2rem;
+	letter-spacing: 0.1px;
 }
 
 .page-template-scroll .event-header h2 {
@@ -1659,9 +1659,9 @@ main {
 }
 
 .page-template-das-program .intro-text h1 {
-	font-size: 3rem;
-	line-height: 3.4rem;
-	letter-spacing: 0.2px;
+	font-size: 2.6rem;
+	line-height: 3.2rem;
+	letter-spacing: 0.1px;
 }
 
 .page-template-das-program .latestpost--custom,
@@ -1809,18 +1809,31 @@ main {
 	display: none;
 }
 
+.page-template-der-raum .fullscreen-image {
+	margin: 5vh 0;
+	height: 90vh;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
 .page-template-der-raum .intro-text,
 .page-template-der-raum .second-text {
 	padding: 1% 12.5% 3% 12.5%;
 	text-align: center;
 }
 
+.page-template-der-raum p,
+.page-template-der-raum p {
+	margin-block-end: 2rem;
+}
+
 
 .page-template-der-raum .intro-text h1,
 .page-template-der-raum .second-text h1 {
-	font-size: 3rem;
-	line-height: 3.4rem;
-	letter-spacing: 0.2px;
+	font-size: 2.6rem;
+	line-height: 3.2rem;
+	letter-spacing: 0.1px;
 }
 
 .page-template-der-raum .gallery ul {
@@ -1957,9 +1970,9 @@ main {
 
 .page-template-der-salon .history-text h1,
 .page-template-der-salon .intro-text h1 {
-	font-size: 3rem;
-	line-height: 3.4rem;
-	letter-spacing: 0.2px;
+	font-size: 2.6rem;
+	line-height: 3.2rem;
+	letter-spacing: 0.1px;
 }
 
 .page-template-der-salon .testimonials {

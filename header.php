@@ -19,6 +19,9 @@
 
 	<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/vremena" type="text/css"/>
 
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
 	<?php wp_head(); ?>
 </head>
 

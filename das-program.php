@@ -9,7 +9,7 @@
 
 		<div class="ticker-tape-small">
 			<div class="inside">
-				<svg class="first" width="2054" height="28" viewBox="0 0 2054 28">
+				<svg class="" width="2054" height="28" viewBox="0 0 2054 28">
 					<text id="Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_Aktuelles_" data-name="Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        Aktuelles        " transform="translate(1027 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-1026.792" y="0" xml:space="preserve">AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        AKTUELLES        </tspan></text>
 				</svg>
 				<svg width="2054" height="28" viewBox="0 0 2054 28">
@@ -40,13 +40,7 @@
 			</div>
 		</div>
 
-		<!-- Intro Text -->
-
-		<div class="intro-text">
-			<h1><?php the_field('intro_text'); ?></h1>
-		</div>
-
-		<!-- Intro Text -->
+		<!-- List of events -->
 
 		<?php 
 			$args = array(
@@ -132,13 +126,39 @@
 					<?php
 				endwhile;
 			endif; ?>
+
+		<!-- List of events -->
+
+		<!-- Intro Text -->
+
+		<div class="intro-text german">
+			<h1>
+			Das Programm des Salon am Moritzplatz wird in enger
+			Zusammenarbeit mit Initiator*innen aus unterschiedlichen Arbeits und 
+			Sozialbereichen gestaltet. Verschiedene Veranstaltungen und Formate bauen aufeinander 
+			auf und lassen, abseits akademischer Konventionen, ein breites Bild von Positionen und 
+			Kreationen aus unterschiedlichen Blickwinkeln entstehen.
+			</h1>
+		</div>
+
+		<div class="intro-text english">
+			<h1>
+			Salon am Moritzplatz’s programme is designed in close collaboration with initiators 
+			from various fields of work and social sectors. A variety of events and concepts build upon one 
+			another, allowing for a broad range of approaches and creations from different perspectives 
+			to emerge, far removed from academic conventions. Priority is given to interaction, 
+			which is why the Salon sees itself as a space for discourse in the traditional sense.
+			</h1>
+		</div>
+
+		<!-- Intro Text -->
 		
 
 		</main><!-- #main -->
 
 		<div class="ticker-tape-small">
 			<div class="inside">
-				<svg class="first" width="1956" height="28" viewBox="0 0 1956 28">
+				<svg class="" width="1956" height="28" viewBox="0 0 1956 28">
 					<text id="Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_Archiv_" data-name="Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        Archiv        " transform="translate(978 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-977.676" y="0" xml:space="preserve">ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        ARCHIV        </tspan></text>
 				</svg>
 				<svg width="1956" height="28" viewBox="0 0 1956 28">

@@ -8,7 +8,7 @@ get_header();
 
 		<div class="ticker-tape-small">
 			<div class="inside">
-				<svg class="first" width="2154" height="28" viewBox="0 0 2154 28">
+				<svg class="" width="2154" height="28" viewBox="0 0 2154 28">
 					<text id="UNSERE_RÄUME_UNSERE_RÄUME_UNSERE_RÄUME_UNSERE_RÄUME_UNSERE_RÄUME_UNSERE_RÄUME_UNSERE_RÄUME_UNSERE_RÄUME_UNSERE_RÄUME_" data-name="UNSERE RÄUME         UNSERE RÄUME         UNSERE RÄUME         UNSERE RÄUME         UNSERE RÄUME         UNSERE RÄUME         UNSERE RÄUME         UNSERE RÄUME         UNSERE RÄUME         " transform="translate(1077 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-1076.924" y="0" xml:space="preserve">DIE RÄUME         DIE RÄUME         DIE RÄUME         DIE RÄUME         DIE RÄUME         DIE RÄUME         DIE RÄUME         DIE RÄUME         DIE RÄUME         DIE RÄUME         DIE RÄUME</tspan></text>
 				</svg>
 				<svg width="2154" height="28" viewBox="0 0 2154 28">
@@ -47,6 +47,13 @@ get_header();
 				</svg>
 			</div>
 		</div>
+
+		<!-- Cover Image -->
+
+		<div class="fullscreen-image" style="background-image: url(<?php the_field('cover_image'); ?>);">
+		</div>
+
+		<!-- Cover Image -->
 
 		<!-- Intro Text -->
 
@@ -56,25 +63,9 @@ get_header();
 
 		<!-- Intro Text -->
 
-		<!-- Blueprint -->
-
-		<div class="gallery">
-			<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/09/floorplan.png" alt="Salon am Moritzplatz Floorplan">
-		</div>
-
-		<!-- Blueprint -->
-
-		<!-- Second Text -->
-
-		<div class="second-text">
-			<h1><?php the_field('second_text'); ?></h1>
-		</div>
-
-		<!-- Second Text -->
-
 		<div class="ticker-tape-small">
 			<div class="inside">
-				<svg class="first" width="2244" height="28" viewBox="0 0 2244 28">
+				<svg class="" width="2244" height="28" viewBox="0 0 2244 28">
 					<text id="EINDRÜCKE" data-name="EINDRÜCKE         EINDRÜCKE         EINDRÜCKE         EINDRÜCKE         EINDRÜCKE         EINDRÜCKE         EINDRÜCKE         EINDRÜCKE         " transform="translate(1122 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-1121.055" y="0" xml:space="preserve">EINDRÜCKE         EINDRÜCKE         EINDRÜCKE         EINDRÜCKE         EINDRÜCKE         EINDRÜCKE         EINDRÜCKE         EINDRÜCKE         EINDRÜCKE         EINDRÜCKE         EINDRÜCKE         EINDRÜCKE         </tspan></text>
 				</svg>
 				<svg width="2244" height="28" viewBox="0 0 2244 28">
@@ -112,6 +103,26 @@ get_header();
 					<text id="EINDRÜCKE" data-name="EINDRÜCKE         EINDRÜCKE         EINDRÜCKE         EINDRÜCKE         EINDRÜCKE         EINDRÜCKE         EINDRÜCKE         EINDRÜCKE         " transform="translate(1122 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-1121.055" y="0" xml:space="preserve">EINDRÜCKE         EINDRÜCKE         EINDRÜCKE         EINDRÜCKE         EINDRÜCKE         EINDRÜCKE         EINDRÜCKE         EINDRÜCKE         EINDRÜCKE         EINDRÜCKE         EINDRÜCKE         EINDRÜCKE         </tspan></text>
 				</svg>
 			</div>
+		</div>
+
+		<!-- Swiper -->
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<?php if( have_rows('swiper') ): ?>
+					<?php while( have_rows('swiper') ): the_row(); 
+
+						// Load sub field value.
+						$image = get_sub_field('image');
+						?>
+						
+							<div class="swiper-slide" style="background-image: url(<?php echo esc_url( $image['url'] ); ?>);"></div>
+
+					<?php endwhile; ?>
+				<?php endif; ?>
+			</div>
+			<!-- Add Arrows -->
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
 		</div>
 
 		<!--Slider-->

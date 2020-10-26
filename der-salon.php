@@ -8,7 +8,7 @@ get_header();
 
 		<div class="ticker-tape-small">
 			<div class="inside">
-				<svg class=first width="2148" height="28" viewBox="0 0 2148 28">
+				<svg class="" width="2148" height="28" viewBox="0 0 2148 28">
 					<text id="Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_" data-name="Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          " transform="translate(1074 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-1073.843" y="0" xml:space="preserve">DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          </tspan></text>
 				</svg>
 				<svg width="2148" height="28" viewBox="0 0 2148 28">
@@ -39,14 +39,6 @@ get_header();
 			</div>
 		</div>
 
-		<!-- Intro Text -->
-
-		<div class="intro-text">
-			<h1><?php the_field('intro_text'); ?></h1>
-		</div>
-
-		<!-- Intro Text -->
-
 		<!-- Der Salon Image -->
 
 		<div class="gallery">
@@ -59,9 +51,17 @@ get_header();
 
 		<!-- Der Salon Image -->
 
+		<!-- Intro Text -->
+
+		<div class="intro-text">
+			<h1><?php the_field('intro_text'); ?></h1>
+		</div>
+
+		<!-- Intro Text -->
+
 		<div class="ticker-tape-small">
 			<div class="inside">
-				<svg class="first" width="1950" height="28" viewBox="0 0 1950 28">
+				<svg class="" width="1950" height="28" viewBox="0 0 1950 28">
 					<text id="HISTORIE" data-name="HISTORIE         HISTORIE         HISTORIE         HISTORIE         HISTORIE         HISTORIE         HISTORIE         HISTORIE         HISTORIE         HISTORIE         HISTORIE         HISTORIE         HISTORIE" transform="translate(975 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-974.517" y="0" xml:space="preserve">HISTORIE         HISTORIE         HISTORIE         HISTORIE         HISTORIE         HISTORIE         HISTORIE         HISTORIE         HISTORIE         HISTORIE         HISTORIE         HISTORIE         HISTORIE         HISTORIE         </tspan></text>
 				</svg>
 				<svg width="1950" height="28" viewBox="0 0 1950 28">
@@ -117,7 +117,7 @@ get_header();
 
 		<div class="ticker-tape-small">
 			<div class="inside">
-				<svg class="first" width="2206" height="28" viewBox="0 0 2206 28">
+				<svg class="" width="2206" height="28" viewBox="0 0 2206 28">
 					<text id="PRESSE" data-name="PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE" transform="translate(1103 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-1102.266" y="0" xml:space="preserve">PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE         PRESSE</tspan></text>
 				</svg>
 				<svg width="2206" height="28" viewBox="0 0 2206 28">

@@ -14,7 +14,7 @@ get_header();
 
 		<div class="ticker-tape-small"> <!-- Kontakt Ticker Tape -->
 			<div class="inside">
-				<svg class="first" width="2250" height="28" viewBox="0 0 2250 28">
+				<svg width="2250" height="28" viewBox="0 0 2250 28">
 					<text id="Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_Das_Programm_" data-name="Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          Das Programm          " transform="translate(1125 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-1124.604" y="0" xml:space="preserve">DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          DAS PROGRAMM          </tspan></text>
 				</svg>
 				<svg width="2250" height="28" viewBox="0 0 2250 28">
@@ -238,7 +238,7 @@ get_header();
 		</div>
 
 		<div class="map-home"> <!-- Map -->
-			<a href="https://goo.gl/maps/3P34yrDGckZkPXTYA" target="_blank"><img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/08/map-e1598525867988.png" alt="Location Salon am Moritzplatz" /></a>
+			<a href="https://goo.gl/maps/3P34yrDGckZkPXTYA" target="_blank"><img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/10/201025_SaM-Map-01.jpg" alt="Location Salon am Moritzplatz" /></a>
 			<a href="https://goo.gl/maps/3P34yrDGckZkPXTYA" target="_blank"><p class="caption">Oranienstrasse 58, 10969 Berlin-Kreuzberg</p></a>
 		</div>
 
