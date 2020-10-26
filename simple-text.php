@@ -41,9 +41,14 @@ get_header();
 
 		<!-- Text -->
 
-		<div class="simple-text">
-			<p><?php the_field('simple_text'); ?></p>
-		</div>
+		<?php
+		while ( have_posts() ) :
+			the_post();
+
+			get_template_part( 'template-parts/content', 'page' );
+
+		endwhile; // End of the loop.
+		?>
 
 		<!-- Text -->
 
