@@ -146,8 +146,7 @@
 			Salon am Moritzplatz’s programme is designed in close collaboration with initiators 
 			from various fields of work and social sectors. A variety of events and concepts build upon one 
 			another, allowing for a broad range of approaches and creations from different perspectives 
-			to emerge, far removed from academic conventions. Priority is given to interaction, 
-			which is why the Salon sees itself as a space for discourse in the traditional sense.
+			to emerge, far removed from academic conventions.
 			</h1>
 		</div>
 
