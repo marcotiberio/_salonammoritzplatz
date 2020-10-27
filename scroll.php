@@ -130,30 +130,7 @@ get_header();
 		<!-- Latest Events -->
 
 		<div class="ticker-tape-small"> <!-- Der Salon Ticker Tape -->
-			<div class="inside">
-				<svg class="first" width="2148" height="28" viewBox="0 0 2148 28">
-					<text id="Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_" data-name="Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          " transform="translate(1074 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-1073.843" y="0" xml:space="preserve">DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          </tspan></text>
-				</svg>
-				<svg width="2148" height="28" viewBox="0 0 2148 28">
-					<text id="Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_" data-name="Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          " transform="translate(1074 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-1073.843" y="0" xml:space="preserve">DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          </tspan></text>
-				</svg>
-				<svg width="2148" height="28" viewBox="0 0 2148 28">
-					<text id="Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_" data-name="Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          " transform="translate(1074 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-1073.843" y="0" xml:space="preserve">DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          </tspan></text>
-				</svg>
-				<svg width="2148" height="28" viewBox="0 0 2148 28">
-					<text id="Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_" data-name="Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          " transform="translate(1074 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-1073.843" y="0" xml:space="preserve">DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          </tspan></text>
-				</svg>
-				<!-- repeated images below to keep up with animation -->
-				<svg width="2148" height="28" viewBox="0 0 2148 28">
-					<text id="Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_" data-name="Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          " transform="translate(1074 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-1073.843" y="0" xml:space="preserve">DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          </tspan></text>
-				</svg>
-				<svg width="2148" height="28" viewBox="0 0 2148 28">
-					<text id="Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_" data-name="Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          " transform="translate(1074 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-1073.843" y="0" xml:space="preserve">DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          </tspan></text>
-				</svg>
-				<svg width="2148" height="28" viewBox="0 0 2148 28">
-					<text id="Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_Der_Salon_" data-name="Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          Der Salon          " transform="translate(1074 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-1073.843" y="0" xml:space="preserve">DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          DER SALON          </tspan></text>
-				</svg>
-			</div>
+			<img src="https://www.salonammoritzplatz.de/wp-content/uploads/2020/10/Der-Salon.png" alt="">			
 		</div>
 
 		<div class="intro-text german">
@@ -173,7 +150,7 @@ get_header();
 		<div class="ticker-tape-small"> <!-- Der Raum Ticker Tape -->
 
 			<div class="inside">
-				<svg class="first" width="2220" height="28" viewBox="0 0 2220 28">
+				<svg class="" width="2220" height="28" viewBox="0 0 2220 28">
 					<text id="Der_Raum_Der_Raum_Der_Raum_Der_Raum_Der_Raum_Der_Raum_Der_Raum_Der_Raum_Der_Raum_Der_Raum_Der_Raum_Der_Raum_" data-name="Der Raum          Der Raum          Der Raum          Der Raum          Der Raum          Der Raum          Der Raum          Der Raum          Der Raum          Der Raum          Der Raum          Der Raum          " transform="translate(1110 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-1109.355" y="0" xml:space="preserve">DER RAUM          DER RAUM          DER RAUM          DER RAUM          DER RAUM          DER RAUM          DER RAUM          DER RAUM          DER RAUM          DER RAUM          DER RAUM          DER RAUM          </tspan></text>
 				</svg>
 				<svg width="2220" height="28" viewBox="0 0 2220 28">
@@ -212,7 +189,7 @@ get_header();
 
 		<div class="ticker-tape-small"> <!-- Kontakt Ticker Tape -->
 			<div class="inside">
-				<svg class="first" width="2110" height="28" viewBox="0 0 2110 28">
+				<svg class="" width="2110" height="28" viewBox="0 0 2110 28">
 					<text id="Kontakt_Kontakt_Kontakt_Kontakt_Kontakt_Kontakt_Kontakt_Kontakt_Kontakt_Kontakt_Kontakt_Kontakt_" data-name="Kontakt          Kontakt          Kontakt          Kontakt          Kontakt          Kontakt          Kontakt          Kontakt          Kontakt          Kontakt          Kontakt          Kontakt          " transform="translate(1055 22)" fill="#e6e6e6" font-size="20" font-family="sam-arial-black" font-weight="800"><tspan x="-1054.453" y="0" xml:space="preserve">KONTAKT          KONTAKT          KONTAKT          KONTAKT          KONTAKT          KONTAKT          KONTAKT          KONTAKT          KONTAKT          KONTAKT          KONTAKT          KONTAKT          </tspan></text>
 				</svg>
 				<svg width="2110" height="28" viewBox="0 0 2110 28">

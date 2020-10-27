@@ -1622,7 +1622,7 @@ main {
 	font-weight: normal;
 	text-align: center;
 	font-size: 2.6rem;
-	line-height: 3.2rem;
+	line-height: 3rem;
 	letter-spacing: 0.1px;
 }
 
@@ -1660,7 +1660,7 @@ main {
 
 .page-template-das-program .intro-text h1 {
 	font-size: 2.6rem;
-	line-height: 3.2rem;
+	line-height: 3rem;
 	letter-spacing: 0.1px;
 }
 
@@ -1832,7 +1832,7 @@ main {
 .page-template-der-raum .intro-text h1,
 .page-template-der-raum .second-text h1 {
 	font-size: 2.6rem;
-	line-height: 3.2rem;
+	line-height: 3rem;
 	letter-spacing: 0.1px;
 }
 
@@ -1959,19 +1959,19 @@ main {
 }
 
 .page-template-der-salon .intro-text {
-	padding: 1% 12.5% 1% 12.5%;
+	padding: 0% 12.5% 2% 12.5%;
 	text-align: center;
 }
 
 .page-template-der-salon .history-text {
-	padding: 1% 12.5% 3% 12.5%;
+	padding: 2% 12.5% 3% 12.5%;
 	text-align: center;
 }
 
 .page-template-der-salon .history-text h1,
 .page-template-der-salon .intro-text h1 {
 	font-size: 2.6rem;
-	line-height: 3.2rem;
+	line-height: 3rem;
 	letter-spacing: 0.1px;
 }
 
