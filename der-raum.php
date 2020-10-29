@@ -48,6 +48,19 @@ get_header();
 			</div>
 		</div>
 
+		<!-- Swiper -->
+		<!-- <div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide" style="background-image: url('https://www.salonammoritzplatz.de/wp-content/uploads/2020/09/3.jpg');"></div>
+				<div class="swiper-slide" style="background-image: url('https://www.salonammoritzplatz.de/wp-content/uploads/2020/09/3.jpg');"></div>
+				<div class="swiper-slide" style="background-image: url('https://www.salonammoritzplatz.de/wp-content/uploads/2020/09/3.jpg');"></div>
+				<div class="swiper-slide" style="background-image: url('https://www.salonammoritzplatz.de/wp-content/uploads/2020/09/3.jpg');"></div>
+			</div>
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
+		</div> -->
+		<!-- Swiper -->
+
 		<!-- Cover Image -->
 
 		<div class="fullscreen-image" style="background-image: url(<?php the_field('cover_image'); ?>);">
