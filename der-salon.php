@@ -109,6 +109,14 @@ get_header();
 
 		<!-- History Text -->
 
+		<div class="gallery">
+			<?php 
+			$image = get_field('history_image');
+			if( !empty( $image ) ): ?>
+				<img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+			<?php endif; ?>
+		</div>
+
 		<div class="history-text">
 			<h1><?php the_field('history_text'); ?></h1>
 		</div>
